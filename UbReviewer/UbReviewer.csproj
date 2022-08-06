@@ -179,13 +179,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\UbStudyHelp\UbStandardObjects\UbStandardObjects.csproj">
-      <Project>{245f8af1-358b-477d-ba33-a783b4bc76ba}</Project>
-      <Name>UbStandardObjects</Name>
-    </ProjectReference>
     <ProjectReference Include="..\UbReviewerLibrary\UbReviewerLibrary.csproj">
       <Project>{b8194f6b-615d-4653-b49e-6a6dd1f735c9}</Project>
       <Name>UbReviewerLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UbStandardObjects\UbStandardObjects.csproj">
+      <Project>{c236a556-424e-455e-abab-9f13f015177d}</Project>
+      <Name>UbStandardObjects</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
