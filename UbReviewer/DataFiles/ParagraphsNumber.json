@@ -1,0 +1,8134 @@
+{
+	"ParagraphsNumber": [
+		{
+			"Paper": 0,
+			"Section": 0,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 0,
+			"Section": 1,
+			"ParagraphNumber": 26
+		},
+		{
+			"Paper": 0,
+			"Section": 2,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 0,
+			"Section": 3,
+			"ParagraphNumber": 25
+		},
+		{
+			"Paper": 0,
+			"Section": 4,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 0,
+			"Section": 5,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 0,
+			"Section": 6,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 0,
+			"Section": 7,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 0,
+			"Section": 8,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 0,
+			"Section": 9,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 0,
+			"Section": 10,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 0,
+			"Section": 11,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 0,
+			"Section": 12,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 1,
+			"Section": 0,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 1,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 1,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 1,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 1,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 1,
+			"Section": 5,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 1,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 1,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 2,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 2,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 2,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 2,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 2,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 2,
+			"Section": 5,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 2,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 2,
+			"Section": 7,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 3,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 3,
+			"Section": 1,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 3,
+			"Section": 2,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 3,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 3,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 3,
+			"Section": 5,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 3,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 4,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 4,
+			"Section": 1,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 4,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 4,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 4,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 4,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 5,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 5,
+			"Section": 1,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 5,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 5,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 5,
+			"Section": 4,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 5,
+			"Section": 5,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 5,
+			"Section": 6,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 6,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 6,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 6,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 6,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 6,
+			"Section": 4,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 6,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 6,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 6,
+			"Section": 7,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 6,
+			"Section": 8,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 7,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 7,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 7,
+			"Section": 2,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 7,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 7,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 7,
+			"Section": 5,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 7,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 7,
+			"Section": 7,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 8,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 8,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 8,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 8,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 8,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 8,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 8,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 9,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 9,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 9,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 9,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 9,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 9,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 9,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 9,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 9,
+			"Section": 8,
+			"ParagraphNumber": 26
+		},
+		{
+			"Paper": 10,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 10,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 10,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 10,
+			"Section": 3,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 10,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 10,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 10,
+			"Section": 6,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 10,
+			"Section": 7,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 10,
+			"Section": 8,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 11,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 11,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 11,
+			"Section": 2,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 11,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 11,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 11,
+			"Section": 5,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 11,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 11,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 11,
+			"Section": 8,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 11,
+			"Section": 9,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 12,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 12,
+			"Section": 1,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 12,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 12,
+			"Section": 3,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 12,
+			"Section": 4,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 12,
+			"Section": 5,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 12,
+			"Section": 6,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 12,
+			"Section": 7,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 12,
+			"Section": 8,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 12,
+			"Section": 9,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 13,
+			"Section": 0,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 13,
+			"Section": 1,
+			"ParagraphNumber": 23
+		},
+		{
+			"Paper": 13,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 13,
+			"Section": 3,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 13,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 14,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 14,
+			"Section": 1,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 14,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 14,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 14,
+			"Section": 4,
+			"ParagraphNumber": 22
+		},
+		{
+			"Paper": 14,
+			"Section": 5,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 14,
+			"Section": 6,
+			"ParagraphNumber": 42
+		},
+		{
+			"Paper": 15,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 15,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 15,
+			"Section": 2,
+			"ParagraphNumber": 25
+		},
+		{
+			"Paper": 15,
+			"Section": 3,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 15,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 15,
+			"Section": 5,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 15,
+			"Section": 6,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 15,
+			"Section": 7,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 15,
+			"Section": 8,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 15,
+			"Section": 9,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 15,
+			"Section": 10,
+			"ParagraphNumber": 23
+		},
+		{
+			"Paper": 15,
+			"Section": 11,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 15,
+			"Section": 12,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 15,
+			"Section": 13,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 15,
+			"Section": 14,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 16,
+			"Section": 0,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 16,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 16,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 16,
+			"Section": 3,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 16,
+			"Section": 4,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 16,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 16,
+			"Section": 6,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 16,
+			"Section": 7,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 16,
+			"Section": 8,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 16,
+			"Section": 9,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 17,
+			"Section": 0,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 17,
+			"Section": 1,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 17,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 17,
+			"Section": 3,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 17,
+			"Section": 4,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 17,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 17,
+			"Section": 6,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 17,
+			"Section": 7,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 17,
+			"Section": 8,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 18,
+			"Section": 0,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 18,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 18,
+			"Section": 2,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 18,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 18,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 18,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 18,
+			"Section": 6,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 18,
+			"Section": 7,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 19,
+			"Section": 0,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 19,
+			"Section": 1,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 19,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 19,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 19,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 19,
+			"Section": 5,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 19,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 19,
+			"Section": 7,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 20,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 20,
+			"Section": 1,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 20,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 20,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 20,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 20,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 20,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 20,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 20,
+			"Section": 8,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 20,
+			"Section": 9,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 20,
+			"Section": 10,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 21,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 21,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 21,
+			"Section": 2,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 21,
+			"Section": 3,
+			"ParagraphNumber": 24
+		},
+		{
+			"Paper": 21,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 21,
+			"Section": 5,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 21,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 22,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 22,
+			"Section": 1,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 22,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 22,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 22,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 22,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 22,
+			"Section": 6,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 22,
+			"Section": 7,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 22,
+			"Section": 8,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 22,
+			"Section": 9,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 22,
+			"Section": 10,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 23,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 23,
+			"Section": 1,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 23,
+			"Section": 2,
+			"ParagraphNumber": 24
+		},
+		{
+			"Paper": 23,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 23,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 24,
+			"Section": 0,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 24,
+			"Section": 1,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 24,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 24,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 24,
+			"Section": 4,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 24,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 24,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 24,
+			"Section": 7,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 25,
+			"Section": 0,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 25,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 25,
+			"Section": 2,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 25,
+			"Section": 3,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 25,
+			"Section": 4,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 25,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 25,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 25,
+			"Section": 7,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 25,
+			"Section": 8,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 26,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 26,
+			"Section": 1,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 26,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 26,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 26,
+			"Section": 4,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 26,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 26,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 26,
+			"Section": 7,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 26,
+			"Section": 8,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 26,
+			"Section": 9,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 26,
+			"Section": 10,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 26,
+			"Section": 11,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 27,
+			"Section": 0,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 27,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 27,
+			"Section": 2,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 27,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 27,
+			"Section": 4,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 27,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 27,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 27,
+			"Section": 7,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 28,
+			"Section": 0,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 28,
+			"Section": 1,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 28,
+			"Section": 2,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 28,
+			"Section": 3,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 28,
+			"Section": 4,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 28,
+			"Section": 5,
+			"ParagraphNumber": 22
+		},
+		{
+			"Paper": 28,
+			"Section": 6,
+			"ParagraphNumber": 22
+		},
+		{
+			"Paper": 28,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 29,
+			"Section": 0,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 29,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 29,
+			"Section": 2,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 29,
+			"Section": 3,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 29,
+			"Section": 4,
+			"ParagraphNumber": 38
+		},
+		{
+			"Paper": 29,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 30,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 30,
+			"Section": 1,
+			"ParagraphNumber": 114
+		},
+		{
+			"Paper": 30,
+			"Section": 2,
+			"ParagraphNumber": 157
+		},
+		{
+			"Paper": 30,
+			"Section": 3,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 30,
+			"Section": 4,
+			"ParagraphNumber": 35
+		},
+		{
+			"Paper": 31,
+			"Section": 0,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 31,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 31,
+			"Section": 2,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 31,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 31,
+			"Section": 4,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 31,
+			"Section": 5,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 31,
+			"Section": 6,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 31,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 31,
+			"Section": 8,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 31,
+			"Section": 9,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 31,
+			"Section": 10,
+			"ParagraphNumber": 22
+		},
+		{
+			"Paper": 32,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 32,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 32,
+			"Section": 2,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 32,
+			"Section": 3,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 32,
+			"Section": 4,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 32,
+			"Section": 5,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 33,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 33,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 33,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 33,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 33,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 33,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 33,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 33,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 33,
+			"Section": 8,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 34,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 34,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 34,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 34,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 34,
+			"Section": 4,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 34,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 34,
+			"Section": 6,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 34,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 35,
+			"Section": 0,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 35,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 35,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 35,
+			"Section": 3,
+			"ParagraphNumber": 22
+		},
+		{
+			"Paper": 35,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 35,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 35,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 35,
+			"Section": 7,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 35,
+			"Section": 8,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 35,
+			"Section": 9,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 35,
+			"Section": 10,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 36,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 36,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 36,
+			"Section": 2,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 36,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 36,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 36,
+			"Section": 5,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 36,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 37,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 37,
+			"Section": 1,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 37,
+			"Section": 2,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 37,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 37,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 37,
+			"Section": 5,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 37,
+			"Section": 6,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 37,
+			"Section": 7,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 37,
+			"Section": 8,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 37,
+			"Section": 9,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 37,
+			"Section": 10,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 38,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 38,
+			"Section": 1,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 38,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 38,
+			"Section": 3,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 38,
+			"Section": 4,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 38,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 38,
+			"Section": 6,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 38,
+			"Section": 7,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 38,
+			"Section": 8,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 38,
+			"Section": 9,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 39,
+			"Section": 0,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 39,
+			"Section": 1,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 39,
+			"Section": 2,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 39,
+			"Section": 3,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 39,
+			"Section": 4,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 39,
+			"Section": 5,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 39,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 39,
+			"Section": 7,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 39,
+			"Section": 8,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 39,
+			"Section": 9,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 40,
+			"Section": 0,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 40,
+			"Section": 1,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 40,
+			"Section": 2,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 40,
+			"Section": 3,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 40,
+			"Section": 4,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 40,
+			"Section": 5,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 40,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 40,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 40,
+			"Section": 8,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 40,
+			"Section": 9,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 40,
+			"Section": 10,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 41,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 41,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 41,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 41,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 41,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 41,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 41,
+			"Section": 6,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 41,
+			"Section": 7,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 41,
+			"Section": 8,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 41,
+			"Section": 9,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 41,
+			"Section": 10,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 42,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 42,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 42,
+			"Section": 2,
+			"ParagraphNumber": 23
+		},
+		{
+			"Paper": 42,
+			"Section": 3,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 42,
+			"Section": 4,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 42,
+			"Section": 5,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 42,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 42,
+			"Section": 7,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 42,
+			"Section": 8,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 42,
+			"Section": 9,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 42,
+			"Section": 10,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 42,
+			"Section": 11,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 42,
+			"Section": 12,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 43,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 43,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 43,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 43,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 43,
+			"Section": 4,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 43,
+			"Section": 5,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 43,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 43,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 43,
+			"Section": 8,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 43,
+			"Section": 9,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 44,
+			"Section": 0,
+			"ParagraphNumber": 21
+		},
+		{
+			"Paper": 44,
+			"Section": 1,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 44,
+			"Section": 2,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 44,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 44,
+			"Section": 4,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 44,
+			"Section": 5,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 44,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 44,
+			"Section": 7,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 44,
+			"Section": 8,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 45,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 45,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 45,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 45,
+			"Section": 3,
+			"ParagraphNumber": 22
+		},
+		{
+			"Paper": 45,
+			"Section": 4,
+			"ParagraphNumber": 21
+		},
+		{
+			"Paper": 45,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 45,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 45,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 46,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 46,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 46,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 46,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 46,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 46,
+			"Section": 5,
+			"ParagraphNumber": 33
+		},
+		{
+			"Paper": 46,
+			"Section": 6,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 46,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 46,
+			"Section": 8,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 47,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 47,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 47,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 47,
+			"Section": 3,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 47,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 47,
+			"Section": 5,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 47,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 47,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 47,
+			"Section": 8,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 47,
+			"Section": 9,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 47,
+			"Section": 10,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 48,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 48,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 48,
+			"Section": 2,
+			"ParagraphNumber": 26
+		},
+		{
+			"Paper": 48,
+			"Section": 3,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 48,
+			"Section": 4,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 48,
+			"Section": 5,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 48,
+			"Section": 6,
+			"ParagraphNumber": 37
+		},
+		{
+			"Paper": 48,
+			"Section": 7,
+			"ParagraphNumber": 31
+		},
+		{
+			"Paper": 48,
+			"Section": 8,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 49,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 49,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 49,
+			"Section": 2,
+			"ParagraphNumber": 26
+		},
+		{
+			"Paper": 49,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 49,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 49,
+			"Section": 5,
+			"ParagraphNumber": 32
+		},
+		{
+			"Paper": 49,
+			"Section": 6,
+			"ParagraphNumber": 22
+		},
+		{
+			"Paper": 50,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 50,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 50,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 50,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 50,
+			"Section": 4,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 50,
+			"Section": 5,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 50,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 50,
+			"Section": 7,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 51,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 51,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 51,
+			"Section": 2,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 51,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 51,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 51,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 51,
+			"Section": 6,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 51,
+			"Section": 7,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 52,
+			"Section": 0,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 52,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 52,
+			"Section": 2,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 52,
+			"Section": 3,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 52,
+			"Section": 4,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 52,
+			"Section": 5,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 52,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 52,
+			"Section": 7,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 53,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 53,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 53,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 53,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 53,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 53,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 53,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 53,
+			"Section": 7,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 53,
+			"Section": 8,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 53,
+			"Section": 9,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 54,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 54,
+			"Section": 1,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 54,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 54,
+			"Section": 3,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 54,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 54,
+			"Section": 5,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 54,
+			"Section": 6,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 55,
+			"Section": 0,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 55,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 55,
+			"Section": 2,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 55,
+			"Section": 3,
+			"ParagraphNumber": 22
+		},
+		{
+			"Paper": 55,
+			"Section": 4,
+			"ParagraphNumber": 31
+		},
+		{
+			"Paper": 55,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 55,
+			"Section": 6,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 55,
+			"Section": 7,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 55,
+			"Section": 8,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 55,
+			"Section": 9,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 55,
+			"Section": 10,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 55,
+			"Section": 11,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 55,
+			"Section": 12,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 56,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 56,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 56,
+			"Section": 2,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 56,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 56,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 56,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 56,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 56,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 56,
+			"Section": 8,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 56,
+			"Section": 9,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 56,
+			"Section": 10,
+			"ParagraphNumber": 23
+		},
+		{
+			"Paper": 57,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 57,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 57,
+			"Section": 2,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 57,
+			"Section": 3,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 57,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 57,
+			"Section": 5,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 57,
+			"Section": 6,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 57,
+			"Section": 7,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 57,
+			"Section": 8,
+			"ParagraphNumber": 27
+		},
+		{
+			"Paper": 58,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 58,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 58,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 58,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 58,
+			"Section": 4,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 58,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 58,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 58,
+			"Section": 7,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 59,
+			"Section": 0,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 59,
+			"Section": 1,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 59,
+			"Section": 2,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 59,
+			"Section": 3,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 59,
+			"Section": 4,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 59,
+			"Section": 5,
+			"ParagraphNumber": 23
+		},
+		{
+			"Paper": 59,
+			"Section": 6,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 60,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 60,
+			"Section": 1,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 60,
+			"Section": 2,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 60,
+			"Section": 3,
+			"ParagraphNumber": 22
+		},
+		{
+			"Paper": 60,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 61,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 61,
+			"Section": 1,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 61,
+			"Section": 2,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 61,
+			"Section": 3,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 61,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 61,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 61,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 61,
+			"Section": 7,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 62,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 62,
+			"Section": 1,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 62,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 62,
+			"Section": 3,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 62,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 62,
+			"Section": 5,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 62,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 62,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 63,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 63,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 63,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 63,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 63,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 63,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 63,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 63,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 64,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 64,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 64,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 64,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 64,
+			"Section": 4,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 64,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 64,
+			"Section": 6,
+			"ParagraphNumber": 35
+		},
+		{
+			"Paper": 64,
+			"Section": 7,
+			"ParagraphNumber": 21
+		},
+		{
+			"Paper": 65,
+			"Section": 0,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 65,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 65,
+			"Section": 2,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 65,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 65,
+			"Section": 4,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 65,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 65,
+			"Section": 6,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 65,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 65,
+			"Section": 8,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 66,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 66,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 66,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 66,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 66,
+			"Section": 4,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 66,
+			"Section": 5,
+			"ParagraphNumber": 31
+		},
+		{
+			"Paper": 66,
+			"Section": 6,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 66,
+			"Section": 7,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 66,
+			"Section": 8,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 67,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 67,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 67,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 67,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 67,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 67,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 67,
+			"Section": 6,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 67,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 67,
+			"Section": 8,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 68,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 68,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 68,
+			"Section": 2,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 68,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 68,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 68,
+			"Section": 5,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 68,
+			"Section": 6,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 69,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 69,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 69,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 69,
+			"Section": 3,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 69,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 69,
+			"Section": 5,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 69,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 69,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 69,
+			"Section": 8,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 69,
+			"Section": 9,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 70,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 70,
+			"Section": 1,
+			"ParagraphNumber": 22
+		},
+		{
+			"Paper": 70,
+			"Section": 2,
+			"ParagraphNumber": 21
+		},
+		{
+			"Paper": 70,
+			"Section": 3,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 70,
+			"Section": 4,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 70,
+			"Section": 5,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 70,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 70,
+			"Section": 7,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 70,
+			"Section": 8,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 70,
+			"Section": 9,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 70,
+			"Section": 10,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 70,
+			"Section": 11,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 70,
+			"Section": 12,
+			"ParagraphNumber": 21
+		},
+		{
+			"Paper": 71,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 71,
+			"Section": 1,
+			"ParagraphNumber": 24
+		},
+		{
+			"Paper": 71,
+			"Section": 2,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 71,
+			"Section": 3,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 71,
+			"Section": 4,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 71,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 71,
+			"Section": 6,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 71,
+			"Section": 7,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 71,
+			"Section": 8,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 72,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 72,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 72,
+			"Section": 2,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 72,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 72,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 72,
+			"Section": 5,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 72,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 72,
+			"Section": 7,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 72,
+			"Section": 8,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 72,
+			"Section": 9,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 72,
+			"Section": 10,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 72,
+			"Section": 11,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 72,
+			"Section": 12,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 73,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 73,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 73,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 73,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 73,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 73,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 73,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 73,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 74,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 74,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 74,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 74,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 74,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 74,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 74,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 74,
+			"Section": 7,
+			"ParagraphNumber": 24
+		},
+		{
+			"Paper": 74,
+			"Section": 8,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 75,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 75,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 75,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 75,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 75,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 75,
+			"Section": 5,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 75,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 75,
+			"Section": 7,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 75,
+			"Section": 8,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 76,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 76,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 76,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 76,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 76,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 76,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 76,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 77,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 77,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 77,
+			"Section": 2,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 77,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 77,
+			"Section": 4,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 77,
+			"Section": 5,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 77,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 77,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 77,
+			"Section": 8,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 77,
+			"Section": 9,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 78,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 78,
+			"Section": 1,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 78,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 78,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 78,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 78,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 78,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 78,
+			"Section": 7,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 78,
+			"Section": 8,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 79,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 79,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 79,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 79,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 79,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 79,
+			"Section": 5,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 79,
+			"Section": 6,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 79,
+			"Section": 7,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 79,
+			"Section": 8,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 80,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 80,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 80,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 80,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 80,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 80,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 80,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 80,
+			"Section": 7,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 80,
+			"Section": 8,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 80,
+			"Section": 9,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 81,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 81,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 81,
+			"Section": 2,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 81,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 81,
+			"Section": 4,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 81,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 81,
+			"Section": 6,
+			"ParagraphNumber": 45
+		},
+		{
+			"Paper": 82,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 82,
+			"Section": 1,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 82,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 82,
+			"Section": 3,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 82,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 82,
+			"Section": 5,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 82,
+			"Section": 6,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 83,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 83,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 83,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 83,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 83,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 83,
+			"Section": 5,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 83,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 83,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 83,
+			"Section": 8,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 84,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 84,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 84,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 84,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 84,
+			"Section": 4,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 84,
+			"Section": 5,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 84,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 84,
+			"Section": 7,
+			"ParagraphNumber": 30
+		},
+		{
+			"Paper": 84,
+			"Section": 8,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 85,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 85,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 85,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 85,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 85,
+			"Section": 4,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 85,
+			"Section": 5,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 85,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 85,
+			"Section": 7,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 86,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 86,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 86,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 86,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 86,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 86,
+			"Section": 5,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 86,
+			"Section": 6,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 86,
+			"Section": 7,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 87,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 87,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 87,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 87,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 87,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 87,
+			"Section": 5,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 87,
+			"Section": 6,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 87,
+			"Section": 7,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 88,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 88,
+			"Section": 1,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 88,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 88,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 88,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 88,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 88,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 89,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 89,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 89,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 89,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 89,
+			"Section": 4,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 89,
+			"Section": 5,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 89,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 89,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 89,
+			"Section": 8,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 89,
+			"Section": 9,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 89,
+			"Section": 10,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 90,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 90,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 90,
+			"Section": 2,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 90,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 90,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 90,
+			"Section": 5,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 91,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 91,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 91,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 91,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 91,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 91,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 91,
+			"Section": 6,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 91,
+			"Section": 7,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 91,
+			"Section": 8,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 91,
+			"Section": 9,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 92,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 92,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 92,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 92,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 92,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 92,
+			"Section": 5,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 92,
+			"Section": 6,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 92,
+			"Section": 7,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 93,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 93,
+			"Section": 1,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 93,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 93,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 93,
+			"Section": 4,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 93,
+			"Section": 5,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 93,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 93,
+			"Section": 7,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 93,
+			"Section": 8,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 93,
+			"Section": 9,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 93,
+			"Section": 10,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 94,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 94,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 94,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 94,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 94,
+			"Section": 4,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 94,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 94,
+			"Section": 6,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 94,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 94,
+			"Section": 8,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 94,
+			"Section": 9,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 94,
+			"Section": 10,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 94,
+			"Section": 11,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 94,
+			"Section": 12,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 95,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 95,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 95,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 95,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 95,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 95,
+			"Section": 5,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 95,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 95,
+			"Section": 7,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 96,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 96,
+			"Section": 1,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 96,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 96,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 96,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 96,
+			"Section": 5,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 96,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 96,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 97,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 97,
+			"Section": 1,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 97,
+			"Section": 2,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 97,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 97,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 97,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 97,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 97,
+			"Section": 7,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 97,
+			"Section": 8,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 97,
+			"Section": 9,
+			"ParagraphNumber": 29
+		},
+		{
+			"Paper": 97,
+			"Section": 10,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 98,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 98,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 98,
+			"Section": 2,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 98,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 98,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 98,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 98,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 98,
+			"Section": 7,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 99,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 99,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 99,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 99,
+			"Section": 3,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 99,
+			"Section": 4,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 99,
+			"Section": 5,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 99,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 99,
+			"Section": 7,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 100,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 100,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 100,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 100,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 100,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 100,
+			"Section": 5,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 100,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 100,
+			"Section": 7,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 101,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 101,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 101,
+			"Section": 2,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 101,
+			"Section": 3,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 101,
+			"Section": 4,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 101,
+			"Section": 5,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 101,
+			"Section": 6,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 101,
+			"Section": 7,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 101,
+			"Section": 8,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 101,
+			"Section": 9,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 101,
+			"Section": 10,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 102,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 102,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 102,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 102,
+			"Section": 3,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 102,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 102,
+			"Section": 5,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 102,
+			"Section": 6,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 102,
+			"Section": 7,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 102,
+			"Section": 8,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 103,
+			"Section": 0,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 103,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 103,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 103,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 103,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 103,
+			"Section": 5,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 103,
+			"Section": 6,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 103,
+			"Section": 7,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 103,
+			"Section": 8,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 103,
+			"Section": 9,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 104,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 104,
+			"Section": 1,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 104,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 104,
+			"Section": 3,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 104,
+			"Section": 4,
+			"ParagraphNumber": 47
+		},
+		{
+			"Paper": 104,
+			"Section": 5,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 105,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 105,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 105,
+			"Section": 2,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 105,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 105,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 105,
+			"Section": 5,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 105,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 105,
+			"Section": 7,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 106,
+			"Section": 0,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 106,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 106,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 106,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 106,
+			"Section": 4,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 106,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 106,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 106,
+			"Section": 7,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 106,
+			"Section": 8,
+			"ParagraphNumber": 23
+		},
+		{
+			"Paper": 106,
+			"Section": 9,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 107,
+			"Section": 0,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 107,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 107,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 107,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 107,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 107,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 107,
+			"Section": 6,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 107,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 108,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 108,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 108,
+			"Section": 2,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 108,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 108,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 108,
+			"Section": 5,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 108,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 109,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 109,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 109,
+			"Section": 2,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 109,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 109,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 109,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 109,
+			"Section": 6,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 109,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 110,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 110,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 110,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 110,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 110,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 110,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 110,
+			"Section": 6,
+			"ParagraphNumber": 22
+		},
+		{
+			"Paper": 110,
+			"Section": 7,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 111,
+			"Section": 0,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 111,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 111,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 111,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 111,
+			"Section": 4,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 111,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 111,
+			"Section": 6,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 111,
+			"Section": 7,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 112,
+			"Section": 0,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 112,
+			"Section": 1,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 112,
+			"Section": 2,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 112,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 112,
+			"Section": 4,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 112,
+			"Section": 5,
+			"ParagraphNumber": 22
+		},
+		{
+			"Paper": 112,
+			"Section": 6,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 112,
+			"Section": 7,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 113,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 113,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 113,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 113,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 113,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 113,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 113,
+			"Section": 6,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 113,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 114,
+			"Section": 0,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 114,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 114,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 114,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 114,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 114,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 114,
+			"Section": 6,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 114,
+			"Section": 7,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 115,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 115,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 115,
+			"Section": 2,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 115,
+			"Section": 3,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 115,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 115,
+			"Section": 5,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 115,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 115,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 116,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 116,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 116,
+			"Section": 2,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 116,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 116,
+			"Section": 4,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 116,
+			"Section": 5,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 116,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 116,
+			"Section": 7,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 117,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 117,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 117,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 117,
+			"Section": 3,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 117,
+			"Section": 4,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 117,
+			"Section": 5,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 117,
+			"Section": 6,
+			"ParagraphNumber": 27
+		},
+		{
+			"Paper": 117,
+			"Section": 7,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 118,
+			"Section": 0,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 118,
+			"Section": 1,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 118,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 118,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 118,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 118,
+			"Section": 5,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 118,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 118,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 118,
+			"Section": 8,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 118,
+			"Section": 9,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 118,
+			"Section": 10,
+			"ParagraphNumber": 24
+		},
+		{
+			"Paper": 119,
+			"Section": 0,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 119,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 119,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 119,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 119,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 119,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 119,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 119,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 119,
+			"Section": 8,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 120,
+			"Section": 0,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 120,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 120,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 120,
+			"Section": 3,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 120,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 121,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 121,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 121,
+			"Section": 2,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 121,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 121,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 121,
+			"Section": 5,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 121,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 121,
+			"Section": 7,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 121,
+			"Section": 8,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 122,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 122,
+			"Section": 1,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 122,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 122,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 122,
+			"Section": 4,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 122,
+			"Section": 5,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 122,
+			"Section": 6,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 122,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 122,
+			"Section": 8,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 122,
+			"Section": 9,
+			"ParagraphNumber": 28
+		},
+		{
+			"Paper": 122,
+			"Section": 10,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 123,
+			"Section": 0,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 123,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 123,
+			"Section": 2,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 123,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 123,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 123,
+			"Section": 5,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 123,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 124,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 124,
+			"Section": 1,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 124,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 124,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 124,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 124,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 124,
+			"Section": 6,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 125,
+			"Section": 0,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 125,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 125,
+			"Section": 2,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 125,
+			"Section": 3,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 125,
+			"Section": 4,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 125,
+			"Section": 5,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 125,
+			"Section": 6,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 126,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 126,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 126,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 126,
+			"Section": 3,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 126,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 126,
+			"Section": 5,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 127,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 127,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 127,
+			"Section": 2,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 127,
+			"Section": 3,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 127,
+			"Section": 4,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 127,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 127,
+			"Section": 6,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 128,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 128,
+			"Section": 1,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 128,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 128,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 128,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 128,
+			"Section": 5,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 128,
+			"Section": 6,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 128,
+			"Section": 7,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 129,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 129,
+			"Section": 1,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 129,
+			"Section": 2,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 129,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 129,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 130,
+			"Section": 0,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 130,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 130,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 130,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 130,
+			"Section": 4,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 130,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 130,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 130,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 130,
+			"Section": 8,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 131,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 131,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 131,
+			"Section": 2,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 131,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 131,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 131,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 131,
+			"Section": 6,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 131,
+			"Section": 7,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 131,
+			"Section": 8,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 131,
+			"Section": 9,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 131,
+			"Section": 10,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 132,
+			"Section": 0,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 132,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 132,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 132,
+			"Section": 3,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 132,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 132,
+			"Section": 5,
+			"ParagraphNumber": 25
+		},
+		{
+			"Paper": 132,
+			"Section": 6,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 132,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 133,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 133,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 133,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 133,
+			"Section": 3,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 133,
+			"Section": 4,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 133,
+			"Section": 5,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 133,
+			"Section": 6,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 133,
+			"Section": 7,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 133,
+			"Section": 8,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 133,
+			"Section": 9,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 134,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 134,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 134,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 134,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 134,
+			"Section": 4,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 134,
+			"Section": 5,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 134,
+			"Section": 6,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 134,
+			"Section": 7,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 134,
+			"Section": 8,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 134,
+			"Section": 9,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 135,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 135,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 135,
+			"Section": 2,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 135,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 135,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 135,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 135,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 135,
+			"Section": 7,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 135,
+			"Section": 8,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 135,
+			"Section": 9,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 135,
+			"Section": 10,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 135,
+			"Section": 11,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 135,
+			"Section": 12,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 136,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 136,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 136,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 136,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 136,
+			"Section": 4,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 136,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 136,
+			"Section": 6,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 136,
+			"Section": 7,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 136,
+			"Section": 8,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 136,
+			"Section": 9,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 136,
+			"Section": 10,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 137,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 137,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 137,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 137,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 137,
+			"Section": 4,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 137,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 137,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 137,
+			"Section": 7,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 137,
+			"Section": 8,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 138,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 138,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 138,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 138,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 138,
+			"Section": 4,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 138,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 138,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 138,
+			"Section": 7,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 138,
+			"Section": 8,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 138,
+			"Section": 9,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 138,
+			"Section": 10,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 139,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 139,
+			"Section": 1,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 139,
+			"Section": 2,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 139,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 139,
+			"Section": 4,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 139,
+			"Section": 5,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 139,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 139,
+			"Section": 7,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 139,
+			"Section": 8,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 139,
+			"Section": 10,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 139,
+			"Section": 11,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 139,
+			"Section": 12,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 140,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 140,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 140,
+			"Section": 2,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 140,
+			"Section": 3,
+			"ParagraphNumber": 21
+		},
+		{
+			"Paper": 140,
+			"Section": 4,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 140,
+			"Section": 5,
+			"ParagraphNumber": 24
+		},
+		{
+			"Paper": 140,
+			"Section": 6,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 140,
+			"Section": 7,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 140,
+			"Section": 8,
+			"ParagraphNumber": 32
+		},
+		{
+			"Paper": 140,
+			"Section": 9,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 140,
+			"Section": 10,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 141,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 141,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 141,
+			"Section": 2,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 141,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 141,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 141,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 141,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 141,
+			"Section": 7,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 141,
+			"Section": 8,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 141,
+			"Section": 9,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 142,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 142,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 142,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 142,
+			"Section": 3,
+			"ParagraphNumber": 23
+		},
+		{
+			"Paper": 142,
+			"Section": 4,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 142,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 142,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 142,
+			"Section": 7,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 142,
+			"Section": 8,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 143,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 143,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 143,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 143,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 143,
+			"Section": 4,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 143,
+			"Section": 5,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 143,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 143,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 144,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 144,
+			"Section": 1,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 144,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 144,
+			"Section": 3,
+			"ParagraphNumber": 23
+		},
+		{
+			"Paper": 144,
+			"Section": 4,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 144,
+			"Section": 5,
+			"ParagraphNumber": 108
+		},
+		{
+			"Paper": 144,
+			"Section": 6,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 144,
+			"Section": 7,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 144,
+			"Section": 8,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 144,
+			"Section": 9,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 145,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 145,
+			"Section": 1,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 145,
+			"Section": 2,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 145,
+			"Section": 3,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 145,
+			"Section": 4,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 145,
+			"Section": 5,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 146,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 146,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 146,
+			"Section": 2,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 146,
+			"Section": 3,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 146,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 146,
+			"Section": 5,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 146,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 146,
+			"Section": 7,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 147,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 147,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 147,
+			"Section": 2,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 147,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 147,
+			"Section": 4,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 147,
+			"Section": 5,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 147,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 147,
+			"Section": 7,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 147,
+			"Section": 8,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 148,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 148,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 148,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 148,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 148,
+			"Section": 4,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 148,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 148,
+			"Section": 6,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 148,
+			"Section": 7,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 148,
+			"Section": 8,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 148,
+			"Section": 9,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 149,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 149,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 149,
+			"Section": 2,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 149,
+			"Section": 3,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 149,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 149,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 149,
+			"Section": 6,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 149,
+			"Section": 7,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 150,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 150,
+			"Section": 1,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 150,
+			"Section": 2,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 150,
+			"Section": 3,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 150,
+			"Section": 4,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 150,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 150,
+			"Section": 6,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 150,
+			"Section": 7,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 150,
+			"Section": 8,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 150,
+			"Section": 9,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 151,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 151,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 151,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 151,
+			"Section": 3,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 151,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 151,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 151,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 152,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 152,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 152,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 152,
+			"Section": 3,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 152,
+			"Section": 4,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 152,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 152,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 152,
+			"Section": 7,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 153,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 153,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 153,
+			"Section": 2,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 153,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 153,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 153,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 154,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 154,
+			"Section": 1,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 154,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 154,
+			"Section": 3,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 154,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 154,
+			"Section": 5,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 154,
+			"Section": 6,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 154,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 155,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 155,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 155,
+			"Section": 2,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 155,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 155,
+			"Section": 4,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 155,
+			"Section": 5,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 155,
+			"Section": 6,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 156,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 156,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 156,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 156,
+			"Section": 3,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 156,
+			"Section": 4,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 156,
+			"Section": 5,
+			"ParagraphNumber": 23
+		},
+		{
+			"Paper": 156,
+			"Section": 6,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 157,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 157,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 157,
+			"Section": 2,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 157,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 157,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 157,
+			"Section": 5,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 157,
+			"Section": 6,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 157,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 158,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 158,
+			"Section": 1,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 158,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 158,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 158,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 158,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 158,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 158,
+			"Section": 7,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 158,
+			"Section": 8,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 159,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 159,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 159,
+			"Section": 2,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 159,
+			"Section": 3,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 159,
+			"Section": 4,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 159,
+			"Section": 5,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 159,
+			"Section": 6,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 160,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 160,
+			"Section": 1,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 160,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 160,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 160,
+			"Section": 4,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 160,
+			"Section": 5,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 161,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 161,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 161,
+			"Section": 2,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 161,
+			"Section": 3,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 162,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 162,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 162,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 162,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 162,
+			"Section": 4,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 162,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 162,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 162,
+			"Section": 7,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 162,
+			"Section": 8,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 162,
+			"Section": 9,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 163,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 163,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 163,
+			"Section": 2,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 163,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 163,
+			"Section": 4,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 163,
+			"Section": 5,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 163,
+			"Section": 6,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 163,
+			"Section": 7,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 164,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 164,
+			"Section": 1,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 164,
+			"Section": 2,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 164,
+			"Section": 3,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 164,
+			"Section": 4,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 164,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 165,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 165,
+			"Section": 1,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 165,
+			"Section": 2,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 165,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 165,
+			"Section": 4,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 165,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 165,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 166,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 166,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 166,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 166,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 166,
+			"Section": 4,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 166,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 167,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 167,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 167,
+			"Section": 2,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 167,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 167,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 167,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 167,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 167,
+			"Section": 7,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 168,
+			"Section": 0,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 168,
+			"Section": 1,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 168,
+			"Section": 2,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 168,
+			"Section": 3,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 168,
+			"Section": 4,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 168,
+			"Section": 5,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 169,
+			"Section": 0,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 169,
+			"Section": 1,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 169,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 169,
+			"Section": 3,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 169,
+			"Section": 4,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 170,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 170,
+			"Section": 1,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 170,
+			"Section": 2,
+			"ParagraphNumber": 25
+		},
+		{
+			"Paper": 170,
+			"Section": 3,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 170,
+			"Section": 4,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 170,
+			"Section": 5,
+			"ParagraphNumber": 21
+		},
+		{
+			"Paper": 171,
+			"Section": 0,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 171,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 171,
+			"Section": 2,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 171,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 171,
+			"Section": 4,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 171,
+			"Section": 5,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 171,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 171,
+			"Section": 7,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 171,
+			"Section": 8,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 172,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 172,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 172,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 172,
+			"Section": 3,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 172,
+			"Section": 4,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 172,
+			"Section": 5,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 173,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 173,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 173,
+			"Section": 2,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 173,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 173,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 173,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 174,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 174,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 174,
+			"Section": 2,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 174,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 174,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 174,
+			"Section": 5,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 175,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 175,
+			"Section": 1,
+			"ParagraphNumber": 25
+		},
+		{
+			"Paper": 175,
+			"Section": 2,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 175,
+			"Section": 3,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 175,
+			"Section": 4,
+			"ParagraphNumber": 15
+		},
+		{
+			"Paper": 176,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 176,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 176,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 176,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 176,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 177,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 177,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 177,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 177,
+			"Section": 3,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 177,
+			"Section": 4,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 177,
+			"Section": 5,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 178,
+			"Section": 0,
+			"ParagraphNumber": 1
+		},
+		{
+			"Paper": 178,
+			"Section": 1,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 178,
+			"Section": 2,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 178,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 179,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 179,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 179,
+			"Section": 2,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 179,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 179,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 179,
+			"Section": 5,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 180,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 180,
+			"Section": 1,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 180,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 180,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 180,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 180,
+			"Section": 5,
+			"ParagraphNumber": 12
+		},
+		{
+			"Paper": 180,
+			"Section": 6,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 181,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 181,
+			"Section": 1,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 181,
+			"Section": 2,
+			"ParagraphNumber": 31
+		},
+		{
+			"Paper": 182,
+			"Section": 0,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 182,
+			"Section": 1,
+			"ParagraphNumber": 26
+		},
+		{
+			"Paper": 182,
+			"Section": 2,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 182,
+			"Section": 3,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 183,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 183,
+			"Section": 1,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 183,
+			"Section": 2,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 183,
+			"Section": 3,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 183,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 183,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 184,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 184,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 184,
+			"Section": 2,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 184,
+			"Section": 3,
+			"ParagraphNumber": 19
+		},
+		{
+			"Paper": 184,
+			"Section": 4,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 184,
+			"Section": 5,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 185,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 185,
+			"Section": 1,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 185,
+			"Section": 2,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 185,
+			"Section": 3,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 185,
+			"Section": 4,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 185,
+			"Section": 5,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 185,
+			"Section": 6,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 185,
+			"Section": 7,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 185,
+			"Section": 8,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 186,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 186,
+			"Section": 1,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 186,
+			"Section": 2,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 186,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 186,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 186,
+			"Section": 5,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 187,
+			"Section": 0,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 187,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 187,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 187,
+			"Section": 3,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 187,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 187,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 187,
+			"Section": 6,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 188,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 188,
+			"Section": 1,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 188,
+			"Section": 2,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 188,
+			"Section": 3,
+			"ParagraphNumber": 16
+		},
+		{
+			"Paper": 188,
+			"Section": 4,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 188,
+			"Section": 5,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 189,
+			"Section": 0,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 189,
+			"Section": 1,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 189,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 189,
+			"Section": 3,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 189,
+			"Section": 4,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 189,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 190,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 190,
+			"Section": 1,
+			"ParagraphNumber": 10
+		},
+		{
+			"Paper": 190,
+			"Section": 2,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 190,
+			"Section": 3,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 190,
+			"Section": 4,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 190,
+			"Section": 5,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 191,
+			"Section": 0,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 191,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 191,
+			"Section": 2,
+			"ParagraphNumber": 2
+		},
+		{
+			"Paper": 191,
+			"Section": 3,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 191,
+			"Section": 4,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 191,
+			"Section": 5,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 191,
+			"Section": 6,
+			"ParagraphNumber": 4
+		},
+		{
+			"Paper": 192,
+			"Section": 0,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 192,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 192,
+			"Section": 2,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 192,
+			"Section": 3,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 192,
+			"Section": 4,
+			"ParagraphNumber": 8
+		},
+		{
+			"Paper": 193,
+			"Section": 0,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 193,
+			"Section": 1,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 193,
+			"Section": 2,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 193,
+			"Section": 3,
+			"ParagraphNumber": 3
+		},
+		{
+			"Paper": 193,
+			"Section": 4,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 193,
+			"Section": 5,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 193,
+			"Section": 6,
+			"ParagraphNumber": 6
+		},
+		{
+			"Paper": 194,
+			"Section": 0,
+			"ParagraphNumber": 7
+		},
+		{
+			"Paper": 194,
+			"Section": 1,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 194,
+			"Section": 2,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 194,
+			"Section": 3,
+			"ParagraphNumber": 20
+		},
+		{
+			"Paper": 194,
+			"Section": 4,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 195,
+			"Section": 0,
+			"ParagraphNumber": 18
+		},
+		{
+			"Paper": 195,
+			"Section": 1,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 195,
+			"Section": 2,
+			"ParagraphNumber": 9
+		},
+		{
+			"Paper": 195,
+			"Section": 3,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 195,
+			"Section": 4,
+			"ParagraphNumber": 5
+		},
+		{
+			"Paper": 195,
+			"Section": 5,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 195,
+			"Section": 6,
+			"ParagraphNumber": 17
+		},
+		{
+			"Paper": 195,
+			"Section": 7,
+			"ParagraphNumber": 23
+		},
+		{
+			"Paper": 195,
+			"Section": 8,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 195,
+			"Section": 9,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 195,
+			"Section": 10,
+			"ParagraphNumber": 21
+		},
+		{
+			"Paper": 196,
+			"Section": 0,
+			"ParagraphNumber": 14
+		},
+		{
+			"Paper": 196,
+			"Section": 1,
+			"ParagraphNumber": 13
+		},
+		{
+			"Paper": 196,
+			"Section": 2,
+			"ParagraphNumber": 11
+		},
+		{
+			"Paper": 196,
+			"Section": 3,
+			"ParagraphNumber": 36
+		}
+	]
+}
