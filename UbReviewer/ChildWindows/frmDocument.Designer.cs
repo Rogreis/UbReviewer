@@ -67,7 +67,7 @@
             this.Controls.Add(this.tableLayoutPanelDocument);
             this.Controls.Add(this.statusStrip1);
             this.Name = "frmDocument";
-            this.Text = "frmDocument";
+            this.Text = "Full Paper";
             this.Load += new System.EventHandler(this.frmDocument_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

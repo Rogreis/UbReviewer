@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UbStandardObjects.Objects;
 
 namespace UbReviewer.ChildWindows
 {
@@ -32,14 +33,17 @@ namespace UbReviewer.ChildWindows
 
         private void frmDocument_Load(object sender, EventArgs e)
         {
-            tableLayoutPanelDocument.RowCount = 50;
+            //tableLayoutPanelDocument.RowCount = 50;
 
-            for(int i = 0; i < 50; i++)
-            {
-                tableLayoutPanelDocument.Controls.Add(CreateRichTextBox(i, 0));
-                tableLayoutPanelDocument.Controls.Add(CreateRichTextBox(i, 1));
-                tableLayoutPanelDocument.Controls.Add(CreateRichTextBox(i, 2));
-            }
+            //for(int i = 0; i < 50; i++)
+            //{
+            //    tableLayoutPanelDocument.Controls.Add(CreateRichTextBox(i, 0));
+            //    tableLayoutPanelDocument.Controls.Add(CreateRichTextBox(i, 1));
+            //    tableLayoutPanelDocument.Controls.Add(CreateRichTextBox(i, 2));
+            //}
+
+            // Get Translations
+            Translations  
 
         }
     }
