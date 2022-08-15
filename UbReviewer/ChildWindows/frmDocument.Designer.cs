@@ -30,14 +30,20 @@
         {
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.webBrowserPaper = new System.Windows.Forms.WebBrowser();
+            this.toolStripStatusLabelIdent = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabelMessage = new System.Windows.Forms.ToolStripStatusLabel();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusStrip1
             // 
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.statusStrip1.Location = new System.Drawing.Point(0, 702);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabelIdent,
+            this.toolStripStatusLabelMessage});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 696);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1289, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1289, 28);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -47,8 +53,19 @@
             this.webBrowserPaper.Location = new System.Drawing.Point(0, 0);
             this.webBrowserPaper.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowserPaper.Name = "webBrowserPaper";
-            this.webBrowserPaper.Size = new System.Drawing.Size(1289, 702);
+            this.webBrowserPaper.Size = new System.Drawing.Size(1289, 696);
             this.webBrowserPaper.TabIndex = 3;
+            // 
+            // toolStripStatusLabelIdent
+            // 
+            this.toolStripStatusLabelIdent.Name = "toolStripStatusLabelIdent";
+            this.toolStripStatusLabelIdent.Size = new System.Drawing.Size(0, 21);
+            // 
+            // toolStripStatusLabelMessage
+            // 
+            this.toolStripStatusLabelMessage.Name = "toolStripStatusLabelMessage";
+            this.toolStripStatusLabelMessage.Size = new System.Drawing.Size(1228, 21);
+            this.toolStripStatusLabelMessage.Spring = true;
             // 
             // frmDocument
             // 
@@ -60,6 +77,8 @@
             this.Name = "frmDocument";
             this.Text = "Paper";
             this.Load += new System.EventHandler(this.frmDocument_Load);
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -68,5 +87,7 @@
         #endregion
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.WebBrowser webBrowserPaper;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelIdent;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelMessage;
     }
 }

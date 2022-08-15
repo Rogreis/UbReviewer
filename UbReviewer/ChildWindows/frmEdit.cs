@@ -16,5 +16,22 @@ namespace UbReviewer.ChildWindows
         {
             InitializeComponent();
         }
+
+        public string Ident { get; set; } = "";
+
+        private void frmEdit_Load(object sender, EventArgs e)
+        {
+            this.Text = $"Editing {Ident}";
+        }
+
+        private void btOk_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

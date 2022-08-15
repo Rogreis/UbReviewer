@@ -45,6 +45,7 @@ namespace UbReviewer
                 short paperNo = Convert.ToInt16(comboBoxPaperNo.Text);
                 frmDocument frm = new frmDocument();
                 frm.MdiParent = this;
+                frm.PaperNo= paperNo;
                 frm.Show();
                 ShowMessage($"Showing paper {paperNo}.");
 
@@ -66,9 +67,6 @@ namespace UbReviewer
 
         private void btOpenParagraph_Click(object sender, EventArgs e)
         {
-            frmEdit frm = new frmEdit();
-            frm.MdiParent = this;
-            frm.Show();
         }
 
         private void btOpenDocument_Click(object sender, EventArgs e)

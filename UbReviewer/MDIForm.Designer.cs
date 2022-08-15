@@ -38,7 +38,6 @@
             this.comboBoxPaperNo = new System.Windows.Forms.ComboBox();
             this.btGit = new System.Windows.Forms.Button();
             this.btOpenDocument = new System.Windows.Forms.Button();
-            this.btOpenParagraph = new System.Windows.Forms.Button();
             this.btExit = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -82,7 +81,6 @@
             this.panel1.Controls.Add(this.comboBoxPaperNo);
             this.panel1.Controls.Add(this.btGit);
             this.panel1.Controls.Add(this.btOpenDocument);
-            this.panel1.Controls.Add(this.btOpenParagraph);
             this.panel1.Controls.Add(this.btExit);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -340,16 +338,6 @@
             this.btOpenDocument.UseVisualStyleBackColor = true;
             this.btOpenDocument.Click += new System.EventHandler(this.btOpenDocument_Click);
             // 
-            // btOpenParagraph
-            // 
-            this.btOpenParagraph.Location = new System.Drawing.Point(486, 21);
-            this.btOpenParagraph.Name = "btOpenParagraph";
-            this.btOpenParagraph.Size = new System.Drawing.Size(179, 40);
-            this.btOpenParagraph.TabIndex = 1;
-            this.btOpenParagraph.Text = "Open Paragraph";
-            this.btOpenParagraph.UseVisualStyleBackColor = true;
-            this.btOpenParagraph.Click += new System.EventHandler(this.btOpenParagraph_Click);
-            // 
             // btExit
             // 
             this.btExit.Location = new System.Drawing.Point(13, 21);
@@ -389,7 +377,6 @@
         private System.Windows.Forms.ComboBox comboBoxPaperNo;
         private System.Windows.Forms.Button btGit;
         private System.Windows.Forms.Button btOpenDocument;
-        private System.Windows.Forms.Button btOpenParagraph;
         private System.Windows.Forms.Button btExit;
         private System.Windows.Forms.Button btCascace;
         private System.Windows.Forms.Button btTile;

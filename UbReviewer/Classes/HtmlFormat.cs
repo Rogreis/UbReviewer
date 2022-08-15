@@ -130,8 +130,8 @@ namespace UbReviewer.Classes
 			sb.AppendLine(" ");
 			sb.AppendLine("/* mouse over link */ ");
 			sb.AppendLine("a:hover { ");
-			sb.AppendLine("  color: blue; ");
-			sb.AppendLine("  text-decoration: none; ");
+			//sb.AppendLine("  color: blue; ");
+			//sb.AppendLine("  text-decoration: none; ");
 			sb.AppendLine("  font-weight: bold; ");
 			sb.AppendLine("} ");
 			sb.AppendLine(" ");
@@ -139,7 +139,7 @@ namespace UbReviewer.Classes
 			sb.AppendLine("a:active { ");
 			sb.AppendLine("  color: blue; ");
 			sb.AppendLine("  text-decoration: none; ");
-			sb.AppendLine("  font-weight: bold; ");
+			//sb.AppendLine("  font-weight: bold; ");
 			sb.AppendLine("} ");
 			sb.AppendLine(" ");
 
@@ -281,7 +281,10 @@ namespace UbReviewer.Classes
 					break;
 			}
 
-			return $"<div id=\"{DivName(p)}\" {textDirection}>{openStyle} {p.Text}{closeStyle}</div>";
+			string htmlLink = $"<a href=\"about:ident\" ident=\"{p.Identification}\">{openStyle} {p.Text}</a>";
+			// This is a link</a>
+
+			return $"<div id=\"{DivName(p)}\" {textDirection}>{htmlLink}{closeStyle}</div>";
 		}
 		#endregion
 
