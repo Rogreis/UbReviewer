@@ -7,40 +7,114 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UbReviewer.Classes;
+using UbStandardObjects;
+using UbStandardObjects.Objects;
 
 namespace UbReviewer.ChildWindows
 {
     public partial class frmDocument : Form
     {
 
-        string textDummy = "Muito freqüente e efetivamente, os reprodutores celestes colaboram com os diretores de retrospecção, combinando a recapitulação da memória com certas formas de descanso para a mente e recreio para a personalidade. Antes dos conclaves moronciais e assembléias do espírito, esses reprodutores, algumas vezes, agrupam-se para realizar espetáculos dramáticos extraordinários, representativos dos propósitos de tais encontros. Recentemente, testemunhei uma apresentação bastante assombrosa, na qual mais de um milhão de atores produziram uma sucessão de mil cenas.";
+        private HtmlFormat Formatter = new HtmlFormat((ParameterReviewer)StaticObjects.Parameters);
+        private ParameterReviewer Parameters = ((ParameterReviewer)StaticObjects.Parameters);
+        private short paperNo = 0;
+        private bool FormShown = false;
 
         public frmDocument()
         {
             InitializeComponent();
+            webBrowserPaper.DocumentCompleted += WebBrowserPaper_DocumentCompleted;
+            webBrowserPaper.Navigating += WebBrowserPaper_Navigating;
+            webBrowserPaper.NewWindow += WebBrowserPaper_NewWindow;
         }
 
-        private RichTextBox CreateRichTextBox(int line, int col)
+        private void EditParagraph(string ident)
         {
-            RichTextBox rtf = new RichTextBox();
-            rtf.Dock = System.Windows.Forms.DockStyle.Fill;
-            rtf.Margin = new System.Windows.Forms.Padding(5);
-            rtf.Name = $"Rtf_{line}-{col}";
-            rtf.Text = textDummy;
-            return rtf;
+            frmEdit frm = new frmEdit();
+            frm.Ident = ident;
+            frm.MdiParent = this.MdiParent;
+            frm.Show();
+        }
+
+
+        private void WebBrowserPaper_NewWindow(object sender, CancelEventArgs e)
+        {
+            e.Cancel = true;
+        }
+
+        private void WebBrowserPaper_Navigating(object sender, WebBrowserNavigatingEventArgs e)
+        {
+            if (e.Url.AbsolutePath != "blank")
+            {
+                e.Cancel = true;
+            }
+        }
+
+        private void WebBrowserPaper_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            AttachEventHandler();
+        }
+
+        private void AttachEventHandler()
+        {
+            HtmlElementCollection links = webBrowserPaper.Document.Links;
+            foreach (HtmlElement link in links)
+            {
+                try
+                {
+                    link.DetachEventHandler("onclick", new EventHandler(this.linkClicked));
+                }
+                catch { }
+            }
+
+            foreach (HtmlElement link in links)
+            {
+                link.AttachEventHandler("onclick", new EventHandler(this.linkClicked));
+                string Para = link.GetAttribute("href");
+                Para = Para.Replace("about:", "");
+            }
+        }
+
+        private void linkClicked(object sender, EventArgs e)
+        {
+            HtmlElement link = (HtmlElement)webBrowserPaper.Document.ActiveElement;
+            string ident = link.GetAttribute("ident");
+            toolStripStatusLabelIdent.Text = ident;
+            toolStripStatusLabelMessage.Text = ident;
+            EditParagraph(ident);
+            AttachEventHandler();
+        }
+
+
+
+        private void ShowPaper(short paperNo)
+        {
+            webBrowserPaper.DocumentText = Formatter.FormatPaper(paperNo,
+                                                                 Parameters.TranslationLeft.Paper(paperNo).Paragraphs,
+                                                                 Parameters.TranslationMiddle.Paper(paperNo).Paragraphs,
+                                                                 Parameters.TranslationRight.Paper(paperNo).Paragraphs);
+            this.Text = $"Paper {paperNo}";
+            Parameters.LastPaperShown = paperNo;
+        }
+
+
+        public short PaperNo
+        {
+            set
+            {
+                paperNo = value;
+                if (FormShown)
+                {
+                    ShowPaper(paperNo);
+                }
+            }
         }
 
         private void frmDocument_Load(object sender, EventArgs e)
         {
-            tableLayoutPanelDocument.RowCount = 50;
-
-            for(int i = 0; i < 50; i++)
-            {
-                tableLayoutPanelDocument.Controls.Add(CreateRichTextBox(i, 0));
-                tableLayoutPanelDocument.Controls.Add(CreateRichTextBox(i, 1));
-                tableLayoutPanelDocument.Controls.Add(CreateRichTextBox(i, 2));
-            }
-
+            ShowPaper(paperNo);
+            FormShown = true;
         }
     }
 }

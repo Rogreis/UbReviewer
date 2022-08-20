@@ -28,91 +28,162 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.richTextBoxLeft = new System.Windows.Forms.RichTextBox();
-            this.richTextBoxMiddle = new System.Windows.Forms.RichTextBox();
-            this.richTextBoxRight = new System.Windows.Forms.RichTextBox();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.tabControlEdit = new System.Windows.Forms.TabControl();
+            this.tabPageText = new System.Windows.Forms.TabPage();
+            this.tabPageNT = new System.Windows.Forms.TabPage();
+            this.tabPageComments = new System.Windows.Forms.TabPage();
+            this.textBoxText = new System.Windows.Forms.TextBox();
+            this.textBoxTranslatorNotes = new System.Windows.Forms.TextBox();
+            this.textBoxComments = new System.Windows.Forms.TextBox();
+            this.panelBotton = new System.Windows.Forms.Panel();
+            this.btCancel = new System.Windows.Forms.Button();
+            this.btOk = new System.Windows.Forms.Button();
+            this.tabControlEdit.SuspendLayout();
+            this.tabPageText.SuspendLayout();
+            this.tabPageNT.SuspendLayout();
+            this.tabPageComments.SuspendLayout();
+            this.panelBotton.SuspendLayout();
             this.SuspendLayout();
             // 
-            // statusStrip1
+            // tabControlEdit
             // 
-            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.statusStrip1.Location = new System.Drawing.Point(0, 723);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1096, 22);
-            this.statusStrip1.TabIndex = 0;
-            this.statusStrip1.Text = "statusStrip1";
+            this.tabControlEdit.Controls.Add(this.tabPageText);
+            this.tabControlEdit.Controls.Add(this.tabPageNT);
+            this.tabControlEdit.Controls.Add(this.tabPageComments);
+            this.tabControlEdit.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlEdit.Location = new System.Drawing.Point(0, 0);
+            this.tabControlEdit.Name = "tabControlEdit";
+            this.tabControlEdit.SelectedIndex = 0;
+            this.tabControlEdit.Size = new System.Drawing.Size(844, 494);
+            this.tabControlEdit.TabIndex = 1;
             // 
-            // tableLayoutPanel1
+            // tabPageText
             // 
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tableLayoutPanel1.Controls.Add(this.richTextBoxRight, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.richTextBoxMiddle, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.richTextBoxLeft, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1096, 723);
-            this.tableLayoutPanel1.TabIndex = 1;
+            this.tabPageText.Controls.Add(this.textBoxText);
+            this.tabPageText.Location = new System.Drawing.Point(4, 29);
+            this.tabPageText.Name = "tabPageText";
+            this.tabPageText.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageText.Size = new System.Drawing.Size(836, 461);
+            this.tabPageText.TabIndex = 0;
+            this.tabPageText.Text = "Text";
+            this.tabPageText.UseVisualStyleBackColor = true;
             // 
-            // richTextBoxLeft
+            // tabPageNT
             // 
-            this.richTextBoxLeft.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBoxLeft.Location = new System.Drawing.Point(5, 5);
-            this.richTextBoxLeft.Margin = new System.Windows.Forms.Padding(5);
-            this.richTextBoxLeft.Name = "richTextBoxLeft";
-            this.richTextBoxLeft.Size = new System.Drawing.Size(318, 713);
-            this.richTextBoxLeft.TabIndex = 0;
-            this.richTextBoxLeft.Text = "";
+            this.tabPageNT.Controls.Add(this.textBoxTranslatorNotes);
+            this.tabPageNT.Location = new System.Drawing.Point(4, 29);
+            this.tabPageNT.Name = "tabPageNT";
+            this.tabPageNT.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageNT.Size = new System.Drawing.Size(836, 461);
+            this.tabPageNT.TabIndex = 1;
+            this.tabPageNT.Text = "Translator\'s Notes";
+            this.tabPageNT.UseVisualStyleBackColor = true;
             // 
-            // richTextBoxMiddle
+            // tabPageComments
             // 
-            this.richTextBoxMiddle.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBoxMiddle.Location = new System.Drawing.Point(333, 5);
-            this.richTextBoxMiddle.Margin = new System.Windows.Forms.Padding(5);
-            this.richTextBoxMiddle.Name = "richTextBoxMiddle";
-            this.richTextBoxMiddle.Size = new System.Drawing.Size(318, 713);
-            this.richTextBoxMiddle.TabIndex = 1;
-            this.richTextBoxMiddle.Text = "";
+            this.tabPageComments.Controls.Add(this.textBoxComments);
+            this.tabPageComments.Location = new System.Drawing.Point(4, 29);
+            this.tabPageComments.Name = "tabPageComments";
+            this.tabPageComments.Size = new System.Drawing.Size(836, 461);
+            this.tabPageComments.TabIndex = 2;
+            this.tabPageComments.Text = "Comments";
+            this.tabPageComments.UseVisualStyleBackColor = true;
             // 
-            // richTextBoxRight
+            // textBoxText
             // 
-            this.richTextBoxRight.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richTextBoxRight.Location = new System.Drawing.Point(661, 5);
-            this.richTextBoxRight.Margin = new System.Windows.Forms.Padding(5);
-            this.richTextBoxRight.Name = "richTextBoxRight";
-            this.richTextBoxRight.Size = new System.Drawing.Size(430, 713);
-            this.richTextBoxRight.TabIndex = 2;
-            this.richTextBoxRight.Text = "";
+            this.textBoxText.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxText.Location = new System.Drawing.Point(3, 3);
+            this.textBoxText.Multiline = true;
+            this.textBoxText.Name = "textBoxText";
+            this.textBoxText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxText.Size = new System.Drawing.Size(830, 455);
+            this.textBoxText.TabIndex = 0;
+            // 
+            // textBoxTranslatorNotes
+            // 
+            this.textBoxTranslatorNotes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxTranslatorNotes.Location = new System.Drawing.Point(3, 3);
+            this.textBoxTranslatorNotes.Multiline = true;
+            this.textBoxTranslatorNotes.Name = "textBoxTranslatorNotes";
+            this.textBoxTranslatorNotes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxTranslatorNotes.Size = new System.Drawing.Size(830, 455);
+            this.textBoxTranslatorNotes.TabIndex = 1;
+            // 
+            // textBoxComments
+            // 
+            this.textBoxComments.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxComments.Location = new System.Drawing.Point(0, 0);
+            this.textBoxComments.Multiline = true;
+            this.textBoxComments.Name = "textBoxComments";
+            this.textBoxComments.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxComments.Size = new System.Drawing.Size(836, 461);
+            this.textBoxComments.TabIndex = 1;
+            // 
+            // panelBotton
+            // 
+            this.panelBotton.Controls.Add(this.btOk);
+            this.panelBotton.Controls.Add(this.btCancel);
+            this.panelBotton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelBotton.Location = new System.Drawing.Point(0, 494);
+            this.panelBotton.Name = "panelBotton";
+            this.panelBotton.Size = new System.Drawing.Size(844, 48);
+            this.panelBotton.TabIndex = 2;
+            // 
+            // btCancel
+            // 
+            this.btCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btCancel.Location = new System.Drawing.Point(758, 6);
+            this.btCancel.Name = "btCancel";
+            this.btCancel.Size = new System.Drawing.Size(75, 36);
+            this.btCancel.TabIndex = 0;
+            this.btCancel.Text = "Cancel";
+            this.btCancel.UseVisualStyleBackColor = true;
+            this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
+            // 
+            // btOk
+            // 
+            this.btOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btOk.Location = new System.Drawing.Point(677, 6);
+            this.btOk.Name = "btOk";
+            this.btOk.Size = new System.Drawing.Size(75, 36);
+            this.btOk.TabIndex = 1;
+            this.btOk.Text = "Ok";
+            this.btOk.UseVisualStyleBackColor = true;
+            this.btOk.Click += new System.EventHandler(this.btOk_Click);
             // 
             // frmEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1096, 745);
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.statusStrip1);
+            this.ClientSize = new System.Drawing.Size(844, 542);
+            this.Controls.Add(this.tabControlEdit);
+            this.Controls.Add(this.panelBotton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmEdit";
             this.Text = "Editing paragraph";
-            this.tableLayoutPanel1.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.frmEdit_Load);
+            this.tabControlEdit.ResumeLayout(false);
+            this.tabPageText.ResumeLayout(false);
+            this.tabPageText.PerformLayout();
+            this.tabPageNT.ResumeLayout(false);
+            this.tabPageNT.PerformLayout();
+            this.tabPageComments.ResumeLayout(false);
+            this.tabPageComments.PerformLayout();
+            this.panelBotton.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.RichTextBox richTextBoxRight;
-        private System.Windows.Forms.RichTextBox richTextBoxMiddle;
-        private System.Windows.Forms.RichTextBox richTextBoxLeft;
+        private System.Windows.Forms.TabControl tabControlEdit;
+        private System.Windows.Forms.TabPage tabPageText;
+        private System.Windows.Forms.TextBox textBoxText;
+        private System.Windows.Forms.TabPage tabPageNT;
+        private System.Windows.Forms.TextBox textBoxTranslatorNotes;
+        private System.Windows.Forms.TabPage tabPageComments;
+        private System.Windows.Forms.TextBox textBoxComments;
+        private System.Windows.Forms.Panel panelBotton;
+        private System.Windows.Forms.Button btOk;
+        private System.Windows.Forms.Button btCancel;
     }
 }
