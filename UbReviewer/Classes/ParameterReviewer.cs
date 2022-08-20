@@ -32,6 +32,8 @@ namespace UbReviewer.Classes
 
         public Translation TranslationRight { get; set; } = null;
 
+        public string LocalRepositoryFolder { get; set; } = "C:\\ProgramData\\UbReviewer\\PtAlternative";
+
         #region Html format parameters
 
         public string FontFamily { get; set; } = "Verdana,Arial,Helvetica";

@@ -138,7 +138,6 @@ namespace UbReviewer
 
             StaticObjects.Book = new ReviewerBook();
 
-
             GetDataFiles dataFiles = new GetDataFiles(Application.StartupPath, DataFolder());
 
             PathParameters = MakeProgramDataFolder("UbReviewer.json");
@@ -153,11 +152,14 @@ namespace UbReviewer
             {
                 return false;
             }
+            StaticObjects.Book.GetFormatTable();
+
 
             ParameterReviewer parameter = ((ParameterReviewer)StaticObjects.Parameters);
             parameter.TranslationLeft= dataFiles.GetTranslation(parameter.TranslationIdLeft);
             parameter.TranslationMiddle = dataFiles.GetTranslation(parameter.TranslationIdMiddle);
-            parameter.TranslationRight = dataFiles.GetTranslation(parameter.TranslationIdRight);
+            //parameter.TranslationRight = dataFiles.GetTranslation(parameter.TranslationIdRight);
+            parameter.TranslationRight = new TranslationFromRepo();
 
             return true;
         }
