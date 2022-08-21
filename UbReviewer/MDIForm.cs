@@ -13,9 +13,9 @@ namespace UbReviewer
     {
         private string PathParameters { get; set; } = "";
 
-        private ParameterReviewer Parameters;
+        private ParameterReviewer Parameters = null;
 
-        public string BaseTubFilesPath { get; set; } = "";
+        private string BaseTubFilesPath { get; set; } = "";
 
 
         public mdiForm()
@@ -145,21 +145,22 @@ namespace UbReviewer
             {
                 StaticObjects.Logger.Info("Parameters not found, creating a new one: " + PathParameters);
             }
-            StaticObjects.Parameters = ParameterReviewer.Deserialize(PathParameters);
 
+            // Initialize parameters
+            StaticObjects.Parameters = ParameterReviewer.Deserialize(PathParameters);
+            Parameters = ((ParameterReviewer)StaticObjects.Parameters);
 
             if (!StaticObjects.Book.Inicialize(dataFiles))
             {
                 return false;
             }
-            StaticObjects.Book.GetFormatTable();
+
+            //StaticObjects.Book.GetFormatTable();
 
 
-            ParameterReviewer parameter = ((ParameterReviewer)StaticObjects.Parameters);
-            parameter.TranslationLeft= dataFiles.GetTranslation(parameter.TranslationIdLeft);
-            parameter.TranslationMiddle = dataFiles.GetTranslation(parameter.TranslationIdMiddle);
-            //parameter.TranslationRight = dataFiles.GetTranslation(parameter.TranslationIdRight);
-            parameter.TranslationRight = new TranslationEdit();
+            Parameters.TranslationLeft= dataFiles.GetTranslation(Parameters.TranslationIdLeft);
+            Parameters.TranslationMiddle = dataFiles.GetTranslation(Parameters.TranslationIdMiddle);
+            Parameters.TranslationRight = new TranslationEdit(Parameters.LocalRepositoryFolder);
 
             return true;
         }
