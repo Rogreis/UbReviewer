@@ -100,13 +100,8 @@
     <Compile Include="ChildWindows\frmGit.Designer.cs">
       <DependentUpon>frmGit.cs</DependentUpon>
     </Compile>
-    <Compile Include="Classes\HtmlFormat.cs" />
     <Compile Include="Classes\LogReviewer.cs" />
-    <Compile Include="Classes\PaperFromRepo.cs" />
-    <Compile Include="Classes\ParagraphFromRepo.cs" />
     <Compile Include="Classes\ParameterReviewer.cs" />
-    <Compile Include="Classes\ReviewerBook.cs" />
-    <Compile Include="Classes\TranslationFromRepo.cs" />
     <Compile Include="MDIForm.cs">
       <SubType>Form</SubType>
     </Compile>

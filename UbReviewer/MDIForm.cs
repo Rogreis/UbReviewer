@@ -136,7 +136,7 @@ namespace UbReviewer
             StaticObjects.Logger.Initialize(pathLog, false);
             StaticObjects.Logger.Info("»»»» Startup");
 
-            StaticObjects.Book = new ReviewerBook();
+            StaticObjects.Book = new BookEdit();
 
             GetDataFiles dataFiles = new GetDataFiles(Application.StartupPath, DataFolder());
 
@@ -159,7 +159,7 @@ namespace UbReviewer
             parameter.TranslationLeft= dataFiles.GetTranslation(parameter.TranslationIdLeft);
             parameter.TranslationMiddle = dataFiles.GetTranslation(parameter.TranslationIdMiddle);
             //parameter.TranslationRight = dataFiles.GetTranslation(parameter.TranslationIdRight);
-            parameter.TranslationRight = new TranslationFromRepo();
+            parameter.TranslationRight = new TranslationEdit();
 
             return true;
         }
