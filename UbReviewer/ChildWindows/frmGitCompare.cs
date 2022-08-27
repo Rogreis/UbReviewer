@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UbReviewer.ChildWindows
 {
-    public partial class frmGit : Form
+    public partial class frmGitCompare : Form
     {
-        public frmGit()
+        public frmGitCompare()
         {
             InitializeComponent();
         }

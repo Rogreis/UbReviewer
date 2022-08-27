@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UbStudyHelpGenerator.Classes
+namespace UbReviewer.Classes
 {
     internal class Print
     {
@@ -25,9 +25,9 @@ namespace UbStudyHelpGenerator.Classes
 
                     // set the filename to whatever you like (full path)
                     PrintFileName = destinationFilePath,
+
                 }
             };
-
             doc.Print();
         }
     }

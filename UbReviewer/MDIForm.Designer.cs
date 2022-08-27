@@ -28,54 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabelBranch = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabelParagraph = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabelMessages = new System.Windows.Forms.ToolStripStatusLabel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblMessages = new System.Windows.Forms.Label();
+            this.btPrint = new System.Windows.Forms.Button();
             this.btTile = new System.Windows.Forms.Button();
             this.btCascace = new System.Windows.Forms.Button();
             this.comboBoxPaperNo = new System.Windows.Forms.ComboBox();
             this.btGit = new System.Windows.Forms.Button();
             this.btOpenDocument = new System.Windows.Forms.Button();
             this.btExit = new System.Windows.Forms.Button();
-            this.statusStrip1.SuspendLayout();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabelMessages = new System.Windows.Forms.ToolStripStatusLabel();
             this.panel1.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabelBranch,
-            this.toolStripStatusLabelParagraph,
-            this.toolStripStatusLabelMessages});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 980);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1602, 32);
-            this.statusStrip1.TabIndex = 3;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripStatusLabelBranch
-            // 
-            this.toolStripStatusLabelBranch.Name = "toolStripStatusLabelBranch";
-            this.toolStripStatusLabelBranch.Size = new System.Drawing.Size(65, 25);
-            this.toolStripStatusLabelBranch.Text = "Branch";
-            // 
-            // toolStripStatusLabelParagraph
-            // 
-            this.toolStripStatusLabelParagraph.Name = "toolStripStatusLabelParagraph";
-            this.toolStripStatusLabelParagraph.Size = new System.Drawing.Size(92, 25);
-            this.toolStripStatusLabelParagraph.Text = "Paragraph";
-            // 
-            // toolStripStatusLabelMessages
-            // 
-            this.toolStripStatusLabelMessages.Name = "toolStripStatusLabelMessages";
-            this.toolStripStatusLabelMessages.Size = new System.Drawing.Size(1430, 25);
-            this.toolStripStatusLabelMessages.Spring = true;
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.lblMessages);
+            this.panel1.Controls.Add(this.btPrint);
             this.panel1.Controls.Add(this.btTile);
             this.panel1.Controls.Add(this.btCascace);
             this.panel1.Controls.Add(this.comboBoxPaperNo);
@@ -85,13 +56,32 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1602, 84);
+            this.panel1.Size = new System.Drawing.Size(1767, 84);
             this.panel1.TabIndex = 5;
+            // 
+            // lblMessages
+            // 
+            this.lblMessages.AutoSize = true;
+            this.lblMessages.Location = new System.Drawing.Point(707, 36);
+            this.lblMessages.Name = "lblMessages";
+            this.lblMessages.Size = new System.Drawing.Size(51, 20);
+            this.lblMessages.TabIndex = 9;
+            this.lblMessages.Text = "label1";
+            // 
+            // btPrint
+            // 
+            this.btPrint.Location = new System.Drawing.Point(495, 21);
+            this.btPrint.Name = "btPrint";
+            this.btPrint.Size = new System.Drawing.Size(75, 40);
+            this.btPrint.TabIndex = 8;
+            this.btPrint.Text = "Print";
+            this.btPrint.UseVisualStyleBackColor = true;
+            this.btPrint.Click += new System.EventHandler(this.btPrint_Click);
             // 
             // btTile
             // 
             this.btTile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btTile.Location = new System.Drawing.Point(1503, 21);
+            this.btTile.Location = new System.Drawing.Point(1668, 21);
             this.btTile.Name = "btTile";
             this.btTile.Size = new System.Drawing.Size(87, 40);
             this.btTile.TabIndex = 7;
@@ -102,7 +92,7 @@
             // btCascace
             // 
             this.btCascace.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btCascace.Location = new System.Drawing.Point(1410, 21);
+            this.btCascace.Location = new System.Drawing.Point(1575, 21);
             this.btCascace.Name = "btCascace";
             this.btCascace.Size = new System.Drawing.Size(87, 40);
             this.btCascace.TabIndex = 6;
@@ -348,11 +338,30 @@
             this.btExit.UseVisualStyleBackColor = true;
             this.btExit.Click += new System.EventHandler(this.btExit_Click);
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabelMessages});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 1176);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(1767, 32);
+            this.statusStrip1.TabIndex = 7;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // toolStripStatusLabelMessages
+            // 
+            this.toolStripStatusLabelMessages.Name = "toolStripStatusLabelMessages";
+            this.toolStripStatusLabelMessages.Size = new System.Drawing.Size(1752, 25);
+            this.toolStripStatusLabelMessages.Spring = true;
+            this.toolStripStatusLabelMessages.Text = "toolStripStatusLabel1";
+            this.toolStripStatusLabelMessages.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // mdiForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1602, 1012);
+            this.ClientSize = new System.Drawing.Size(1767, 1208);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.statusStrip1);
             this.IsMdiContainer = true;
@@ -360,19 +369,16 @@
             this.Text = "UB Reviewer";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.mdiForm_FormClosing);
             this.Load += new System.EventHandler(this.mdiForm_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelBranch;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelParagraph;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelMessages;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox comboBoxPaperNo;
         private System.Windows.Forms.Button btGit;
@@ -380,6 +386,10 @@
         private System.Windows.Forms.Button btExit;
         private System.Windows.Forms.Button btCascace;
         private System.Windows.Forms.Button btTile;
+        private System.Windows.Forms.Button btPrint;
+        private System.Windows.Forms.Label lblMessages;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelMessages;
     }
 }
 

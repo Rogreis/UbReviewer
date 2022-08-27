@@ -32,7 +32,12 @@ namespace UbReviewer.Classes
 
         public Translation TranslationRight { get; set; } = null;
 
-        public string LocalRepositoryFolder { get; set; } = "C:\\ProgramData\\UbReviewer\\PtAlternative";
+        public string BashPath = @"C:\Program Files\Git\bin\bash.exe";
+
+        public string PowershellPath = @"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe";
+
+        public string LastSecondBranchUsed = "";
+
 
         /// <summary>
         /// Add a string to list to be saved with parameters

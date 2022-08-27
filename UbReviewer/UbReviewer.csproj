@@ -82,6 +82,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChildWindows\frmGitCommands.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildWindows\frmGitCommands.Designer.cs">
+      <DependentUpon>frmGitCommands.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildWindows\frmGitCompare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildWindows\frmGitCompare.Designer.cs">
+      <DependentUpon>frmGitCompare.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChildWindows\frmDocument.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,14 +106,12 @@
     <Compile Include="ChildWindows\frmEdit.Designer.cs">
       <DependentUpon>frmEdit.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChildWindows\frmGit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ChildWindows\frmGit.Designer.cs">
-      <DependentUpon>frmGit.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Classes\GitCommands.cs" />
+    <Compile Include="Classes\HtmlFormatParametersReviewer.cs" />
     <Compile Include="Classes\LogReviewer.cs" />
     <Compile Include="Classes\ParameterReviewer.cs" />
+    <Compile Include="Classes\Print.cs" />
+    <Compile Include="Classes\RunScripts.cs" />
     <Compile Include="MDIForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +120,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChildWindows\frmGitCommands.resx">
+      <DependentUpon>frmGitCommands.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildWindows\frmGitCompare.resx">
+      <DependentUpon>frmGitCompare.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChildWindows\frmDocument.resx">
       <DependentUpon>frmDocument.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +167,9 @@
       <Project>{c236a556-424e-455e-abab-9f13f015177d}</Project>
       <Name>UbStandardObjects</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\System.Text.Json.6.0.5\build\System.Text.Json.targets" Condition="Exists('packages\System.Text.Json.6.0.5\build\System.Text.Json.targets')" />
