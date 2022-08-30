@@ -90,10 +90,10 @@ namespace UbReviewer.ChildWindows
             if (getOld)
             {
                 SecondBranch = comboBoxOtherBranches.SelectedValue.ToString();
-                GitCommands.GetFileCheckout(Param.TranslationRepositoryFolder, paragraph.RelativeFilePath, SecondBranch);
+                GitCommands.GetFileCheckout(Param.EditParagraphsRepositoryFolder, paragraph.RelativeFilePath, SecondBranch);
                 OldText = File.ReadAllText(paragraph.FullPath);
                 webBrowserRepoIn.DocumentText = Formatter.FormatParagraph(SecondBranch, OldText);
-                GitCommands.GetUndoFileCheckout(Param.TranslationRepositoryFolder, paragraph.RelativeFilePath);
+                GitCommands.GetUndoFileCheckout(Param.EditParagraphsRepositoryFolder, paragraph.RelativeFilePath);
             }
 
             // Compare text
@@ -124,13 +124,13 @@ namespace UbReviewer.ChildWindows
             {
                 //listBoxParagraphs.Items.Clear();
                 SecondBranch = comboBoxOtherBranches.SelectedValue.ToString();
-                List<string> list = GitCommands.DiffBranchesFileList(Param.TranslationRepositoryFolder, SecondBranch);
+                List<string> list = GitCommands.DiffBranchesFileList(Param.EditParagraphsRepositoryFolder, SecondBranch);
                 if (list != null)
                 {
                     List<ParagraphMarkDown> filesList = new List<ParagraphMarkDown>();
                     foreach (string fileFound in list)
                     {
-                        filesList.Add(new ParagraphMarkDown(Param.TranslationRepositoryFolder, fileFound)); 
+                        filesList.Add(new ParagraphMarkDown(Param.EditParagraphsRepositoryFolder, fileFound)); 
                     }
                     Param.LastSecondBranchUsed= SecondBranch;
                     listBoxParagraphs.DisplayMember = "Ident";
@@ -143,11 +143,11 @@ namespace UbReviewer.ChildWindows
 
         private void btRefreshBranches_Click(object sender, EventArgs e)
         {
-            CurrentBranch = GitCommands.GetCurrentBranch(Param.TranslationRepositoryFolder);
+            CurrentBranch = GitCommands.GetCurrentBranch(Param.EditParagraphsRepositoryFolder);
             lblLocalBranch.Text = CurrentBranch;
             listBoxParagraphs.Items.Clear();
 
-            List<string> branches = GitCommands.LocalBranches(Param.TranslationRepositoryFolder);
+            List<string> branches = GitCommands.LocalBranches(Param.EditParagraphsRepositoryFolder);
             branches.Remove("* " + CurrentBranch);
             comboBoxOtherBranches.DataSource = branches;
             if (branches.Find(b => b == SecondBranch) != null)
@@ -182,21 +182,21 @@ namespace UbReviewer.ChildWindows
         {
             File.WriteAllText(CurrentParagraphMdFile.FullPath, OldText);
             GetAllParagraphVersions(CurrentParagraphMdFile, false);
-            GitCommands.GetStageFile(Param.TranslationRepositoryFolder, CurrentParagraphMdFile.RelativeFilePath);
+            GitCommands.GetStageFile(Param.EditParagraphsRepositoryFolder, CurrentParagraphMdFile.RelativeFilePath);
         }
 
         private void btAcceptNew_Click(object sender, EventArgs e)
         {
             File.WriteAllText(CurrentParagraphMdFile.FullPath, NewText);
             GetAllParagraphVersions(CurrentParagraphMdFile, false);
-            GitCommands.GetStageFile(Param.TranslationRepositoryFolder, CurrentParagraphMdFile.RelativeFilePath);
+            GitCommands.GetStageFile(Param.EditParagraphsRepositoryFolder, CurrentParagraphMdFile.RelativeFilePath);
         }
 
         private void btAcceptMerged_Click(object sender, EventArgs e)
         {
             File.WriteAllText(CurrentParagraphMdFile.FullPath, txTextEdit.Text);
             GetAllParagraphVersions(CurrentParagraphMdFile, false);
-            GitCommands.GetStageFile(Param.TranslationRepositoryFolder, CurrentParagraphMdFile.RelativeFilePath);
+            GitCommands.GetStageFile(Param.EditParagraphsRepositoryFolder, CurrentParagraphMdFile.RelativeFilePath);
         }
 
     }

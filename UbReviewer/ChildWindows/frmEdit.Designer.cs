@@ -30,14 +30,14 @@
         {
             this.tabControlEdit = new System.Windows.Forms.TabControl();
             this.tabPageText = new System.Windows.Forms.TabPage();
-            this.tabPageNT = new System.Windows.Forms.TabPage();
-            this.tabPageComments = new System.Windows.Forms.TabPage();
             this.textBoxText = new System.Windows.Forms.TextBox();
+            this.tabPageNT = new System.Windows.Forms.TabPage();
             this.textBoxTranslatorNotes = new System.Windows.Forms.TextBox();
+            this.tabPageComments = new System.Windows.Forms.TabPage();
             this.textBoxComments = new System.Windows.Forms.TextBox();
             this.panelBotton = new System.Windows.Forms.Panel();
-            this.btCancel = new System.Windows.Forms.Button();
             this.btOk = new System.Windows.Forms.Button();
+            this.btCancel = new System.Windows.Forms.Button();
             this.tabControlEdit.SuspendLayout();
             this.tabPageText.SuspendLayout();
             this.tabPageNT.SuspendLayout();
@@ -54,7 +54,7 @@
             this.tabControlEdit.Location = new System.Drawing.Point(0, 0);
             this.tabControlEdit.Name = "tabControlEdit";
             this.tabControlEdit.SelectedIndex = 0;
-            this.tabControlEdit.Size = new System.Drawing.Size(844, 494);
+            this.tabControlEdit.Size = new System.Drawing.Size(1020, 672);
             this.tabControlEdit.TabIndex = 1;
             // 
             // tabPageText
@@ -63,10 +63,21 @@
             this.tabPageText.Location = new System.Drawing.Point(4, 29);
             this.tabPageText.Name = "tabPageText";
             this.tabPageText.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageText.Size = new System.Drawing.Size(836, 461);
+            this.tabPageText.Size = new System.Drawing.Size(1012, 639);
             this.tabPageText.TabIndex = 0;
             this.tabPageText.Text = "Text";
             this.tabPageText.UseVisualStyleBackColor = true;
+            // 
+            // textBoxText
+            // 
+            this.textBoxText.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxText.Location = new System.Drawing.Point(3, 3);
+            this.textBoxText.Multiline = true;
+            this.textBoxText.Name = "textBoxText";
+            this.textBoxText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxText.Size = new System.Drawing.Size(1006, 633);
+            this.textBoxText.TabIndex = 0;
             // 
             // tabPageNT
             // 
@@ -79,26 +90,6 @@
             this.tabPageNT.Text = "Translator\'s Notes";
             this.tabPageNT.UseVisualStyleBackColor = true;
             // 
-            // tabPageComments
-            // 
-            this.tabPageComments.Controls.Add(this.textBoxComments);
-            this.tabPageComments.Location = new System.Drawing.Point(4, 29);
-            this.tabPageComments.Name = "tabPageComments";
-            this.tabPageComments.Size = new System.Drawing.Size(836, 461);
-            this.tabPageComments.TabIndex = 2;
-            this.tabPageComments.Text = "Comments";
-            this.tabPageComments.UseVisualStyleBackColor = true;
-            // 
-            // textBoxText
-            // 
-            this.textBoxText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxText.Location = new System.Drawing.Point(3, 3);
-            this.textBoxText.Multiline = true;
-            this.textBoxText.Name = "textBoxText";
-            this.textBoxText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxText.Size = new System.Drawing.Size(830, 455);
-            this.textBoxText.TabIndex = 0;
-            // 
             // textBoxTranslatorNotes
             // 
             this.textBoxTranslatorNotes.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -108,6 +99,16 @@
             this.textBoxTranslatorNotes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxTranslatorNotes.Size = new System.Drawing.Size(830, 455);
             this.textBoxTranslatorNotes.TabIndex = 1;
+            // 
+            // tabPageComments
+            // 
+            this.tabPageComments.Controls.Add(this.textBoxComments);
+            this.tabPageComments.Location = new System.Drawing.Point(4, 29);
+            this.tabPageComments.Name = "tabPageComments";
+            this.tabPageComments.Size = new System.Drawing.Size(836, 461);
+            this.tabPageComments.TabIndex = 2;
+            this.tabPageComments.Text = "Comments";
+            this.tabPageComments.UseVisualStyleBackColor = true;
             // 
             // textBoxComments
             // 
@@ -124,26 +125,15 @@
             this.panelBotton.Controls.Add(this.btOk);
             this.panelBotton.Controls.Add(this.btCancel);
             this.panelBotton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelBotton.Location = new System.Drawing.Point(0, 494);
+            this.panelBotton.Location = new System.Drawing.Point(0, 672);
             this.panelBotton.Name = "panelBotton";
-            this.panelBotton.Size = new System.Drawing.Size(844, 48);
+            this.panelBotton.Size = new System.Drawing.Size(1020, 48);
             this.panelBotton.TabIndex = 2;
-            // 
-            // btCancel
-            // 
-            this.btCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btCancel.Location = new System.Drawing.Point(758, 6);
-            this.btCancel.Name = "btCancel";
-            this.btCancel.Size = new System.Drawing.Size(75, 36);
-            this.btCancel.TabIndex = 0;
-            this.btCancel.Text = "Cancel";
-            this.btCancel.UseVisualStyleBackColor = true;
-            this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
             // btOk
             // 
             this.btOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btOk.Location = new System.Drawing.Point(677, 6);
+            this.btOk.Location = new System.Drawing.Point(853, 6);
             this.btOk.Name = "btOk";
             this.btOk.Size = new System.Drawing.Size(75, 36);
             this.btOk.TabIndex = 1;
@@ -151,15 +141,27 @@
             this.btOk.UseVisualStyleBackColor = true;
             this.btOk.Click += new System.EventHandler(this.btOk_Click);
             // 
+            // btCancel
+            // 
+            this.btCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btCancel.Location = new System.Drawing.Point(934, 6);
+            this.btCancel.Name = "btCancel";
+            this.btCancel.Size = new System.Drawing.Size(75, 36);
+            this.btCancel.TabIndex = 0;
+            this.btCancel.Text = "Cancel";
+            this.btCancel.UseVisualStyleBackColor = true;
+            this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
+            // 
             // frmEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(844, 542);
+            this.ClientSize = new System.Drawing.Size(1020, 720);
             this.Controls.Add(this.tabControlEdit);
             this.Controls.Add(this.panelBotton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmEdit";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Editing paragraph";
             this.Load += new System.EventHandler(this.frmEdit_Load);
             this.tabControlEdit.ResumeLayout(false);

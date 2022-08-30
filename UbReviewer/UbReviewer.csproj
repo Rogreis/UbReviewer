@@ -112,6 +112,7 @@
     <Compile Include="Classes\ParameterReviewer.cs" />
     <Compile Include="Classes\Print.cs" />
     <Compile Include="Classes\RunScripts.cs" />
+    <Compile Include="Classes\SpecialFix.cs" />
     <Compile Include="MDIForm.cs">
       <SubType>Form</SubType>
     </Compile>

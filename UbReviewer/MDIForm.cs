@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Diagnostics;
 using System.IO;
-using System.Runtime.Serialization;
-using System.Text;
 using System.Windows.Forms;
 using UbReviewer.ChildWindows;
 using UbReviewer.Classes;
@@ -100,9 +97,9 @@ namespace UbReviewer
 
         private void btPrint_Click(object sender, EventArgs e)
         {
-            BootstrapBook bootstrap = new BootstrapBook(StaticObjects.Parameters.HtmlParam);
-            bootstrap.ShowMessage += ShowMessage;
-            bootstrap.Generate(Parameters.BookRepositoryFolder, Parameters.TranslationLeft, Parameters.TranslationRight);
+            //BootstrapBook bootstrap = new BootstrapBook(StaticObjects.Parameters.HtmlParam);
+            //bootstrap.ShowMessage += ShowMessage;
+            //bootstrap.Generate(Parameters.EditBookRepositoryFolder, Parameters.TranslationLeft, Parameters.TranslationRight);
             //File.AppendAllText(filePath, Formatter.End(), Encoding.UTF8);
             //Process.Start(filePath);
         }
@@ -151,9 +148,8 @@ namespace UbReviewer
             StaticObjects.Logger.Initialize(pathLog, false);
             StaticObjects.Logger.Info("»»»» Startup");
 
-            StaticObjects.Book = new BookEdit();
+            StaticObjects.Book = new Book();
 
-            GetDataFiles dataFiles = new GetDataFiles(Application.StartupPath, DataFolder());
 
             PathParameters = MakeProgramDataFolder("UbReviewer.json");
             if (!File.Exists(PathParameters))
@@ -164,9 +160,11 @@ namespace UbReviewer
             // Initialize parameters
             StaticObjects.Parameters = ParameterReviewer.Deserialize(PathParameters);
             Parameters = ((ParameterReviewer)StaticObjects.Parameters);
-            Parameters.TranslationRepositoryFolder = "C:\\Trabalho\\Github\\Rogerio\\PtAlternative";
-            Parameters.BookRepositoryFolder = "C:\\Trabalho\\Github\\Rogerio\\TUB_PT_BR";
+            Parameters.EditParagraphsRepositoryFolder = "C:\\Trabalho\\Github\\Rogerio\\PtAlternative";
+            Parameters.EditBookRepositoryFolder = "C:\\Trabalho\\Github\\Rogerio\\TUB_PT_BR";
             Parameters.UrlRepository = "https://github.com/Rogreis/PtAlternative";
+            Parameters.TUB_Files_RepositoryFolder = "C:\\Trabalho\\Github\\Rogerio\\TUB_Files";
+            GetDataFiles dataFiles = new GetDataFiles(StaticObjects.Parameters);
 
             if (!StaticObjects.Book.Inicialize(dataFiles))
             {
@@ -175,7 +173,7 @@ namespace UbReviewer
 
             Parameters.TranslationLeft = dataFiles.GetTranslation(Parameters.TranslationIdLeft);
             Parameters.TranslationMiddle = dataFiles.GetTranslation(Parameters.TranslationIdMiddle);
-            Parameters.TranslationRight = new TranslationEdit(Parameters.TranslationRepositoryFolder);
+            Parameters.TranslationRight = new TranslationEdit(Parameters.EditParagraphsRepositoryFolder);
 
 
             return true;

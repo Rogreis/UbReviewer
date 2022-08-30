@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using UbReviewer.Classes;
 using UbStandardObjects;
 using UbStandardObjects.Objects;
+using static System.Collections.Specialized.BitVector32;
 
 namespace UbReviewer.ChildWindows
 {
@@ -32,9 +33,12 @@ namespace UbReviewer.ChildWindows
         private void EditParagraph(string ident)
         {
             frmEdit frm = new frmEdit();
-            frm.Ident = ident;
-            frm.MdiParent = this.MdiParent;
-            frm.Show();
+            frm.SetParagraph(ident);
+            //frm.MdiParent = this.MdiParent;
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                ShowPaper(paperNo);
+            }
         }
 
 
