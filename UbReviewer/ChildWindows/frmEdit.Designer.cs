@@ -34,7 +34,7 @@
             this.tabPageNT = new System.Windows.Forms.TabPage();
             this.textBoxTranslatorNotes = new System.Windows.Forms.TextBox();
             this.tabPageComments = new System.Windows.Forms.TabPage();
-            this.textBoxComments = new System.Windows.Forms.TextBox();
+            this.textBoxNotes = new System.Windows.Forms.TextBox();
             this.panelBotton = new System.Windows.Forms.Panel();
             this.btOk = new System.Windows.Forms.Button();
             this.btCancel = new System.Windows.Forms.Button();
@@ -85,40 +85,44 @@
             this.tabPageNT.Location = new System.Drawing.Point(4, 29);
             this.tabPageNT.Name = "tabPageNT";
             this.tabPageNT.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageNT.Size = new System.Drawing.Size(836, 461);
+            this.tabPageNT.Size = new System.Drawing.Size(1012, 639);
             this.tabPageNT.TabIndex = 1;
             this.tabPageNT.Text = "Translator\'s Notes";
             this.tabPageNT.UseVisualStyleBackColor = true;
             // 
             // textBoxTranslatorNotes
             // 
+            this.textBoxTranslatorNotes.AcceptsReturn = true;
+            this.textBoxTranslatorNotes.AcceptsTab = true;
             this.textBoxTranslatorNotes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxTranslatorNotes.Location = new System.Drawing.Point(3, 3);
             this.textBoxTranslatorNotes.Multiline = true;
             this.textBoxTranslatorNotes.Name = "textBoxTranslatorNotes";
             this.textBoxTranslatorNotes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxTranslatorNotes.Size = new System.Drawing.Size(830, 455);
+            this.textBoxTranslatorNotes.Size = new System.Drawing.Size(1006, 633);
             this.textBoxTranslatorNotes.TabIndex = 1;
             // 
             // tabPageComments
             // 
-            this.tabPageComments.Controls.Add(this.textBoxComments);
+            this.tabPageComments.Controls.Add(this.textBoxNotes);
             this.tabPageComments.Location = new System.Drawing.Point(4, 29);
             this.tabPageComments.Name = "tabPageComments";
-            this.tabPageComments.Size = new System.Drawing.Size(836, 461);
+            this.tabPageComments.Size = new System.Drawing.Size(1012, 639);
             this.tabPageComments.TabIndex = 2;
             this.tabPageComments.Text = "Comments";
             this.tabPageComments.UseVisualStyleBackColor = true;
             // 
-            // textBoxComments
+            // textBoxNotes
             // 
-            this.textBoxComments.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxComments.Location = new System.Drawing.Point(0, 0);
-            this.textBoxComments.Multiline = true;
-            this.textBoxComments.Name = "textBoxComments";
-            this.textBoxComments.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxComments.Size = new System.Drawing.Size(836, 461);
-            this.textBoxComments.TabIndex = 1;
+            this.textBoxNotes.AcceptsReturn = true;
+            this.textBoxNotes.AcceptsTab = true;
+            this.textBoxNotes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxNotes.Location = new System.Drawing.Point(0, 0);
+            this.textBoxNotes.Multiline = true;
+            this.textBoxNotes.Name = "textBoxNotes";
+            this.textBoxNotes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxNotes.Size = new System.Drawing.Size(1012, 639);
+            this.textBoxNotes.TabIndex = 1;
             // 
             // panelBotton
             // 
@@ -183,7 +187,7 @@
         private System.Windows.Forms.TabPage tabPageNT;
         private System.Windows.Forms.TextBox textBoxTranslatorNotes;
         private System.Windows.Forms.TabPage tabPageComments;
-        private System.Windows.Forms.TextBox textBoxComments;
+        private System.Windows.Forms.TextBox textBoxNotes;
         private System.Windows.Forms.Panel panelBotton;
         private System.Windows.Forms.Button btOk;
         private System.Windows.Forms.Button btCancel;
