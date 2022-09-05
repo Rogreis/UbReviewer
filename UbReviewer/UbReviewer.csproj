@@ -164,8 +164,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UbStandardObjects\UbStandardObjects.csproj">
-      <Project>{c236a556-424e-455e-abab-9f13f015177d}</Project>
+    <ProjectReference Include="..\..\UbStandardObjects\UbStandardObjects.csproj">
+      <Project>{0a3e0d15-b344-48c6-9437-2bb1eab91bc2}</Project>
       <Name>UbStandardObjects</Name>
     </ProjectReference>
   </ItemGroup>
