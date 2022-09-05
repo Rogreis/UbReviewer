@@ -16,7 +16,7 @@ namespace UbReviewer.ChildWindows
     public partial class frmDocument : Form
     {
 
-        private HtmlFormat Formatter = new HtmlFormat((ParameterReviewer)StaticObjects.Parameters);
+        private HtmlFormat Formatter = new HtmlFormat(((ParameterReviewer)StaticObjects.Parameters).HtmlParam);
         private ParameterReviewer Parameters = ((ParameterReviewer)StaticObjects.Parameters);
         private short paperNo = 0;
         private bool FormShown = false;
@@ -90,12 +90,12 @@ namespace UbReviewer.ChildWindows
 
         private void ShowPaper(short paperNo)
         {
-            webBrowserPaper.DocumentText = Formatter.FormatPaper(paperNo,
-                                                                 Parameters.TranslationLeft.Paper(paperNo).Paragraphs,
-                                                                 Parameters.TranslationMiddle.Paper(paperNo).Paragraphs,
-                                                                 Parameters.TranslationRight.Paper(paperNo).Paragraphs);
-            this.Text = $"Paper {paperNo}";
-            Parameters.LastPaperShown = paperNo;
+        //    webBrowserPaper.DocumentText = Formatter.FormatPaper(paperNo,
+        //                                                         Parameters.TranslationLeft.Paper(paperNo).Paragraphs,
+        //                                                         Parameters.TranslationMiddle.Paper(paperNo).Paragraphs,
+        //                                                         Parameters.TranslationRight.Paper(paperNo).Paragraphs);
+        //    this.Text = $"Paper {paperNo}";
+        //    Parameters.LastPaperShown = paperNo;
         }
 
 

@@ -138,7 +138,7 @@ namespace UbReviewer
 
             StaticObjects.Book = new ReviewerBook();
 
-            GetDataFiles dataFiles = new GetDataFiles(Application.StartupPath, DataFolder());
+            GetDataFiles dataFiles = new GetDataFiles(StaticObjects.Parameters);
 
             PathParameters = MakeProgramDataFolder("UbReviewer.json");
             if (!File.Exists(PathParameters))
