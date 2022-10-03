@@ -173,8 +173,13 @@ namespace UbReviewer
 
             Parameters.TranslationLeft = dataFiles.GetTranslation(Parameters.TranslationIdLeft);
             Parameters.TranslationMiddle = dataFiles.GetTranslation(Parameters.TranslationIdMiddle);
-            Parameters.TranslationRight = new TranslationEdit(Parameters.EditParagraphsRepositoryFolder);
 
+            // Set the edit translation (hard coded here to be PT Alternative)
+            short editLanguageId = 2;
+            Translation trans= dataFiles.GetTranslation(editLanguageId);
+            TranslationEdit translatioEdit = new TranslationEdit(trans, Parameters.EditParagraphsRepositoryFolder);
+            Parameters.TranslationRight = translatioEdit;
+            translatioEdit.TextButton = "XXXXXX";
 
             return true;
         }

@@ -107,7 +107,6 @@
       <DependentUpon>frmEdit.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\GitCommands.cs" />
-    <Compile Include="Classes\HtmlFormatParametersReviewer.cs" />
     <Compile Include="Classes\LogReviewer.cs" />
     <Compile Include="Classes\ParameterReviewer.cs" />
     <Compile Include="Classes\Print.cs" />

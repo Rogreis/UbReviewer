@@ -109,7 +109,7 @@ namespace UbReviewer.ChildWindows
         private void frmGitCommands_Load(object sender, EventArgs e)
         {
             Param = StaticObjects.Parameters as ParameterReviewer;
-            Formatter = new HtmlFormat(Param.HtmlParam);
+            Formatter = new HtmlFormat(Param);
             SecondBranch = Param.LastSecondBranchUsed;
 
             // Spliter distances

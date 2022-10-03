@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Security;
 using System.Windows.Forms;
 using UbReviewer.Classes;
 using UbStandardObjects;
@@ -17,7 +18,7 @@ namespace UbReviewer.ChildWindows
     public partial class frmDocument : Form
     {
 
-        private HtmlFormat Formatter = new HtmlFormat(StaticObjects.Parameters.HtmlParam);
+        private HtmlFormat Formatter = new HtmlFormat(StaticObjects.Parameters);
         private ParameterReviewer Parameters = ((ParameterReviewer)StaticObjects.Parameters);
         private short paperNo = 0;
         private bool FormShown = false;
@@ -33,7 +34,9 @@ namespace UbReviewer.ChildWindows
         private void EditParagraph(string ident)
         {
             frmEdit frm = new frmEdit();
-            frm.SetParagraph(ident);
+            Notes notes = new Notes(StaticObjects.Parameters.EditParagraphsRepositoryFolder);
+            PaperEdit paper = new PaperEdit(notes, paperNo, StaticObjects.Parameters.EditParagraphsRepositoryFolder);
+            frm.SetParagraph(paper, ident);
             //frm.MdiParent = this.MdiParent;
             if (frm.ShowDialog() == DialogResult.OK)
             {

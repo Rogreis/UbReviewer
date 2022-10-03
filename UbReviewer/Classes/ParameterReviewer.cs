@@ -39,6 +39,86 @@ namespace UbReviewer.Classes
         public string LastSecondBranchUsed = "";
 
 
+        #region Color
+        // Colors
+        // Color code source: https://rgbcolorcode.com/color/FFB3B3
+        [JsonPropertyName("ForegroundColor")]
+        public int _foregroundColor { get; set; } = Color.Black.ToArgb();
+
+        [JsonIgnore]
+        public Color ForegroundColor
+        {
+            get { return Color.FromArgb(_foregroundColor); }
+            set { _foregroundColor = value.ToArgb(); }
+        }
+
+        // Colors
+        // Color code source: https://rgbcolorcode.com/color/FFB3B3
+        [JsonPropertyName("ItalicForegroundColor")]
+        public int _italicforegroundColor { get; set; } = Color.Magenta.ToArgb();
+
+        [JsonIgnore]
+        public Color ItalicForegroundColor
+        {
+            get { return Color.FromArgb(_italicforegroundColor); }
+            set { _italicforegroundColor = value.ToArgb(); }
+        }
+
+
+        [JsonPropertyName("BackgroundStarted")]
+        public int _backgroundStarted = Color.White.ToArgb();
+
+        [JsonIgnore]
+        public Color BackgroundStarted
+        {
+            get { return Color.FromArgb(_backgroundStarted); }
+            set { _backgroundStarted = value.ToArgb(); }
+        }
+
+        [JsonPropertyName("BackgroundWorking")]
+        public int _backgroundWorking = Color.FromArgb(238, 255, 204).ToArgb();
+
+        [JsonIgnore]
+        public Color BackgroundWorking
+        {
+            get { return Color.FromArgb(_backgroundWorking); }
+            set { _backgroundWorking = value.ToArgb(); }
+        }
+
+        [JsonPropertyName("BackgroundDoubt")]
+        public int _backgroundDoubt = Color.FromArgb(255, 179, 179).ToArgb();
+
+        [JsonIgnore]
+        public Color BackgroundDoubt
+        {
+            get { return Color.FromArgb(_backgroundDoubt); }
+            set { _backgroundDoubt = value.ToArgb(); }
+        }
+
+        [JsonPropertyName("BackgroundOk")]
+        public int _backgroundOk = Color.FromArgb(204, 255, 230).ToArgb();
+
+        [JsonIgnore]
+        public Color BackgroundOk
+        {
+            get { return Color.FromArgb(_backgroundOk); }
+            set { _backgroundOk = value.ToArgb(); }
+        }
+
+        [JsonPropertyName("BackgroundClosed")]
+        public int _backgroundClosed = Color.FromArgb(212, 212, 212).ToArgb();
+
+        [JsonIgnore]
+        public Color BackgroundClosed
+        {
+            get { return Color.FromArgb(_backgroundClosed); }
+            set { _backgroundClosed = value.ToArgb(); }
+        }
+
+        #endregion
+
+
+
         /// <summary>
         /// Add a string to list to be saved with parameters
         /// Keep a control local string updated
@@ -103,6 +183,30 @@ namespace UbReviewer.Classes
                 return new ParameterReviewer();
             }
         }
+
+        /// <summary>
+        /// Provide the html background color for a paragraph
+        /// </summary>
+        /// <param name="Paragraph"></param>
+        /// <returns></returns>
+        public override string BackgroundParagraphColor(ParagraphStatus paragraphStatus)
+        {
+            switch (paragraphStatus)
+            {
+                case ParagraphStatus.Started:
+                    return System.Drawing.ColorTranslator.ToHtml(BackgroundStarted).Trim();
+                case ParagraphStatus.Working:
+                    return System.Drawing.ColorTranslator.ToHtml(BackgroundWorking).Trim();
+                case ParagraphStatus.Doubt:
+                    return System.Drawing.ColorTranslator.ToHtml(BackgroundDoubt).Trim();
+                case ParagraphStatus.Ok:
+                    return System.Drawing.ColorTranslator.ToHtml(BackgroundOk).Trim();
+                case ParagraphStatus.Closed:
+                    return System.Drawing.ColorTranslator.ToHtml(BackgroundClosed).Trim();
+            }
+            return System.Drawing.ColorTranslator.ToHtml(BackgroundStarted).Trim();
+        }
+
 
     }
 }

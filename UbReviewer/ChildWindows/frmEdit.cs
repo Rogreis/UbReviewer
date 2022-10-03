@@ -15,6 +15,7 @@ namespace UbReviewer.ChildWindows
 {
     public partial class frmEdit : Form
     {
+        PaperEdit Paper = null;
         private ParagraphMarkDown Paragraph = null;
         private Note note = null;
 
@@ -23,28 +24,33 @@ namespace UbReviewer.ChildWindows
             InitializeComponent();
         }
 
-
-        public void SetParagraph(string ident)
+        private void SetData()
         {
-            Paragraph = new ParagraphMarkDown(StaticObjects.Parameters.EditParagraphsRepositoryFolder, ParagraphMarkDown.FilePath(ident));
-            note = Paragraph.GetNotes(StaticObjects.Parameters.EditParagraphsRepositoryFolder, Paragraph.Paper);
-            if (note == null)
+            if (Paragraph == null)
             {
-                note = new Note();
+                return;
             }
-        }
-
-        private void frmEdit_Load(object sender, EventArgs e)
-        {
-            this.Text= Paragraph.ID;
             textBoxText.Text = Paragraph.Text;
             textBoxNotes.Text = note.Notes;
             textBoxTranslatorNotes.Text = note.TranslatorNote;
         }
 
+        public void SetParagraph(PaperEdit paper, string ident)
+        {
+            Paper= paper;
+            Paragraph = new ParagraphMarkDown(StaticObjects.Parameters.EditParagraphsRepositoryFolder, ident);
+            Paper.GetNotesData(Paragraph);
+            SetData();
+        }
+
+        private void frmEdit_Load(object sender, EventArgs e)
+        {
+            this.Text= Paragraph.ID;
+        }
+
         private void btOk_Click(object sender, EventArgs e)
         {
-            if (Paragraph.Save(textBoxText.Text, note))
+            if (Paragraph.Save(StaticObjects.Parameters.EditParagraphsRepositoryFolder, textBoxText.Text, note))
             {
                 Close();
                 DialogResult= DialogResult.OK;
