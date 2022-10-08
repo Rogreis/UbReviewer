@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Windows.Forms;
 using UbReviewer.ChildWindows;
@@ -83,7 +84,7 @@ namespace UbReviewer
 
         private void comboBoxPaperNo_SelectedValueChanged(object sender, EventArgs e)
         {
-            ShowDocument();
+            ///ShowDocument();
         }
 
 
@@ -160,10 +161,16 @@ namespace UbReviewer
             // Initialize parameters
             StaticObjects.Parameters = ParameterReviewer.Deserialize(PathParameters);
             Parameters = ((ParameterReviewer)StaticObjects.Parameters);
-            Parameters.EditParagraphsRepositoryFolder = "C:\\Trabalho\\Github\\Rogerio\\PtAlternative";
-            Parameters.EditBookRepositoryFolder = "C:\\Trabalho\\Github\\Rogerio\\TUB_PT_BR";
-            Parameters.UrlRepository = "https://github.com/Rogreis/PtAlternative";
-            Parameters.TUB_Files_RepositoryFolder = "C:\\Trabalho\\Github\\Rogerio\\TUB_Files";
+
+            frmGitCommands frm = new frmGitCommands();
+            frm.ShowDialog();
+
+            if (string.IsNullOrWhiteSpace(Parameters.EditParagraphsRepositoryFolder))
+            {
+                MessageBox.Show("Repository folder not empty is mandatory to use this edit program");
+                Close();
+            }
+
             GetDataFiles dataFiles = new GetDataFiles(StaticObjects.Parameters);
 
             if (!StaticObjects.Book.Inicialize(dataFiles))
@@ -179,10 +186,42 @@ namespace UbReviewer
             Translation trans= dataFiles.GetTranslation(editLanguageId);
             TranslationEdit translatioEdit = new TranslationEdit(trans, Parameters.EditParagraphsRepositoryFolder);
             Parameters.TranslationRight = translatioEdit;
-            translatioEdit.TextButton = "XXXXXX";
 
             return true;
         }
 
+        private void EditParagraph(string ident)
+        {
+            try
+            {
+                char[] sep = new char[] { ' ', ';', '-', '.', ':' };
+                string[] parts = txParagraph.Text.Split(sep, StringSplitOptions.RemoveEmptyEntries);
+                short paperNo= Convert.ToInt16(parts[0]);
+                short sectionNo = Convert.ToInt16(parts[1]);
+                short paragraphNo = Convert.ToInt16(parts[2]);
+                PaperEdit paper = new PaperEdit(paperNo, StaticObjects.Parameters.EditParagraphsRepositoryFolder);
+                frmEdit frm = new frmEdit();
+                frm.SetParagraph(paper, paperNo, sectionNo, paragraphNo);
+                if (frm.ShowDialog() == DialogResult.OK)
+                {
+                    //ShowPaper(paperNo);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Invalid paragraph; use any combination of 3 numbers and separators ; . : or space");
+            }
+
+
+        }
+
+
+        private void txParagraph_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                EditParagraph(txParagraph.Text);
+            }
+        }
     }
 }

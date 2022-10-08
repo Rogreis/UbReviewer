@@ -39,12 +39,16 @@
             this.btExit = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabelMessages = new System.Windows.Forms.ToolStripStatusLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txParagraph = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.txParagraph);
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.lblMessages);
             this.panel1.Controls.Add(this.btPrint);
             this.panel1.Controls.Add(this.btTile);
@@ -62,7 +66,7 @@
             // lblMessages
             // 
             this.lblMessages.AutoSize = true;
-            this.lblMessages.Location = new System.Drawing.Point(707, 36);
+            this.lblMessages.Location = new System.Drawing.Point(985, 31);
             this.lblMessages.Name = "lblMessages";
             this.lblMessages.Size = new System.Drawing.Size(51, 20);
             this.lblMessages.TabIndex = 9;
@@ -70,7 +74,7 @@
             // 
             // btPrint
             // 
-            this.btPrint.Location = new System.Drawing.Point(495, 21);
+            this.btPrint.Location = new System.Drawing.Point(725, 21);
             this.btPrint.Name = "btPrint";
             this.btPrint.Size = new System.Drawing.Size(75, 40);
             this.btPrint.TabIndex = 8;
@@ -301,7 +305,7 @@
             "194",
             "195",
             "196"});
-            this.comboBoxPaperNo.Location = new System.Drawing.Point(113, 28);
+            this.comboBoxPaperNo.Location = new System.Drawing.Point(100, 28);
             this.comboBoxPaperNo.Name = "comboBoxPaperNo";
             this.comboBoxPaperNo.Size = new System.Drawing.Size(92, 28);
             this.comboBoxPaperNo.TabIndex = 5;
@@ -310,7 +314,7 @@
             // 
             // btGit
             // 
-            this.btGit.Location = new System.Drawing.Point(405, 21);
+            this.btGit.Location = new System.Drawing.Point(392, 21);
             this.btGit.Name = "btGit";
             this.btGit.Size = new System.Drawing.Size(75, 40);
             this.btGit.TabIndex = 3;
@@ -320,7 +324,7 @@
             // 
             // btOpenDocument
             // 
-            this.btOpenDocument.Location = new System.Drawing.Point(220, 21);
+            this.btOpenDocument.Location = new System.Drawing.Point(207, 21);
             this.btOpenDocument.Name = "btOpenDocument";
             this.btOpenDocument.Size = new System.Drawing.Size(179, 40);
             this.btOpenDocument.TabIndex = 2;
@@ -357,6 +361,23 @@
             this.toolStripStatusLabelMessages.Text = "toolStripStatusLabel1";
             this.toolStripStatusLabelMessages.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(489, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 20);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Paragraph:";
+            // 
+            // txParagraph
+            // 
+            this.txParagraph.Location = new System.Drawing.Point(583, 28);
+            this.txParagraph.Name = "txParagraph";
+            this.txParagraph.Size = new System.Drawing.Size(122, 26);
+            this.txParagraph.TabIndex = 11;
+            this.txParagraph.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txParagraph_KeyUp);
+            // 
             // mdiForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -390,6 +411,8 @@
         private System.Windows.Forms.Label lblMessages;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabelMessages;
+        private System.Windows.Forms.TextBox txParagraph;
+        private System.Windows.Forms.Label label1;
     }
 }
 

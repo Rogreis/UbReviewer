@@ -29,8 +29,21 @@
         private void InitializeComponent()
         {
             this.tabControlMain = new System.Windows.Forms.TabControl();
+            this.tabPageParameters = new System.Windows.Forms.TabPage();
+            this.splitContainerGitCommands = new System.Windows.Forms.SplitContainer();
+            this.btPush = new System.Windows.Forms.Button();
+            this.btCommitAll = new System.Windows.Forms.Button();
+            this.btStageAll = new System.Windows.Forms.Button();
+            this.btEditTranslationRepositoryFolder = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txTranslationRepositoryFolder = new System.Windows.Forms.TextBox();
+            this.btStatus = new System.Windows.Forms.Button();
+            this.txGitCommands = new System.Windows.Forms.TextBox();
             this.tabPageCompare = new System.Windows.Forms.TabPage();
             this.splitContainerMain = new System.Windows.Forms.SplitContainer();
+            this.btAcceptMerged = new System.Windows.Forms.Button();
+            this.btAcceptNew = new System.Windows.Forms.Button();
+            this.btAcceptOld = new System.Windows.Forms.Button();
             this.btRefreshBranches = new System.Windows.Forms.Button();
             this.lblLocalBranch = new System.Windows.Forms.Label();
             this.comboBoxOtherBranches = new System.Windows.Forms.ComboBox();
@@ -44,11 +57,16 @@
             this.splitContainertextsBotton = new System.Windows.Forms.SplitContainer();
             this.webBrowserCompare = new System.Windows.Forms.WebBrowser();
             this.txTextEdit = new System.Windows.Forms.TextBox();
-            this.tabPageParameters = new System.Windows.Forms.TabPage();
-            this.btAcceptOld = new System.Windows.Forms.Button();
-            this.btAcceptNew = new System.Windows.Forms.Button();
-            this.btAcceptMerged = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txGitHubUserName = new System.Windows.Forms.TextBox();
+            this.txGitHubToken = new System.Windows.Forms.TextBox();
             this.tabControlMain.SuspendLayout();
+            this.tabPageParameters.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerGitCommands)).BeginInit();
+            this.splitContainerGitCommands.Panel1.SuspendLayout();
+            this.splitContainerGitCommands.Panel2.SuspendLayout();
+            this.splitContainerGitCommands.SuspendLayout();
             this.tabPageCompare.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerMain)).BeginInit();
             this.splitContainerMain.Panel1.SuspendLayout();
@@ -74,14 +92,137 @@
             // 
             // tabControlMain
             // 
-            this.tabControlMain.Controls.Add(this.tabPageCompare);
             this.tabControlMain.Controls.Add(this.tabPageParameters);
+            this.tabControlMain.Controls.Add(this.tabPageCompare);
             this.tabControlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControlMain.Location = new System.Drawing.Point(0, 0);
             this.tabControlMain.Name = "tabControlMain";
             this.tabControlMain.SelectedIndex = 0;
             this.tabControlMain.Size = new System.Drawing.Size(1428, 1019);
             this.tabControlMain.TabIndex = 0;
+            // 
+            // tabPageParameters
+            // 
+            this.tabPageParameters.Controls.Add(this.splitContainerGitCommands);
+            this.tabPageParameters.Location = new System.Drawing.Point(4, 29);
+            this.tabPageParameters.Name = "tabPageParameters";
+            this.tabPageParameters.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageParameters.Size = new System.Drawing.Size(1420, 986);
+            this.tabPageParameters.TabIndex = 1;
+            this.tabPageParameters.Text = "Parameters";
+            this.tabPageParameters.UseVisualStyleBackColor = true;
+            // 
+            // splitContainerGitCommands
+            // 
+            this.splitContainerGitCommands.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerGitCommands.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainerGitCommands.Location = new System.Drawing.Point(3, 3);
+            this.splitContainerGitCommands.Name = "splitContainerGitCommands";
+            this.splitContainerGitCommands.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainerGitCommands.Panel1
+            // 
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.txGitHubToken);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.txGitHubUserName);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.label2);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.label1);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.btPush);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.btCommitAll);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.btStageAll);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.btEditTranslationRepositoryFolder);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.label5);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.txTranslationRepositoryFolder);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.btStatus);
+            // 
+            // splitContainerGitCommands.Panel2
+            // 
+            this.splitContainerGitCommands.Panel2.Controls.Add(this.txGitCommands);
+            this.splitContainerGitCommands.Size = new System.Drawing.Size(1414, 980);
+            this.splitContainerGitCommands.SplitterDistance = 201;
+            this.splitContainerGitCommands.TabIndex = 1;
+            // 
+            // btPush
+            // 
+            this.btPush.BackColor = System.Drawing.Color.DarkOrange;
+            this.btPush.Location = new System.Drawing.Point(442, 142);
+            this.btPush.Name = "btPush";
+            this.btPush.Size = new System.Drawing.Size(122, 47);
+            this.btPush.TabIndex = 13;
+            this.btPush.Text = "Push";
+            this.btPush.UseVisualStyleBackColor = false;
+            this.btPush.Click += new System.EventHandler(this.btPush_Click);
+            // 
+            // btCommitAll
+            // 
+            this.btCommitAll.BackColor = System.Drawing.Color.DarkOrange;
+            this.btCommitAll.Location = new System.Drawing.Point(302, 142);
+            this.btCommitAll.Name = "btCommitAll";
+            this.btCommitAll.Size = new System.Drawing.Size(122, 47);
+            this.btCommitAll.TabIndex = 12;
+            this.btCommitAll.Text = "Commit All";
+            this.btCommitAll.UseVisualStyleBackColor = false;
+            this.btCommitAll.Click += new System.EventHandler(this.btCommitAll_Click);
+            // 
+            // btStageAll
+            // 
+            this.btStageAll.BackColor = System.Drawing.Color.DarkOrange;
+            this.btStageAll.Location = new System.Drawing.Point(162, 142);
+            this.btStageAll.Name = "btStageAll";
+            this.btStageAll.Size = new System.Drawing.Size(122, 47);
+            this.btStageAll.TabIndex = 11;
+            this.btStageAll.Text = "Stage All";
+            this.btStageAll.UseVisualStyleBackColor = false;
+            this.btStageAll.Click += new System.EventHandler(this.btStageAll_Click);
+            // 
+            // btEditTranslationRepositoryFolder
+            // 
+            this.btEditTranslationRepositoryFolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btEditTranslationRepositoryFolder.Location = new System.Drawing.Point(1211, 95);
+            this.btEditTranslationRepositoryFolder.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.btEditTranslationRepositoryFolder.Name = "btEditTranslationRepositoryFolder";
+            this.btEditTranslationRepositoryFolder.Size = new System.Drawing.Size(66, 45);
+            this.btEditTranslationRepositoryFolder.TabIndex = 10;
+            this.btEditTranslationRepositoryFolder.Text = "...";
+            this.btEditTranslationRepositoryFolder.UseVisualStyleBackColor = true;
+            this.btEditTranslationRepositoryFolder.Click += new System.EventHandler(this.btEditTranslationRepositoryFolder_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(18, 82);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(134, 20);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Repository Folder";
+            // 
+            // txTranslationRepositoryFolder
+            // 
+            this.txTranslationRepositoryFolder.Location = new System.Drawing.Point(22, 107);
+            this.txTranslationRepositoryFolder.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.txTranslationRepositoryFolder.Name = "txTranslationRepositoryFolder";
+            this.txTranslationRepositoryFolder.Size = new System.Drawing.Size(1171, 26);
+            this.txTranslationRepositoryFolder.TabIndex = 8;
+            // 
+            // btStatus
+            // 
+            this.btStatus.BackColor = System.Drawing.Color.DarkOrange;
+            this.btStatus.Location = new System.Drawing.Point(22, 142);
+            this.btStatus.Name = "btStatus";
+            this.btStatus.Size = new System.Drawing.Size(122, 47);
+            this.btStatus.TabIndex = 0;
+            this.btStatus.Text = "Status";
+            this.btStatus.UseVisualStyleBackColor = false;
+            this.btStatus.Click += new System.EventHandler(this.btStatus_Click);
+            // 
+            // txGitCommands
+            // 
+            this.txGitCommands.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txGitCommands.Location = new System.Drawing.Point(0, 0);
+            this.txGitCommands.Multiline = true;
+            this.txGitCommands.Name = "txGitCommands";
+            this.txGitCommands.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txGitCommands.Size = new System.Drawing.Size(1414, 775);
+            this.txGitCommands.TabIndex = 0;
             // 
             // tabPageCompare
             // 
@@ -119,6 +260,39 @@
             this.splitContainerMain.Size = new System.Drawing.Size(1414, 980);
             this.splitContainerMain.SplitterDistance = 163;
             this.splitContainerMain.TabIndex = 0;
+            // 
+            // btAcceptMerged
+            // 
+            this.btAcceptMerged.BackColor = System.Drawing.Color.Wheat;
+            this.btAcceptMerged.Location = new System.Drawing.Point(1008, 77);
+            this.btAcceptMerged.Name = "btAcceptMerged";
+            this.btAcceptMerged.Size = new System.Drawing.Size(207, 47);
+            this.btAcceptMerged.TabIndex = 6;
+            this.btAcceptMerged.Text = "Accept Merged";
+            this.btAcceptMerged.UseVisualStyleBackColor = false;
+            this.btAcceptMerged.Click += new System.EventHandler(this.btAcceptMerged_Click);
+            // 
+            // btAcceptNew
+            // 
+            this.btAcceptNew.BackColor = System.Drawing.Color.Wheat;
+            this.btAcceptNew.Location = new System.Drawing.Point(801, 77);
+            this.btAcceptNew.Name = "btAcceptNew";
+            this.btAcceptNew.Size = new System.Drawing.Size(207, 47);
+            this.btAcceptNew.TabIndex = 5;
+            this.btAcceptNew.Text = "Accept New";
+            this.btAcceptNew.UseVisualStyleBackColor = false;
+            this.btAcceptNew.Click += new System.EventHandler(this.btAcceptNew_Click);
+            // 
+            // btAcceptOld
+            // 
+            this.btAcceptOld.BackColor = System.Drawing.Color.Wheat;
+            this.btAcceptOld.Location = new System.Drawing.Point(594, 77);
+            this.btAcceptOld.Name = "btAcceptOld";
+            this.btAcceptOld.Size = new System.Drawing.Size(207, 47);
+            this.btAcceptOld.TabIndex = 4;
+            this.btAcceptOld.Text = "Accept Old";
+            this.btAcceptOld.UseVisualStyleBackColor = false;
+            this.btAcceptOld.Click += new System.EventHandler(this.btAcceptOld_Click);
             // 
             // btRefreshBranches
             // 
@@ -278,48 +452,37 @@
             this.txTextEdit.Size = new System.Drawing.Size(637, 453);
             this.txTextEdit.TabIndex = 0;
             // 
-            // tabPageParameters
+            // label1
             // 
-            this.tabPageParameters.Location = new System.Drawing.Point(4, 29);
-            this.tabPageParameters.Name = "tabPageParameters";
-            this.tabPageParameters.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageParameters.Size = new System.Drawing.Size(1420, 986);
-            this.tabPageParameters.TabIndex = 1;
-            this.tabPageParameters.Text = "Parameters";
-            this.tabPageParameters.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(17, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(140, 20);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Github user name:";
             // 
-            // btAcceptOld
+            // label2
             // 
-            this.btAcceptOld.BackColor = System.Drawing.Color.Wheat;
-            this.btAcceptOld.Location = new System.Drawing.Point(594, 77);
-            this.btAcceptOld.Name = "btAcceptOld";
-            this.btAcceptOld.Size = new System.Drawing.Size(207, 47);
-            this.btAcceptOld.TabIndex = 4;
-            this.btAcceptOld.Text = "Accept Old";
-            this.btAcceptOld.UseVisualStyleBackColor = false;
-            this.btAcceptOld.Click += new System.EventHandler(this.btAcceptOld_Click);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(17, 46);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 20);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Github token:";
             // 
-            // btAcceptNew
+            // txGitHubUserName
             // 
-            this.btAcceptNew.BackColor = System.Drawing.Color.Wheat;
-            this.btAcceptNew.Location = new System.Drawing.Point(801, 77);
-            this.btAcceptNew.Name = "btAcceptNew";
-            this.btAcceptNew.Size = new System.Drawing.Size(207, 47);
-            this.btAcceptNew.TabIndex = 5;
-            this.btAcceptNew.Text = "Accept New";
-            this.btAcceptNew.UseVisualStyleBackColor = false;
-            this.btAcceptNew.Click += new System.EventHandler(this.btAcceptNew_Click);
+            this.txGitHubUserName.Location = new System.Drawing.Point(174, 6);
+            this.txGitHubUserName.Name = "txGitHubUserName";
+            this.txGitHubUserName.Size = new System.Drawing.Size(293, 26);
+            this.txGitHubUserName.TabIndex = 16;
             // 
-            // btAcceptMerged
+            // txGitHubToken
             // 
-            this.btAcceptMerged.BackColor = System.Drawing.Color.Wheat;
-            this.btAcceptMerged.Location = new System.Drawing.Point(1008, 77);
-            this.btAcceptMerged.Name = "btAcceptMerged";
-            this.btAcceptMerged.Size = new System.Drawing.Size(207, 47);
-            this.btAcceptMerged.TabIndex = 6;
-            this.btAcceptMerged.Text = "Accept Merged";
-            this.btAcceptMerged.UseVisualStyleBackColor = false;
-            this.btAcceptMerged.Click += new System.EventHandler(this.btAcceptMerged_Click);
+            this.txGitHubToken.Location = new System.Drawing.Point(174, 38);
+            this.txGitHubToken.Name = "txGitHubToken";
+            this.txGitHubToken.Size = new System.Drawing.Size(1019, 26);
+            this.txGitHubToken.TabIndex = 17;
             // 
             // frmGitCommands
             // 
@@ -331,6 +494,13 @@
             this.Text = "Merge Paragraphs";
             this.Load += new System.EventHandler(this.frmGitCommands_Load);
             this.tabControlMain.ResumeLayout(false);
+            this.tabPageParameters.ResumeLayout(false);
+            this.splitContainerGitCommands.Panel1.ResumeLayout(false);
+            this.splitContainerGitCommands.Panel1.PerformLayout();
+            this.splitContainerGitCommands.Panel2.ResumeLayout(false);
+            this.splitContainerGitCommands.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerGitCommands)).EndInit();
+            this.splitContainerGitCommands.ResumeLayout(false);
             this.tabPageCompare.ResumeLayout(false);
             this.splitContainerMain.Panel1.ResumeLayout(false);
             this.splitContainerMain.Panel1.PerformLayout();
@@ -380,5 +550,18 @@
         private System.Windows.Forms.Button btAcceptMerged;
         private System.Windows.Forms.Button btAcceptNew;
         private System.Windows.Forms.Button btAcceptOld;
+        private System.Windows.Forms.SplitContainer splitContainerGitCommands;
+        private System.Windows.Forms.Button btEditTranslationRepositoryFolder;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txTranslationRepositoryFolder;
+        private System.Windows.Forms.Button btStatus;
+        private System.Windows.Forms.TextBox txGitCommands;
+        private System.Windows.Forms.Button btPush;
+        private System.Windows.Forms.Button btCommitAll;
+        private System.Windows.Forms.Button btStageAll;
+        private System.Windows.Forms.TextBox txGitHubToken;
+        private System.Windows.Forms.TextBox txGitHubUserName;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

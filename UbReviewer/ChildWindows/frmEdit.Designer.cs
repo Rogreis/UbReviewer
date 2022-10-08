@@ -38,11 +38,21 @@
             this.panelBotton = new System.Windows.Forms.Panel();
             this.btOk = new System.Windows.Forms.Button();
             this.btCancel = new System.Windows.Forms.Button();
+            this.splitContainerTexts = new System.Windows.Forms.SplitContainer();
+            this.webBrowserEnglishText = new System.Windows.Forms.WebBrowser();
+            this.btWorking = new System.Windows.Forms.Button();
+            this.btDone = new System.Windows.Forms.Button();
+            this.btDoubt = new System.Windows.Forms.Button();
+            this.btClosed = new System.Windows.Forms.Button();
             this.tabControlEdit.SuspendLayout();
             this.tabPageText.SuspendLayout();
             this.tabPageNT.SuspendLayout();
             this.tabPageComments.SuspendLayout();
             this.panelBotton.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerTexts)).BeginInit();
+            this.splitContainerTexts.Panel1.SuspendLayout();
+            this.splitContainerTexts.Panel2.SuspendLayout();
+            this.splitContainerTexts.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControlEdit
@@ -54,16 +64,16 @@
             this.tabControlEdit.Location = new System.Drawing.Point(0, 0);
             this.tabControlEdit.Name = "tabControlEdit";
             this.tabControlEdit.SelectedIndex = 0;
-            this.tabControlEdit.Size = new System.Drawing.Size(1020, 672);
+            this.tabControlEdit.Size = new System.Drawing.Size(1135, 735);
             this.tabControlEdit.TabIndex = 1;
             // 
             // tabPageText
             // 
-            this.tabPageText.Controls.Add(this.textBoxText);
+            this.tabPageText.Controls.Add(this.splitContainerTexts);
             this.tabPageText.Location = new System.Drawing.Point(4, 29);
             this.tabPageText.Name = "tabPageText";
             this.tabPageText.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageText.Size = new System.Drawing.Size(1012, 639);
+            this.tabPageText.Size = new System.Drawing.Size(1127, 702);
             this.tabPageText.TabIndex = 0;
             this.tabPageText.Text = "Text";
             this.tabPageText.UseVisualStyleBackColor = true;
@@ -72,11 +82,11 @@
             // 
             this.textBoxText.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxText.Location = new System.Drawing.Point(3, 3);
+            this.textBoxText.Location = new System.Drawing.Point(0, 0);
             this.textBoxText.Multiline = true;
             this.textBoxText.Name = "textBoxText";
             this.textBoxText.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxText.Size = new System.Drawing.Size(1006, 633);
+            this.textBoxText.Size = new System.Drawing.Size(1121, 380);
             this.textBoxText.TabIndex = 0;
             // 
             // tabPageNT
@@ -126,18 +136,22 @@
             // 
             // panelBotton
             // 
+            this.panelBotton.Controls.Add(this.btClosed);
+            this.panelBotton.Controls.Add(this.btDoubt);
+            this.panelBotton.Controls.Add(this.btDone);
+            this.panelBotton.Controls.Add(this.btWorking);
             this.panelBotton.Controls.Add(this.btOk);
             this.panelBotton.Controls.Add(this.btCancel);
             this.panelBotton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelBotton.Location = new System.Drawing.Point(0, 672);
+            this.panelBotton.Location = new System.Drawing.Point(0, 735);
             this.panelBotton.Name = "panelBotton";
-            this.panelBotton.Size = new System.Drawing.Size(1020, 48);
+            this.panelBotton.Size = new System.Drawing.Size(1135, 48);
             this.panelBotton.TabIndex = 2;
             // 
             // btOk
             // 
             this.btOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btOk.Location = new System.Drawing.Point(853, 6);
+            this.btOk.Location = new System.Drawing.Point(968, 6);
             this.btOk.Name = "btOk";
             this.btOk.Size = new System.Drawing.Size(75, 36);
             this.btOk.TabIndex = 1;
@@ -148,7 +162,7 @@
             // btCancel
             // 
             this.btCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btCancel.Location = new System.Drawing.Point(934, 6);
+            this.btCancel.Location = new System.Drawing.Point(1049, 6);
             this.btCancel.Name = "btCancel";
             this.btCancel.Size = new System.Drawing.Size(75, 36);
             this.btCancel.TabIndex = 0;
@@ -156,26 +170,100 @@
             this.btCancel.UseVisualStyleBackColor = true;
             this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
+            // splitContainerTexts
+            // 
+            this.splitContainerTexts.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerTexts.Location = new System.Drawing.Point(3, 3);
+            this.splitContainerTexts.Name = "splitContainerTexts";
+            this.splitContainerTexts.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainerTexts.Panel1
+            // 
+            this.splitContainerTexts.Panel1.Controls.Add(this.webBrowserEnglishText);
+            // 
+            // splitContainerTexts.Panel2
+            // 
+            this.splitContainerTexts.Panel2.Controls.Add(this.textBoxText);
+            this.splitContainerTexts.Size = new System.Drawing.Size(1121, 696);
+            this.splitContainerTexts.SplitterDistance = 312;
+            this.splitContainerTexts.TabIndex = 1;
+            // 
+            // webBrowserEnglishText
+            // 
+            this.webBrowserEnglishText.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowserEnglishText.Location = new System.Drawing.Point(0, 0);
+            this.webBrowserEnglishText.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowserEnglishText.Name = "webBrowserEnglishText";
+            this.webBrowserEnglishText.Size = new System.Drawing.Size(1121, 312);
+            this.webBrowserEnglishText.TabIndex = 0;
+            // 
+            // btWorking
+            // 
+            this.btWorking.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btWorking.Location = new System.Drawing.Point(509, 6);
+            this.btWorking.Name = "btWorking";
+            this.btWorking.Size = new System.Drawing.Size(75, 36);
+            this.btWorking.TabIndex = 2;
+            this.btWorking.Text = "Working";
+            this.btWorking.UseVisualStyleBackColor = true;
+            this.btWorking.Click += new System.EventHandler(this.btWorking_Click);
+            // 
+            // btDone
+            // 
+            this.btDone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btDone.Location = new System.Drawing.Point(603, 6);
+            this.btDone.Name = "btDone";
+            this.btDone.Size = new System.Drawing.Size(75, 36);
+            this.btDone.TabIndex = 3;
+            this.btDone.Text = "Done";
+            this.btDone.UseVisualStyleBackColor = true;
+            this.btDone.Click += new System.EventHandler(this.btDone_Click);
+            // 
+            // btDoubt
+            // 
+            this.btDoubt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btDoubt.Location = new System.Drawing.Point(697, 6);
+            this.btDoubt.Name = "btDoubt";
+            this.btDoubt.Size = new System.Drawing.Size(75, 36);
+            this.btDoubt.TabIndex = 4;
+            this.btDoubt.Text = "Doubt";
+            this.btDoubt.UseVisualStyleBackColor = true;
+            this.btDoubt.Click += new System.EventHandler(this.btDoubt_Click);
+            // 
+            // btClosed
+            // 
+            this.btClosed.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btClosed.Location = new System.Drawing.Point(791, 6);
+            this.btClosed.Name = "btClosed";
+            this.btClosed.Size = new System.Drawing.Size(75, 36);
+            this.btClosed.TabIndex = 5;
+            this.btClosed.Text = "Closed";
+            this.btClosed.UseVisualStyleBackColor = true;
+            this.btClosed.Click += new System.EventHandler(this.btClosed_Click);
+            // 
             // frmEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1020, 720);
+            this.ClientSize = new System.Drawing.Size(1135, 783);
             this.Controls.Add(this.tabControlEdit);
             this.Controls.Add(this.panelBotton);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmEdit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Editing paragraph";
             this.Load += new System.EventHandler(this.frmEdit_Load);
             this.tabControlEdit.ResumeLayout(false);
             this.tabPageText.ResumeLayout(false);
-            this.tabPageText.PerformLayout();
             this.tabPageNT.ResumeLayout(false);
             this.tabPageNT.PerformLayout();
             this.tabPageComments.ResumeLayout(false);
             this.tabPageComments.PerformLayout();
             this.panelBotton.ResumeLayout(false);
+            this.splitContainerTexts.Panel1.ResumeLayout(false);
+            this.splitContainerTexts.Panel2.ResumeLayout(false);
+            this.splitContainerTexts.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerTexts)).EndInit();
+            this.splitContainerTexts.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -191,5 +279,11 @@
         private System.Windows.Forms.Panel panelBotton;
         private System.Windows.Forms.Button btOk;
         private System.Windows.Forms.Button btCancel;
+        private System.Windows.Forms.SplitContainer splitContainerTexts;
+        private System.Windows.Forms.WebBrowser webBrowserEnglishText;
+        private System.Windows.Forms.Button btClosed;
+        private System.Windows.Forms.Button btDoubt;
+        private System.Windows.Forms.Button btDone;
+        private System.Windows.Forms.Button btWorking;
     }
 }

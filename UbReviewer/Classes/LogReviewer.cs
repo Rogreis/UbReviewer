@@ -99,7 +99,10 @@ namespace UbReviewer.Classes
             {
                 if (File.Exists(pathLog))
                 {
-                    File.Delete(pathLog);
+                    try{
+                        File.Delete(pathLog);
+                    }
+                    catch { }
                 }
             }
             PathLog = pathLog;

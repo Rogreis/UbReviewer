@@ -34,8 +34,7 @@ namespace UbReviewer.ChildWindows
         private void EditParagraph(string ident)
         {
             frmEdit frm = new frmEdit();
-            Notes notes = new Notes(StaticObjects.Parameters.EditParagraphsRepositoryFolder);
-            PaperEdit paper = new PaperEdit(notes, paperNo, StaticObjects.Parameters.EditParagraphsRepositoryFolder);
+            PaperEdit paper = new PaperEdit(paperNo, StaticObjects.Parameters.EditParagraphsRepositoryFolder);
             frm.SetParagraph(paper, ident);
             //frm.MdiParent = this.MdiParent;
             if (frm.ShowDialog() == DialogResult.OK)
@@ -110,15 +109,70 @@ namespace UbReviewer.ChildWindows
                 paperNo = value;
                 if (FormShown)
                 {
-                    ShowPaper(paperNo);
+                    RefreshPage();
                 }
             }
         }
 
-        private void frmDocument_Load(object sender, EventArgs e)
+        private void RefreshPage()
         {
             ShowPaper(paperNo);
+        }
+
+        private void frmDocument_Load(object sender, EventArgs e)
+        {
+            if (StaticObjects.Parameters.FontFamilyInfo == "Roboto Serif Medium")
+            {
+                toolStripMenuItemSerifFont.Checked = true;
+                nonSerifToolStripMenuItem.Checked = false;
+            }
+            else
+            {
+                toolStripMenuItemSerifFont.Checked = false;
+                nonSerifToolStripMenuItem.Checked = true;
+            }
+            RefreshPage();
             FormShown = true;
+        }
+
+
+        private void toolStripButtonDescreaseSize_Click(object sender, EventArgs e)
+        {
+            if (StaticObjects.Parameters.FontSize > 8)
+            {
+                StaticObjects.Parameters.FontSize--;
+                RefreshPage();
+            }
+        }
+
+        private void toolStripButtonIncreaseSize_Click(object sender, EventArgs e)
+        {
+            if (StaticObjects.Parameters.FontSize < 30)
+            {
+                StaticObjects.Parameters.FontSize++;
+                RefreshPage();
+            }
+        }
+
+        private void toolStripMenuItemSerifFont_Click(object sender, EventArgs e)
+        {
+            StaticObjects.Parameters.FontFamilyInfo = "Roboto Serif Medium";
+            toolStripMenuItemSerifFont.Checked = true;
+            nonSerifToolStripMenuItem.Checked = false;
+            RefreshPage();
+        }
+
+        private void nonSerifToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StaticObjects.Parameters.FontFamilyInfo = "Verdana";
+            toolStripMenuItemSerifFont.Checked = false;
+            nonSerifToolStripMenuItem.Checked = true;
+            RefreshPage();
+        }
+
+        private void toolStripButtonClose_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
