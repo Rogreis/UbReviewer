@@ -12,12 +12,9 @@ namespace UbReviewer
 {
     public partial class mdiForm : Form
     {
-        private string PathParameters { get; set; } = "";
-
         private ParameterReviewer Parameters = null;
-
-        private string BaseTubFilesPath { get; set; } = "";
-
+        private bool Initializing = true;
+        private bool DocumentShown = false;
 
         public mdiForm()
         {
@@ -49,6 +46,7 @@ namespace UbReviewer
                 frmDocument frm = new frmDocument();
                 frm.MdiParent = this;
                 frm.PaperNo = paperNo;
+                ((ParameterReviewer)StaticObjects.Parameters).LastPaperShown = paperNo;
                 frm.Show();
                 ShowMessage($"Showing paper {paperNo}.");
 
@@ -59,13 +57,16 @@ namespace UbReviewer
             }
         }
 
+
         private void mdiForm_Load(object sender, EventArgs e)
         {
             ShowMessage("Starting...");
             if (Initialize())
             {
-                comboBoxPaperNo.Text = Parameters.LastPaperShown.ToString();
+                comboBoxPaperNo.Text = ((ParameterReviewer)StaticObjects.Parameters).LastPaperShown.ToString();
             }
+            
+            Initializing = false;
         }
 
         private void btOpenParagraph_Click(object sender, EventArgs e)
@@ -79,20 +80,19 @@ namespace UbReviewer
 
         private void mdiForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            ParameterReviewer.Serialize((ParameterReviewer)StaticObjects.Parameters, PathParameters);
+            ParameterReviewer.Serialize((ParameterReviewer)StaticObjects.Parameters, StaticObjects.PathParameters);
         }
 
         private void comboBoxPaperNo_SelectedValueChanged(object sender, EventArgs e)
         {
-            ///ShowDocument();
+            if (Initializing) return;
+            ShowDocument();
         }
 
 
         private void btGit_Click(object sender, EventArgs e)
-        {
-            frmGitCommands frm = new frmGitCommands();
-            frm.MdiParent = this;
-            frm.Show();
+        {   
+            Program.ShowGitCommands();
         }
 
 
@@ -123,47 +123,9 @@ namespace UbReviewer
 
 
 
-        private string DataFolder()
-        {
-            string processName = System.IO.Path.GetFileNameWithoutExtension(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
-            var commonpath = GetFolderPath(SpecialFolder.CommonApplicationData);
-            return Path.Combine(commonpath, processName);
-        }
-
-
-        private string MakeProgramDataFolder(string fileName)
-        {
-            string folder = DataFolder();
-            Directory.CreateDirectory(folder);
-            return Path.Combine(folder, fileName);
-        }
-
-
         private bool Initialize()
         {
-
-            string pathLog = MakeProgramDataFolder("UbStudyHelp.log");
-            BaseTubFilesPath = MakeProgramDataFolder("TUB_Files");
-
-            StaticObjects.Logger = new LogReviewer();
-            StaticObjects.Logger.Initialize(pathLog, false);
-            StaticObjects.Logger.Info("»»»» Startup");
-
-            StaticObjects.Book = new Book();
-
-
-            PathParameters = MakeProgramDataFolder("UbReviewer.json");
-            if (!File.Exists(PathParameters))
-            {
-                StaticObjects.Logger.Info("Parameters not found, creating a new one: " + PathParameters);
-            }
-
-            // Initialize parameters
-            StaticObjects.Parameters = ParameterReviewer.Deserialize(PathParameters);
-            Parameters = ((ParameterReviewer)StaticObjects.Parameters);
-
-            frmGitCommands frm = new frmGitCommands();
-            frm.ShowDialog();
+            Parameters = (ParameterReviewer)StaticObjects.Parameters;
 
             if (string.IsNullOrWhiteSpace(Parameters.EditParagraphsRepositoryFolder))
             {
@@ -183,7 +145,7 @@ namespace UbReviewer
 
             // Set the edit translation (hard coded here to be PT Alternative)
             short editLanguageId = 2;
-            Translation trans= dataFiles.GetTranslation(editLanguageId);
+            Translation trans= dataFiles.GetTranslation(editLanguageId, false);
             TranslationEdit translatioEdit = new TranslationEdit(trans, Parameters.EditParagraphsRepositoryFolder);
             Parameters.TranslationRight = translatioEdit;
 
@@ -221,6 +183,15 @@ namespace UbReviewer
             if (e.KeyCode == Keys.Enter)
             {
                 EditParagraph(txParagraph.Text);
+            }
+        }
+
+        private void mdiForm_Activated(object sender, EventArgs e)
+        {
+            if (!DocumentShown)
+            {
+                ShowDocument();
+                DocumentShown = true;
             }
         }
     }

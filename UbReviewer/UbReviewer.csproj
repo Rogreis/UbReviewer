@@ -268,6 +268,12 @@
     <Compile Include="ChildWindows\frmEdit.Designer.cs">
       <DependentUpon>frmEdit.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChildWindows\frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildWindows\frmSearch.Designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
     <Compile Include="Classes\GitCommands.cs" />
     <Compile Include="Classes\LogReviewer.cs" />
     <Compile Include="Classes\LuceneEditBookSearch.cs" />
@@ -299,6 +305,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChildWindows\frmEdit.resx">
       <DependentUpon>frmEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildWindows\frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIForm.resx">
       <DependentUpon>MDIForm.cs</DependentUpon>
@@ -346,6 +355,12 @@
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="packages\Lucene.Net.4.8.0-beta00016\analyzers\dotnet\cs\Lucene.Net.CodeAnalysis.CSharp.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-right-3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-left-3.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />

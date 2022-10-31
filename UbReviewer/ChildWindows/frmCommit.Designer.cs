@@ -36,28 +36,33 @@
             // 
             // btOk
             // 
-            this.btOk.Location = new System.Drawing.Point(470, 117);
+            this.btOk.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btOk.Location = new System.Drawing.Point(705, 180);
+            this.btOk.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btOk.Name = "btOk";
-            this.btOk.Size = new System.Drawing.Size(75, 23);
+            this.btOk.Size = new System.Drawing.Size(112, 35);
             this.btOk.TabIndex = 0;
             this.btOk.Text = "Ok";
             this.btOk.UseVisualStyleBackColor = true;
+            this.btOk.Click += new System.EventHandler(this.btOk_Click);
             // 
             // btCancel
             // 
             this.btCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btCancel.Location = new System.Drawing.Point(569, 117);
+            this.btCancel.Location = new System.Drawing.Point(854, 180);
+            this.btCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btCancel.Name = "btCancel";
-            this.btCancel.Size = new System.Drawing.Size(75, 23);
+            this.btCancel.Size = new System.Drawing.Size(112, 35);
             this.btCancel.TabIndex = 1;
             this.btCancel.Text = "Cancel";
             this.btCancel.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(42, 26);
+            this.label1.Location = new System.Drawing.Point(63, 40);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(415, 28);
+            this.label1.Size = new System.Drawing.Size(622, 43);
             this.label1.TabIndex = 2;
             this.label1.Text = "Commit Message";
             // 
@@ -69,23 +74,25 @@
             "Correções à tradução",
             "Itálicos apenas",
             "Acentuação ou Pontuação apenas"});
-            this.comboBoxCommitMessage.Location = new System.Drawing.Point(45, 57);
+            this.comboBoxCommitMessage.Location = new System.Drawing.Point(68, 88);
+            this.comboBoxCommitMessage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBoxCommitMessage.Name = "comboBoxCommitMessage";
-            this.comboBoxCommitMessage.Size = new System.Drawing.Size(599, 21);
+            this.comboBoxCommitMessage.Size = new System.Drawing.Size(896, 28);
             this.comboBoxCommitMessage.TabIndex = 3;
             // 
             // frmCommit
             // 
             this.AcceptButton = this.btOk;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btCancel;
-            this.ClientSize = new System.Drawing.Size(688, 186);
+            this.ClientSize = new System.Drawing.Size(1032, 286);
             this.Controls.Add(this.comboBoxCommitMessage);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btCancel);
             this.Controls.Add(this.btOk);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmCommit";
             this.Text = "Commit";
             this.ResumeLayout(false);

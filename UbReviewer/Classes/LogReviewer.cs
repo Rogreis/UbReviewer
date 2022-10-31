@@ -74,11 +74,11 @@ namespace UbReviewer.Classes
                 _logIniciado = true;
                 if (reStart)
                 {
-                    Logger.Info("UbStudyHelp log re-started");
+                    Logger.Info("Log re-started");
                 }
                 else
                 {
-                    Logger.Info("UbStudyHelp log Started");
+                    Logger.Info("Log Started");
                 }
             }
 #else
@@ -87,7 +87,7 @@ namespace UbReviewer.Classes
 
         }
 
-        public void Close()
+        public override void Close()
         {
             LogManager.GetRepository().Shutdown();
             _logIniciado = false;
@@ -106,7 +106,7 @@ namespace UbReviewer.Classes
                 }
             }
             PathLog = pathLog;
-            SetupLof4Net();
+            SetupLof4Net(append, append);
             Enable();
         }
 

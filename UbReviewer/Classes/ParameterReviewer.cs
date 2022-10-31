@@ -23,8 +23,9 @@ namespace UbReviewer.Classes
 
         public short LastPaperShown { get; set; } = 0;
 
-        public string LastParagraphShown { get; set; } = "0:0-0";
+        public short LastSectionShown { get; set; } = 0;
 
+        public short LastParagraphShown { get; set; } = 0;
 
         public Translation TranslationLeft { get; set; } = null;
 
@@ -32,11 +33,23 @@ namespace UbReviewer.Classes
 
         public Translation TranslationRight { get; set; } = null;
 
+        public string GitHubUserName { get; set; } = null;
+
+        [JsonIgnore]
+        public string PowershellPath = "";
+
+        [JsonIgnore]
+        public string LastSecondBranchUsed = "";
+
+        [JsonIgnore]
         public string BashPath = @"C:\Program Files\Git\bin\bash.exe";
 
-        public string PowershellPath = @"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe";
+        /// <summary>
+        /// Repositories needs to be checked just once per UbReviewer instance
+        /// </summary>
+        [JsonIgnore]
+        public bool RespositoriesChecked = false;
 
-        public string LastSecondBranchUsed = "";
 
 
         #region Color

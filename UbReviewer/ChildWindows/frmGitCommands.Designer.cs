@@ -31,12 +31,15 @@
             this.tabControlMain = new System.Windows.Forms.TabControl();
             this.tabPageParameters = new System.Windows.Forms.TabPage();
             this.splitContainerGitCommands = new System.Windows.Forms.SplitContainer();
+            this.biInicialize = new System.Windows.Forms.Button();
+            this.lblBookReposirotyFolder = new System.Windows.Forms.Label();
+            this.btShowLog = new System.Windows.Forms.Button();
+            this.txGitHubUserName = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btPush = new System.Windows.Forms.Button();
             this.btCommitAll = new System.Windows.Forms.Button();
             this.btStageAll = new System.Windows.Forms.Button();
-            this.btEditTranslationRepositoryFolder = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txTranslationRepositoryFolder = new System.Windows.Forms.TextBox();
+            this.lblRepositoryFolders = new System.Windows.Forms.Label();
             this.btStatus = new System.Windows.Forms.Button();
             this.txGitCommands = new System.Windows.Forms.TextBox();
             this.tabPageCompare = new System.Windows.Forms.TabPage();
@@ -57,10 +60,9 @@
             this.splitContainertextsBotton = new System.Windows.Forms.SplitContainer();
             this.webBrowserCompare = new System.Windows.Forms.WebBrowser();
             this.txTextEdit = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txGitHubUserName = new System.Windows.Forms.TextBox();
-            this.txGitHubToken = new System.Windows.Forms.TextBox();
+            this.btClose = new System.Windows.Forms.Button();
+            this.btUndo = new System.Windows.Forms.Button();
+            this.btExit = new System.Windows.Forms.Button();
             this.tabControlMain.SuspendLayout();
             this.tabPageParameters.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerGitCommands)).BeginInit();
@@ -116,112 +118,147 @@
             // 
             this.splitContainerGitCommands.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerGitCommands.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainerGitCommands.IsSplitterFixed = true;
             this.splitContainerGitCommands.Location = new System.Drawing.Point(3, 3);
             this.splitContainerGitCommands.Name = "splitContainerGitCommands";
             this.splitContainerGitCommands.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainerGitCommands.Panel1
             // 
-            this.splitContainerGitCommands.Panel1.Controls.Add(this.txGitHubToken);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.btExit);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.btUndo);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.btClose);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.biInicialize);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.lblBookReposirotyFolder);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.btShowLog);
             this.splitContainerGitCommands.Panel1.Controls.Add(this.txGitHubUserName);
-            this.splitContainerGitCommands.Panel1.Controls.Add(this.label2);
             this.splitContainerGitCommands.Panel1.Controls.Add(this.label1);
             this.splitContainerGitCommands.Panel1.Controls.Add(this.btPush);
             this.splitContainerGitCommands.Panel1.Controls.Add(this.btCommitAll);
             this.splitContainerGitCommands.Panel1.Controls.Add(this.btStageAll);
-            this.splitContainerGitCommands.Panel1.Controls.Add(this.btEditTranslationRepositoryFolder);
-            this.splitContainerGitCommands.Panel1.Controls.Add(this.label5);
-            this.splitContainerGitCommands.Panel1.Controls.Add(this.txTranslationRepositoryFolder);
+            this.splitContainerGitCommands.Panel1.Controls.Add(this.lblRepositoryFolders);
             this.splitContainerGitCommands.Panel1.Controls.Add(this.btStatus);
             // 
             // splitContainerGitCommands.Panel2
             // 
             this.splitContainerGitCommands.Panel2.Controls.Add(this.txGitCommands);
             this.splitContainerGitCommands.Size = new System.Drawing.Size(1414, 980);
-            this.splitContainerGitCommands.SplitterDistance = 201;
+            this.splitContainerGitCommands.SplitterDistance = 169;
             this.splitContainerGitCommands.TabIndex = 1;
+            // 
+            // biInicialize
+            // 
+            this.biInicialize.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.biInicialize.Location = new System.Drawing.Point(21, 107);
+            this.biInicialize.Name = "biInicialize";
+            this.biInicialize.Size = new System.Drawing.Size(122, 47);
+            this.biInicialize.TabIndex = 20;
+            this.biInicialize.Text = "Inicialize";
+            this.biInicialize.UseVisualStyleBackColor = false;
+            this.biInicialize.Click += new System.EventHandler(this.biInicialize_Click);
+            // 
+            // lblBookReposirotyFolder
+            // 
+            this.lblBookReposirotyFolder.AutoSize = true;
+            this.lblBookReposirotyFolder.Location = new System.Drawing.Point(17, 75);
+            this.lblBookReposirotyFolder.Name = "lblBookReposirotyFolder";
+            this.lblBookReposirotyFolder.Size = new System.Drawing.Size(175, 20);
+            this.lblBookReposirotyFolder.TabIndex = 19;
+            this.lblBookReposirotyFolder.Text = "Book Repository Folder";
+            // 
+            // btShowLog
+            // 
+            this.btShowLog.BackColor = System.Drawing.Color.Silver;
+            this.btShowLog.Location = new System.Drawing.Point(789, 107);
+            this.btShowLog.Name = "btShowLog";
+            this.btShowLog.Size = new System.Drawing.Size(122, 47);
+            this.btShowLog.TabIndex = 18;
+            this.btShowLog.Text = "Show Log";
+            this.btShowLog.UseVisualStyleBackColor = false;
+            this.btShowLog.Click += new System.EventHandler(this.btShowLog_Click);
+            // 
+            // txGitHubUserName
+            // 
+            this.txGitHubUserName.Location = new System.Drawing.Point(174, 6);
+            this.txGitHubUserName.Name = "txGitHubUserName";
+            this.txGitHubUserName.Size = new System.Drawing.Size(293, 26);
+            this.txGitHubUserName.TabIndex = 16;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(17, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(140, 20);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Github user name:";
             // 
             // btPush
             // 
             this.btPush.BackColor = System.Drawing.Color.DarkOrange;
-            this.btPush.Location = new System.Drawing.Point(442, 142);
+            this.btPush.Location = new System.Drawing.Point(533, 107);
             this.btPush.Name = "btPush";
             this.btPush.Size = new System.Drawing.Size(122, 47);
             this.btPush.TabIndex = 13;
             this.btPush.Text = "Push";
             this.btPush.UseVisualStyleBackColor = false;
+            this.btPush.Visible = false;
             this.btPush.Click += new System.EventHandler(this.btPush_Click);
             // 
             // btCommitAll
             // 
             this.btCommitAll.BackColor = System.Drawing.Color.DarkOrange;
-            this.btCommitAll.Location = new System.Drawing.Point(302, 142);
+            this.btCommitAll.Location = new System.Drawing.Point(405, 107);
             this.btCommitAll.Name = "btCommitAll";
             this.btCommitAll.Size = new System.Drawing.Size(122, 47);
             this.btCommitAll.TabIndex = 12;
             this.btCommitAll.Text = "Commit All";
             this.btCommitAll.UseVisualStyleBackColor = false;
+            this.btCommitAll.Visible = false;
             this.btCommitAll.Click += new System.EventHandler(this.btCommitAll_Click);
             // 
             // btStageAll
             // 
             this.btStageAll.BackColor = System.Drawing.Color.DarkOrange;
-            this.btStageAll.Location = new System.Drawing.Point(162, 142);
+            this.btStageAll.Location = new System.Drawing.Point(277, 107);
             this.btStageAll.Name = "btStageAll";
             this.btStageAll.Size = new System.Drawing.Size(122, 47);
             this.btStageAll.TabIndex = 11;
             this.btStageAll.Text = "Stage All";
             this.btStageAll.UseVisualStyleBackColor = false;
+            this.btStageAll.Visible = false;
             this.btStageAll.Click += new System.EventHandler(this.btStageAll_Click);
             // 
-            // btEditTranslationRepositoryFolder
+            // lblRepositoryFolders
             // 
-            this.btEditTranslationRepositoryFolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btEditTranslationRepositoryFolder.Location = new System.Drawing.Point(1211, 95);
-            this.btEditTranslationRepositoryFolder.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.btEditTranslationRepositoryFolder.Name = "btEditTranslationRepositoryFolder";
-            this.btEditTranslationRepositoryFolder.Size = new System.Drawing.Size(66, 45);
-            this.btEditTranslationRepositoryFolder.TabIndex = 10;
-            this.btEditTranslationRepositoryFolder.Text = "...";
-            this.btEditTranslationRepositoryFolder.UseVisualStyleBackColor = true;
-            this.btEditTranslationRepositoryFolder.Click += new System.EventHandler(this.btEditTranslationRepositoryFolder_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(18, 82);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 20);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Repository Folder";
-            // 
-            // txTranslationRepositoryFolder
-            // 
-            this.txTranslationRepositoryFolder.Location = new System.Drawing.Point(22, 107);
-            this.txTranslationRepositoryFolder.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
-            this.txTranslationRepositoryFolder.Name = "txTranslationRepositoryFolder";
-            this.txTranslationRepositoryFolder.Size = new System.Drawing.Size(1171, 26);
-            this.txTranslationRepositoryFolder.TabIndex = 8;
+            this.lblRepositoryFolders.AutoSize = true;
+            this.lblRepositoryFolders.Location = new System.Drawing.Point(17, 43);
+            this.lblRepositoryFolders.Name = "lblRepositoryFolders";
+            this.lblRepositoryFolders.Size = new System.Drawing.Size(175, 20);
+            this.lblRepositoryFolders.TabIndex = 9;
+            this.lblRepositoryFolders.Text = "Work Repository Folder";
             // 
             // btStatus
             // 
             this.btStatus.BackColor = System.Drawing.Color.DarkOrange;
-            this.btStatus.Location = new System.Drawing.Point(22, 142);
+            this.btStatus.Location = new System.Drawing.Point(149, 107);
             this.btStatus.Name = "btStatus";
             this.btStatus.Size = new System.Drawing.Size(122, 47);
             this.btStatus.TabIndex = 0;
             this.btStatus.Text = "Status";
             this.btStatus.UseVisualStyleBackColor = false;
+            this.btStatus.Visible = false;
             this.btStatus.Click += new System.EventHandler(this.btStatus_Click);
             // 
             // txGitCommands
             // 
             this.txGitCommands.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txGitCommands.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txGitCommands.Location = new System.Drawing.Point(0, 0);
             this.txGitCommands.Multiline = true;
             this.txGitCommands.Name = "txGitCommands";
             this.txGitCommands.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txGitCommands.Size = new System.Drawing.Size(1414, 775);
+            this.txGitCommands.Size = new System.Drawing.Size(1414, 807);
             this.txGitCommands.TabIndex = 0;
             // 
             // tabPageCompare
@@ -452,37 +489,39 @@
             this.txTextEdit.Size = new System.Drawing.Size(637, 453);
             this.txTextEdit.TabIndex = 0;
             // 
-            // label1
+            // btClose
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 20);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Github user name:";
+            this.btClose.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btClose.Location = new System.Drawing.Point(917, 107);
+            this.btClose.Name = "btClose";
+            this.btClose.Size = new System.Drawing.Size(122, 47);
+            this.btClose.TabIndex = 21;
+            this.btClose.Text = "Close";
+            this.btClose.UseVisualStyleBackColor = false;
+            this.btClose.Visible = false;
+            this.btClose.Click += new System.EventHandler(this.btClose_Click);
             // 
-            // label2
+            // btUndo
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 46);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 20);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "Github token:";
+            this.btUndo.BackColor = System.Drawing.Color.LightCoral;
+            this.btUndo.Location = new System.Drawing.Point(661, 107);
+            this.btUndo.Name = "btUndo";
+            this.btUndo.Size = new System.Drawing.Size(122, 47);
+            this.btUndo.TabIndex = 22;
+            this.btUndo.Text = "Undo All";
+            this.btUndo.UseVisualStyleBackColor = false;
+            this.btUndo.Click += new System.EventHandler(this.btUndo_Click);
             // 
-            // txGitHubUserName
+            // btExit
             // 
-            this.txGitHubUserName.Location = new System.Drawing.Point(174, 6);
-            this.txGitHubUserName.Name = "txGitHubUserName";
-            this.txGitHubUserName.Size = new System.Drawing.Size(293, 26);
-            this.txGitHubUserName.TabIndex = 16;
-            // 
-            // txGitHubToken
-            // 
-            this.txGitHubToken.Location = new System.Drawing.Point(174, 38);
-            this.txGitHubToken.Name = "txGitHubToken";
-            this.txGitHubToken.Size = new System.Drawing.Size(1019, 26);
-            this.txGitHubToken.TabIndex = 17;
+            this.btExit.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btExit.Location = new System.Drawing.Point(1045, 107);
+            this.btExit.Name = "btExit";
+            this.btExit.Size = new System.Drawing.Size(122, 47);
+            this.btExit.TabIndex = 23;
+            this.btExit.Text = "Exit App";
+            this.btExit.UseVisualStyleBackColor = false;
+            this.btExit.Click += new System.EventHandler(this.btExit_Click);
             // 
             // frmGitCommands
             // 
@@ -492,6 +531,8 @@
             this.Controls.Add(this.tabControlMain);
             this.Name = "frmGitCommands";
             this.Text = "Merge Paragraphs";
+            this.Activated += new System.EventHandler(this.frmGitCommands_Activated);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmGitCommands_FormClosing);
             this.Load += new System.EventHandler(this.frmGitCommands_Load);
             this.tabControlMain.ResumeLayout(false);
             this.tabPageParameters.ResumeLayout(false);
@@ -551,17 +592,19 @@
         private System.Windows.Forms.Button btAcceptNew;
         private System.Windows.Forms.Button btAcceptOld;
         private System.Windows.Forms.SplitContainer splitContainerGitCommands;
-        private System.Windows.Forms.Button btEditTranslationRepositoryFolder;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txTranslationRepositoryFolder;
+        private System.Windows.Forms.Label lblRepositoryFolders;
         private System.Windows.Forms.Button btStatus;
         private System.Windows.Forms.TextBox txGitCommands;
         private System.Windows.Forms.Button btPush;
         private System.Windows.Forms.Button btCommitAll;
         private System.Windows.Forms.Button btStageAll;
-        private System.Windows.Forms.TextBox txGitHubToken;
         private System.Windows.Forms.TextBox txGitHubUserName;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btShowLog;
+        private System.Windows.Forms.Label lblBookReposirotyFolder;
+        private System.Windows.Forms.Button biInicialize;
+        private System.Windows.Forms.Button btClose;
+        private System.Windows.Forms.Button btUndo;
+        private System.Windows.Forms.Button btExit;
     }
 }

@@ -10,22 +10,11 @@ using System.Windows.Forms;
 
 namespace UbReviewer.ChildWindows
 {
-    public partial class frmCommit : Form
+    public partial class frmSearch : Form
     {
-        public frmCommit()
+        public frmSearch()
         {
             InitializeComponent();
-        }
-
-        public string CommitMessage
-        {
-            get { return comboBoxCommitMessage.Text; }
-            set { comboBoxCommitMessage.Text = value; }
-        }
-
-        private void btOk_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

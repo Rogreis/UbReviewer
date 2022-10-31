@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txParagraph = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.lblMessages = new System.Windows.Forms.Label();
             this.btPrint = new System.Windows.Forms.Button();
             this.btTile = new System.Windows.Forms.Button();
@@ -39,8 +41,6 @@
             this.btExit = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabelMessages = new System.Windows.Forms.ToolStripStatusLabel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txParagraph = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -63,6 +63,23 @@
             this.panel1.Size = new System.Drawing.Size(1767, 84);
             this.panel1.TabIndex = 5;
             // 
+            // txParagraph
+            // 
+            this.txParagraph.Location = new System.Drawing.Point(583, 28);
+            this.txParagraph.Name = "txParagraph";
+            this.txParagraph.Size = new System.Drawing.Size(122, 26);
+            this.txParagraph.TabIndex = 11;
+            this.txParagraph.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txParagraph_KeyUp);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(489, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 20);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Paragraph:";
+            // 
             // lblMessages
             // 
             this.lblMessages.AutoSize = true;
@@ -80,6 +97,7 @@
             this.btPrint.TabIndex = 8;
             this.btPrint.Text = "Print";
             this.btPrint.UseVisualStyleBackColor = true;
+            this.btPrint.Visible = false;
             this.btPrint.Click += new System.EventHandler(this.btPrint_Click);
             // 
             // btTile
@@ -361,23 +379,6 @@
             this.toolStripStatusLabelMessages.Text = "toolStripStatusLabel1";
             this.toolStripStatusLabelMessages.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(489, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 20);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Paragraph:";
-            // 
-            // txParagraph
-            // 
-            this.txParagraph.Location = new System.Drawing.Point(583, 28);
-            this.txParagraph.Name = "txParagraph";
-            this.txParagraph.Size = new System.Drawing.Size(122, 26);
-            this.txParagraph.TabIndex = 11;
-            this.txParagraph.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txParagraph_KeyUp);
-            // 
             // mdiForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -388,6 +389,7 @@
             this.IsMdiContainer = true;
             this.Name = "mdiForm";
             this.Text = "UB Reviewer";
+            this.Activated += new System.EventHandler(this.mdiForm_Activated);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.mdiForm_FormClosing);
             this.Load += new System.EventHandler(this.mdiForm_Load);
             this.panel1.ResumeLayout(false);

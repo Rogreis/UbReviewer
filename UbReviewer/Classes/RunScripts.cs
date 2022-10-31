@@ -40,6 +40,7 @@ namespace UbReviewer.Classes
         {
             ParameterReviewer param = (ParameterReviewer)StaticObjects.Parameters;
             Process pProcess = new System.Diagnostics.Process();
+            // C:\Program Files\Git\bin\bash.exe
             pProcess.StartInfo.FileName = param.BashPath;
             pProcess.StartInfo.UseShellExecute = false;
             pProcess.StartInfo.CreateNoWindow = true;
