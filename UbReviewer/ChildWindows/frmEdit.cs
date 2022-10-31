@@ -19,6 +19,10 @@ namespace UbReviewer.ChildWindows
         public frmEdit()
         {
             InitializeComponent();
+            string fontFamily = StaticObjects.Parameters.FontFamilyInfo == "Verdana" ? "Verdana" : "Calisto MT";
+            textBoxText.Font = new System.Drawing.Font(fontFamily, StaticObjects.Parameters.FontSize);
+
+            // TextBox1.Font = new Font(new FontFamily("Tahoma"), TextBox1.Font.Size, TextBox1.Font.Style, TextBox1.Font.Unit);
         }
 
         private void SetData()
@@ -56,7 +60,7 @@ namespace UbReviewer.ChildWindows
         {
             short paperNo = par.Paper;
             short sectionNo = par.Section;
-            short paragraphNo = par.ParagraphNo--;
+            short paragraphNo = --par.ParagraphNo;
 
             if (paragraphNo < 0)
             {

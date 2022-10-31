@@ -1,17 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.Security;
 using System.Windows.Forms;
 using UbReviewer.Classes;
 using UbStandardObjects;
 using UbStandardObjects.Objects;
-using static System.Collections.Specialized.BitVector32;
 
 namespace UbReviewer.ChildWindows
 {
