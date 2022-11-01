@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using UbReviewer.Classes;
@@ -15,12 +17,15 @@ namespace UbReviewer.ChildWindows
         private HtmlFormat FormatObject = new HtmlFormat(StaticObjects.Parameters);
         private ParameterReviewer Param = (ParameterReviewer)StaticObjects.Parameters;
         private Paragraph EnglishParagraph = null;
+        private ParagraphStatus InitialStatus;
 
         public frmEdit()
         {
             InitializeComponent();
             string fontFamily = StaticObjects.Parameters.FontFamilyInfo == "Verdana" ? "Verdana" : "Calisto MT";
             textBoxText.Font = new System.Drawing.Font(fontFamily, StaticObjects.Parameters.FontSize);
+            textBoxTranslatorNotes.Font = new System.Drawing.Font(fontFamily, StaticObjects.Parameters.FontSize);
+            textBoxNotes.Font = new System.Drawing.Font(fontFamily, StaticObjects.Parameters.FontSize);
 
             // TextBox1.Font = new Font(new FontFamily("Tahoma"), TextBox1.Font.Size, TextBox1.Font.Style, TextBox1.Font.Unit);
         }
@@ -34,6 +39,7 @@ namespace UbReviewer.ChildWindows
             textBoxText.Text = Paragraph.Text;
             textBoxNotes.Text = Paragraph.Comment;
             textBoxTranslatorNotes.Text = Paragraph.TranslatorNote;
+            InitialStatus = Paragraph.Status;
 
             ((ParameterReviewer)StaticObjects.Parameters).LastPaperShown = Paragraph.Paper;
             ((ParameterReviewer)StaticObjects.Parameters).LastSectionShown = Paragraph.Section;
@@ -50,7 +56,7 @@ namespace UbReviewer.ChildWindows
         {
             if (Paper == null || Paper.PaperNo != paperNo)
             {
-                Paper= new PaperEdit(paperNo, StaticObjects.Parameters.EditParagraphsRepositoryFolder);
+                Paper = new PaperEdit(paperNo, StaticObjects.Parameters.EditParagraphsRepositoryFolder);
             }
             ParagraphMarkDown par = (ParagraphMarkDown)Paper.GetParagraph(new TOC_Entry(((ParameterReviewer)StaticObjects.Parameters).TranslationIdRight, paperNo, sectionNo, paragraphNo, 0, 0));
             return new Tuple<PaperEdit, ParagraphMarkDown>(Paper, par);
@@ -117,22 +123,22 @@ namespace UbReviewer.ChildWindows
 
         private void GetNextParagraph(short value)
         {
-            Tuple<PaperEdit, ParagraphMarkDown> tuple= (value == 1 ? Next(Paragraph) : Previous(Paragraph));
+            Tuple<PaperEdit, ParagraphMarkDown> tuple = (value == 1 ? Next(Paragraph) : Previous(Paragraph));
             Paper = tuple.Item1;
-            Paragraph= tuple.Item2;
+            Paragraph = tuple.Item2;
             Paper.GetNotesData(Paragraph);
             SetData();
         }
 
         private bool Save()
         {
-            bool ret= true;
+            bool ret = true;
             if (Paragraph.Text != textBoxText.Text)
             {
                 Paragraph.Text = textBoxText.Text;
                 ret = Paragraph.SaveText(StaticObjects.Parameters.EditParagraphsRepositoryFolder);
             }
-            if (Paragraph.TranslatorNote != textBoxTranslatorNotes.Text || Paragraph.Comment != textBoxNotes.Text)
+            if (Paragraph.TranslatorNote != textBoxTranslatorNotes.Text || Paragraph.Comment != textBoxNotes.Text || InitialStatus != Paragraph.Status)
             {
                 Paragraph.TranslatorNote = textBoxTranslatorNotes.Text;
                 Paragraph.Comment = textBoxNotes.Text;
@@ -159,13 +165,13 @@ namespace UbReviewer.ChildWindows
 
         private void frmEdit_Load(object sender, EventArgs e)
         {
-            this.Text= Paragraph.ID;
+            this.Text = Paragraph.ID;
             splitContainerTexts.SplitterDistance = tabPageText.Height / 2;
             btWorking.BackColor = Param.BackgroundWorking;
             btDone.BackColor = Param.BackgroundOk;
             btDoubt.BackColor = Param.BackgroundDoubt;
             btClosed.BackColor = Param.BackgroundClosed;
-            switch(Paragraph.Status)
+            switch (Paragraph.Status)
             {
                 case ParagraphStatus.Ok:
                     textBoxText.BackColor = Param.BackgroundOk;
@@ -180,7 +186,12 @@ namespace UbReviewer.ChildWindows
                     textBoxText.BackColor = Param.BackgroundClosed;
                     break;
             }
-
+            Debug.WriteLine("");
+            Debug.WriteLine("Size  .  Location on loading");
+            Debug.WriteLine(((ParameterReviewer)StaticObjects.Parameters).EditWindowSize);
+            Debug.WriteLine(((ParameterReviewer)StaticObjects.Parameters).EditWindowLocation);
+            this.Size = new Size(((ParameterReviewer)StaticObjects.Parameters).EditWindowSize.Width, ((ParameterReviewer)StaticObjects.Parameters).EditWindowSize.Height);
+            //this.Location = new Point(((ParameterReviewer)StaticObjects.Parameters).EditWindowLocation.X, ((ParameterReviewer)StaticObjects.Parameters).EditWindowLocation.Y);
         }
 
 
@@ -189,7 +200,7 @@ namespace UbReviewer.ChildWindows
             if (Save())
             {
                 Close();
-                DialogResult= DialogResult.OK;
+                DialogResult = DialogResult.OK;
             }
         }
 
@@ -208,7 +219,7 @@ namespace UbReviewer.ChildWindows
         private void btDone_Click(object sender, EventArgs e)
         {
             Paragraph.Status = ParagraphStatus.Ok;
-            textBoxText.BackColor= Param.BackgroundOk;
+            textBoxText.BackColor = Param.BackgroundOk;
         }
 
         private void btDoubt_Click(object sender, EventArgs e)
@@ -237,6 +248,16 @@ namespace UbReviewer.ChildWindows
             {
                 GetNextParagraph(1);
             }
+        }
+
+        private void frmEdit_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            ((ParameterReviewer)StaticObjects.Parameters).EditWindowSize = new Size(Width, Height);
+            ((ParameterReviewer)StaticObjects.Parameters).EditWindowLocation = new Point(Left, Right);
+            Debug.WriteLine("");
+            Debug.WriteLine("Size  .  Location on closing");
+            Debug.WriteLine(((ParameterReviewer)StaticObjects.Parameters).EditWindowSize);
+            Debug.WriteLine(((ParameterReviewer)StaticObjects.Parameters).EditWindowLocation);
         }
     }
 }

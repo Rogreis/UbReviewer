@@ -61,6 +61,8 @@ namespace UbReviewer
         private void mdiForm_Load(object sender, EventArgs e)
         {
             ShowMessage("Starting...");
+            txParagraph.Text= ((ParameterReviewer)StaticObjects.Parameters).LastIdentParagraphUsed;
+
             if (Initialize())
             {
                 comboBoxPaperNo.Text = ((ParameterReviewer)StaticObjects.Parameters).LastPaperShown.ToString();
@@ -161,13 +163,11 @@ namespace UbReviewer
                 short paperNo= Convert.ToInt16(parts[0]);
                 short sectionNo = Convert.ToInt16(parts[1]);
                 short paragraphNo = Convert.ToInt16(parts[2]);
+                ((ParameterReviewer)StaticObjects.Parameters).LastIdentParagraphUsed = txParagraph.Text;
                 PaperEdit paper = new PaperEdit(paperNo, StaticObjects.Parameters.EditParagraphsRepositoryFolder);
                 frmEdit frm = new frmEdit();
                 frm.SetParagraph(paper, paperNo, sectionNo, paragraphNo);
-                if (frm.ShowDialog() == DialogResult.OK)
-                {
-                    //ShowPaper(paperNo);
-                }
+                frm.ShowDialog();
             }
             catch
             {

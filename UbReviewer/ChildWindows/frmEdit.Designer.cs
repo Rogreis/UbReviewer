@@ -277,8 +277,8 @@
             this.Controls.Add(this.tabControlEdit);
             this.Controls.Add(this.panelBotton);
             this.Name = "frmEdit";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Editing paragraph";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmEdit_FormClosing);
             this.Load += new System.EventHandler(this.frmEdit_Load);
             this.tabControlEdit.ResumeLayout(false);
             this.tabPageText.ResumeLayout(false);

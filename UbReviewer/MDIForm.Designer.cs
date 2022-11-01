@@ -65,7 +65,7 @@
             // 
             // txParagraph
             // 
-            this.txParagraph.Location = new System.Drawing.Point(583, 28);
+            this.txParagraph.Location = new System.Drawing.Point(572, 28);
             this.txParagraph.Name = "txParagraph";
             this.txParagraph.Size = new System.Drawing.Size(122, 26);
             this.txParagraph.TabIndex = 11;
@@ -74,7 +74,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(489, 31);
+            this.label1.Location = new System.Drawing.Point(478, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 20);
             this.label1.TabIndex = 10;
@@ -91,7 +91,7 @@
             // 
             // btPrint
             // 
-            this.btPrint.Location = new System.Drawing.Point(725, 21);
+            this.btPrint.Location = new System.Drawing.Point(878, 21);
             this.btPrint.Name = "btPrint";
             this.btPrint.Size = new System.Drawing.Size(75, 40);
             this.btPrint.TabIndex = 8;

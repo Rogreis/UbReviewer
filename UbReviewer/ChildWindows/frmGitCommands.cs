@@ -434,7 +434,7 @@ namespace UbReviewer.ChildWindows
                     "git reset --hard",
                     "git clean -fxd",
                 };
-                Cursor= Cursors.WaitCursor;
+                Cursor = Cursors.WaitCursor;
                 List<string> list = RunScripts.ExecuteSomeCommands(commands);
                 Cursor = Cursors.Default;
                 DumpCommands("Undo", commands, list);
@@ -629,6 +629,21 @@ namespace UbReviewer.ChildWindows
 
         #endregion
 
+        private void GitLog()
+        {
+            // git log -p -- Doc120/Par_120_002_001.md
+            ShowMessage("History...");
+            List<string> commands = new List<string>()
+            {
+                "cd " + RunScripts.GetUnixPath(StaticObjects.Parameters.EditParagraphsRepositoryFolder),
+                "git log --pretty=oneline -- Doc120/Par_120_002_001.md",
+            };
+            // git show ce49661f16036d366d212b57a4a1a3ccd15362da:Doc120/Par_120_002_001.md
+            Cursor = Cursors.WaitCursor;
+            List<string> list = RunScripts.ExecuteSomeCommands(commands);
+            foreach (string l in list) ShowMessage(l);
+            Cursor = Cursors.Default;
+        }
 
         private void btStatus_Click(object sender, EventArgs e)
         {
@@ -666,6 +681,7 @@ namespace UbReviewer.ChildWindows
 
         private void btClose_Click(object sender, EventArgs e)
         {
+            //GitLog();
             Close();
         }
 

@@ -35,6 +35,12 @@ namespace UbReviewer.Classes
 
         public string GitHubUserName { get; set; } = null;
 
+        // Last paragraph identification used in mdi form
+        public string LastIdentParagraphUsed { get; set; } = "";
+
+        public Size EditWindowSize { get; set; } = new Size(1157, 839);
+        public Point EditWindowLocation { get; set; } = new Point(0, 0);
+
         [JsonIgnore]
         public string PowershellPath = "";
 
