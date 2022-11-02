@@ -1,4 +1,5 @@
-﻿using Lucene.Net.Search;
+﻿using LibGit2Sharp;
+using Lucene.Net.Search;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -29,15 +30,6 @@ namespace UbReviewer.ChildWindows
         };
 
 
-        private enum GitActions
-        {
-            Clone,
-            Checkout,
-            Stage,
-            Commit,
-            Pull,
-            Push
-        }
 
 
         public frmGitCommands()
@@ -45,14 +37,14 @@ namespace UbReviewer.ChildWindows
             InitializeComponent();
         }
 
-        private string FilePathForCredentials()
-        {
-            string processName = System.IO.Path.GetFileNameWithoutExtension(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
-            var commonpath = GetFolderPath(SpecialFolder.CommonApplicationData);
-            string folder = Path.Combine(commonpath, processName);
-            Directory.CreateDirectory(folder);
-            return Path.Combine(folder, "Credentials.json");
-        }
+        //private string FilePathForCredentials()
+        //{
+        //    string processName = System.IO.Path.GetFileNameWithoutExtension(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName);
+        //    var commonpath = GetFolderPath(SpecialFolder.CommonApplicationData);
+        //    string folder = Path.Combine(commonpath, processName);
+        //    Directory.CreateDirectory(folder);
+        //    return Path.Combine(folder, "Credentials.json");
+        //}
 
 
         private void ShowMessage(string message)
@@ -73,51 +65,6 @@ namespace UbReviewer.ChildWindows
         //private string OldText = null;
         //private ParagraphMarkDown CurrentParagraphMdFile = null;
 
-        private class GitData
-        {
-            public string Branch = "";
-
-            public bool IsRepository = true;
-
-            public bool IsToBeCommited = false;
-
-            public bool IsToBeStaged = false;
-
-            public bool IsUpToDate = false;
-
-            public bool HasNonPushedCommits = false;
-
-            public bool NeedsPull = false;
-
-            public List<string> ToBeCommited = new List<string>();
-
-            public List<string> ToBeStaged = new List<string>();
-
-            public List<GitActions> GitInitializationsActionsNeeded(string branch)
-            {
-                List<GitActions> list = new List<GitActions>();
-
-                if (!IsRepository)
-                {
-                    list.Add(GitActions.Clone);
-                    //list.Add(GitActions.Pull);
-                    return list;
-                }
-
-                //if (IsToBeStaged) list.Add(GitActions.Stage);
-                //if (IsToBeCommited) list.Add(GitActions.Commit);
-                //if (HasNonPushedCommits) list.Add(GitActions.Push);
-                if (!IsUpToDate) list.Add(GitActions.Pull);
-                if (Branch != branch)
-                {
-                    list.Add(GitActions.Checkout);
-                    list.Add(GitActions.Pull);
-                }
-                return list;
-            }
-
-
-        }
 
         public bool HasCredentials
         {
@@ -130,52 +77,6 @@ namespace UbReviewer.ChildWindows
 
 
 
-        #region Check for errors routines
-        private void DumpCommands(string command, List<string> commands, List<string> returnedLines)
-        {
-            StaticObjects.Logger.Info("");
-            StaticObjects.Logger.Info("Git command: " + command);
-            if (commands == null)
-            {
-                StaticObjects.Logger.Info("   null");
-            }
-            else
-            {
-                foreach (string s in commands)
-                {
-                    StaticObjects.Logger.Info("   " + s);
-                }
-                StaticObjects.Logger.Info("");
-                StaticObjects.Logger.Info("   Returned lines:");
-                if (returnedLines != null)
-                {
-                    foreach (string s in returnedLines)
-                    {
-                        StaticObjects.Logger.Info("   " + s);
-                    }
-                }
-                else
-                {
-                    StaticObjects.Logger.Info("   No returned line");
-                }
-            }
-        }
-
-        private bool NoErrorInList(List<string> returnedLines)
-        {
-            if (returnedLines == null || returnedLines.Count == 0)
-            {
-                StaticObjects.Logger.Info("   No returned line");
-                return false;
-            }
-            if (returnedLines[0].StartsWith("ERROR"))
-            {
-                string message = "*** Error occurred. See log.";
-                ShowMessage(message);
-                return false;
-            }
-            return true;
-        }
 
         private void PrintStatus()
         {
@@ -190,7 +91,10 @@ namespace UbReviewer.ChildWindows
             btCommitAll.Visible = false;
             btPush.Visible = false;
 
-            GitData gitData = Status();
+            Cursor = Cursors.WaitCursor;
+            GitData gitData = GitCommands.Status();
+            Cursor = Cursors.Default;
+
             if (gitData == null) return;
             if (!gitData.IsRepository)
             {
@@ -234,236 +138,6 @@ namespace UbReviewer.ChildWindows
             else ShowMessage("Nothing to commit");
         }
 
-        #endregion
-
-        #region Initialize routines
-
-        private bool InicializeRepository(string sshUrl, string folder, string branch)
-        {
-            Directory.CreateDirectory(folder);
-            GitData gitData = Status(folder);
-            if (gitData == null) return false;
-
-            List<GitActions> actions = gitData.GitInitializationsActionsNeeded(branch);
-
-            foreach (GitActions action in actions)
-            {
-                switch (action)
-                {
-                    case GitActions.Pull:
-                        ShowMessage("Pull...");
-                        GitCommand($"pull", folder);
-                        ShowMessage("Pull ok");
-                        break;
-
-                    case GitActions.Checkout:
-                        ShowMessage("Checkout...");
-                        if (!GitCommand($"checkout -f -b {branch}; git push --set-upstream origin {branch}", folder)) return false;
-                        ShowMessage("Checkout ok");
-                        break;
-
-                    case GitActions.Push:
-                        if (!Push(folder)) return false;
-                        break;
-
-                    case GitActions.Commit:
-                        if (!Commit(folder)) return false;
-                        break;
-
-                    case GitActions.Stage:
-                        if (!Stage(folder)) return false;
-                        break;
-
-                    case GitActions.Clone:
-                        ShowMessage("Clone...");
-                        gitData = Clone(sshUrl, folder);
-                        if (!gitData.IsRepository)
-                        {
-                            ShowMessage("ERROR: Could not clone.");
-                            return false;
-                        }
-                        ShowMessage("Clone ok");
-                        break;
-                }
-            }
-            return true;
-        }
-
-        #endregion
-
-        #region Git commands
-        private GitData Status(string folder = null)
-        {
-
-            // Default folders
-            if (folder == null)
-            {
-                folder = StaticObjects.Parameters.EditParagraphsRepositoryFolder;
-            }
-
-            GitData gitData = new GitData();
-            if (gitData == null) return null;
-
-            List<string> commands = new List<string>()
-            {
-                "cd " + RunScripts.GetUnixPath(folder),
-                "git status"
-            };
-            Cursor = Cursors.WaitCursor;
-            List<string> list = RunScripts.ExecuteSomeCommands(commands);
-            Cursor = Cursors.Default;
-            DumpCommands("Status", commands, list);
-            //if (!NoErrorInList(list)) return null;
-
-            // Parse status lines returned
-            foreach (string line in list)
-            {
-                if (line.StartsWith("On branch "))
-                {
-                    gitData.Branch = line.Replace("On branch ", "").Trim();
-                }
-                if (line.StartsWith("Your branch is up to date with ") || line.StartsWith("Your branch is ahead") )
-                {
-                    gitData.IsUpToDate = true;
-                }
-                if (line.StartsWith("fatal: not a git repository"))
-                {
-                    gitData.IsRepository = false;
-                }
-                if (line.StartsWith("nothing to commit"))
-                {
-                    gitData.IsToBeCommited = false;
-                }
-                if (line.StartsWith("Changes to be committed"))
-                {
-                    gitData.IsToBeStaged = false;
-                    gitData.IsToBeCommited = true;
-                }
-                if (line.StartsWith("Your branch is behind"))
-                {
-                    gitData.NeedsPull = true;
-                }
-                if (line.StartsWith("Changes not staged for commit"))
-                {
-                    gitData.IsToBeCommited = false;
-                    gitData.IsToBeStaged = true;
-                }
-                if (line.StartsWith("Your branch is ahead of"))
-                {
-                    gitData.HasNonPushedCommits = true;
-                }
-
-                if (line.StartsWith("\tmodified:   "))
-                {
-                    if (gitData.IsToBeCommited)
-                    {
-                        gitData.ToBeCommited.Add(line.Replace("\tmodified:   ", "").Trim());
-                    }
-                    else
-                    {
-                        gitData.ToBeStaged.Add(line.Replace("\tmodified:   ", "").Trim());
-                    }
-                }
-            }
-            return gitData;
-        }
-
-        private bool GitCommand(string command, string folder)
-        {
-            List<string> commands = new List<string>()
-                {
-                    "cd " + RunScripts.GetUnixPath(folder),
-                    $"git {command}",
-                };
-            Cursor = Cursors.WaitCursor;
-            List<string> list = RunScripts.ExecuteSomeCommands(commands);
-            Cursor = Cursors.Default;
-            DumpCommands(command, commands, list);
-            return NoErrorInList(list);
-        }
-
-        private bool Stage(string folder)
-        {
-            ShowMessage(null);
-            ShowMessage("Stage...");
-            if (!GitCommand("add .", folder)) return false;
-            ShowMessage("Stage ok");
-            return true;
-        }
-
-        private GitData Clone(string sshUrl, string folder)
-        {
-            List<string> commands = new List<string>()
-                {
-                    "cd " + RunScripts.GetUnixPath(folder),
-                    $"git clone {sshUrl} .",
-                };
-            Cursor = Cursors.WaitCursor;
-            List<string> list = RunScripts.ExecuteSomeCommands(commands);
-            Cursor = Cursors.Default;
-            DumpCommands("Clone", commands, list);
-            return Status(folder);
-        }
-
-        private bool Commit(string folder)
-        {
-            ShowMessage("Commit...");
-            frmCommit frm = new frmCommit();
-            if (frm.ShowDialog() == DialogResult.OK)
-            {
-                if (!GitCommand($"commit -m \"{frm.CommitMessage}\"", folder)) return false;
-                ShowMessage("Commit ok");
-                Status(folder);
-                return true;
-            }
-            else
-            {
-                ShowMessage("Commit cancelled");
-                Status(folder);
-                return false;
-            }
-        }
-
-        private void Undo()
-        {
-            ShowMessage("Undo...");
-            if (MessageBox.Show($"Are you sure to remove all changes??", "Ub Review",
-                 MessageBoxButtons.YesNo, MessageBoxIcon.Error) == DialogResult.Yes)
-            {
-                List<string> commands = new List<string>()
-                {
-                    "cd " + RunScripts.GetUnixPath(StaticObjects.Parameters.EditParagraphsRepositoryFolder),
-                    "git reset --hard",
-                    "git clean -fxd",
-                };
-                Cursor = Cursors.WaitCursor;
-                List<string> list = RunScripts.ExecuteSomeCommands(commands);
-                Cursor = Cursors.Default;
-                DumpCommands("Undo", commands, list);
-                PrintStatus();
-            }
-            else ShowMessage("Undo cancelled.");
-        }
-
-
-        private bool Push(string folder)
-        {
-            ShowMessage("Push...");
-            GitData gitData = Status();
-            if (gitData == null) return false;
-
-            if (!gitData.HasNonPushedCommits)
-            {
-                ShowMessage("Nothing to push");
-                return true;
-            }
-            if (!GitCommand($"push -f", folder)) return false;
-            ShowMessage("Push ok");
-            return true;
-        }
-
-        #endregion
-
 
         private void VerifyFolders()
         {
@@ -479,21 +153,24 @@ namespace UbReviewer.ChildWindows
                 txGitHubUserName.Enabled = false;
             }
 
-            if (!InicializeRepository("git@github.com:Rogreis/TUB_Files.git", StaticObjects.Parameters.TUB_Files_RepositoryFolder, "main"))
+            Cursor = Cursors.WaitCursor;
+            if (!GitCommands.InicializeRepository("git@github.com:Rogreis/TUB_Files.git", StaticObjects.Parameters.TUB_Files_RepositoryFolder, "main"))
             {
+                Cursor = Cursors.Default;
                 ShowMessage("It was not possible to initialize TUB Files.");
                 return;
             }
 
-
             string branch = "correcoes_" + ((ParameterReviewer)StaticObjects.Parameters).GitHubUserName;
-            if (!InicializeRepository("git@github.com:Rogreis/PtAlternative.git", StaticObjects.Parameters.EditParagraphsRepositoryFolder, branch))
+            if (!GitCommands.InicializeRepository("git@github.com:Rogreis/PtAlternative.git", StaticObjects.Parameters.EditParagraphsRepositoryFolder, branch))
             {
+                Cursor = Cursors.Default;
                 ShowMessage("It was not possible to initialize translation repository.");
                 return;
             }
             ((ParameterReviewer)StaticObjects.Parameters).RespositoriesChecked = true;
             PrintStatus();
+            Cursor = Cursors.Default;
         }
 
 
@@ -631,22 +308,6 @@ namespace UbReviewer.ChildWindows
 
         #endregion
 
-        private void GitLog()
-        {
-            // git log -p -- Doc120/Par_120_002_001.md
-            ShowMessage("History...");
-            List<string> commands = new List<string>()
-            {
-                "cd " + RunScripts.GetUnixPath(StaticObjects.Parameters.EditParagraphsRepositoryFolder),
-                "git log --pretty=oneline -- Doc120/Par_120_002_001.md",
-            };
-            // git show ce49661f16036d366d212b57a4a1a3ccd15362da:Doc120/Par_120_002_001.md
-            Cursor = Cursors.WaitCursor;
-            List<string> list = RunScripts.ExecuteSomeCommands(commands);
-            foreach (string l in list) ShowMessage(l);
-            Cursor = Cursors.Default;
-        }
-
         private void btStatus_Click(object sender, EventArgs e)
         {
             PrintStatus();
@@ -654,31 +315,38 @@ namespace UbReviewer.ChildWindows
 
         private void btStageAll_Click(object sender, EventArgs e)
         {
-            Stage(StaticObjects.Parameters.EditParagraphsRepositoryFolder);
+            Cursor= Cursors.WaitCursor;
+            GitCommands.Stage(StaticObjects.Parameters.EditParagraphsRepositoryFolder);
             PrintStatus();
+            Cursor = Cursors.Default;
         }
 
         private void btCommitAll_Click(object sender, EventArgs e)
         {
-            Commit(StaticObjects.Parameters.EditParagraphsRepositoryFolder);
+            Cursor = Cursors.WaitCursor;
+            GitCommands.Commit(StaticObjects.Parameters.EditParagraphsRepositoryFolder);
         }
 
         private void btPush_Click(object sender, EventArgs e)
         {
-            GitData gitData = Status();
+            Cursor = Cursors.WaitCursor;
+            GitData gitData = GitCommands.Status();
+            Cursor = Cursors.Default;
             if (gitData == null) return;
             if (gitData.HasNonPushedCommits)
             {
-                Push(StaticObjects.Parameters.EditParagraphsRepositoryFolder);
+                GitCommands.Push(StaticObjects.Parameters.EditParagraphsRepositoryFolder);
                 PrintStatus();
             }
         }
 
         private void btShowLog_Click(object sender, EventArgs e)
         {
+            Cursor = Cursors.WaitCursor;
             StaticObjects.Logger.Close();
             txGitCommands.Text = File.ReadAllText(StaticObjects.PathLog);
             StaticObjects.Logger.Initialize(StaticObjects.PathLog, true);
+            Cursor = Cursors.Default;
         }
 
         private void btClose_Click(object sender, EventArgs e)
@@ -688,7 +356,10 @@ namespace UbReviewer.ChildWindows
 
         private void btUndo_Click(object sender, EventArgs e)
         {
-            Undo();
+            Cursor = Cursors.WaitCursor;
+            GitCommands.Undo();
+            PrintStatus();
+            Cursor = Cursors.Default;
         }
 
         private void biInicialize_Click(object sender, EventArgs e)

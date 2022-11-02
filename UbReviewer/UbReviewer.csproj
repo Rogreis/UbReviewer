@@ -279,6 +279,7 @@
       <DependentUpon>frmSearch.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\GitCommands.cs" />
+    <Compile Include="Classes\GitData.cs" />
     <Compile Include="Classes\LogReviewer.cs" />
     <Compile Include="Classes\LuceneEditBookSearch.cs" />
     <Compile Include="Classes\ParameterReviewer.cs" />
