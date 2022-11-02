@@ -114,7 +114,7 @@ namespace UbReviewer
 
         private void btTile_Click(object sender, EventArgs e)
         {
-            this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+            this.LayoutMdi(System.Windows.Forms.MdiLayout.TileVertical);
         }
 
         private void btExit_Click(object sender, EventArgs e)

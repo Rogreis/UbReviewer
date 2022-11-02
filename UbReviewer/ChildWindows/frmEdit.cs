@@ -1,7 +1,12 @@
-﻿using System;
+﻿using LibGit2Sharp;
+using System;
+using System.Collections.Generic;
+using System.Configuration;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
+using System.Text;
+using System.Web.UI.WebControls;
 using System.Windows.Forms;
 using UbReviewer.Classes;
 using UbStandardObjects;
@@ -26,8 +31,7 @@ namespace UbReviewer.ChildWindows
             textBoxText.Font = new System.Drawing.Font(fontFamily, StaticObjects.Parameters.FontSize);
             textBoxTranslatorNotes.Font = new System.Drawing.Font(fontFamily, StaticObjects.Parameters.FontSize);
             textBoxNotes.Font = new System.Drawing.Font(fontFamily, StaticObjects.Parameters.FontSize);
-
-            // TextBox1.Font = new Font(new FontFamily("Tahoma"), TextBox1.Font.Size, TextBox1.Font.Style, TextBox1.Font.Unit);
+            txHistory.Font = new System.Drawing.Font(fontFamily, StaticObjects.Parameters.FontSize);
         }
 
         private void SetData()
@@ -258,6 +262,147 @@ namespace UbReviewer.ChildWindows
             Debug.WriteLine("Size  .  Location on closing");
             Debug.WriteLine(((ParameterReviewer)StaticObjects.Parameters).EditWindowSize);
             Debug.WriteLine(((ParameterReviewer)StaticObjects.Parameters).EditWindowLocation);
+        }
+
+
+
+        private void ShowHistoryLine(string message)
+        {
+            if (message == null)
+            {
+                txHistory.Text = "";
+            }
+            else
+            {
+                txHistory.AppendText(message + Environment.NewLine);
+            }
+            Application.DoEvents();
+        }
+
+
+        //public static Encoding GetFileEncoding(GitRepository repository, GitItem gitItem)
+        //{
+        //    GitVersionDescriptor versionDesc = !string.IsNullOrEmpty(Configuration.Branch) ? new GitVersionDescriptor()
+        //    {
+        //        VersionType = GitVersionType.Branch,
+        //        Version = Configuration.Branch,
+        //        VersionOptions = GitVersionOptions.None
+        //    } : null;
+
+        //    using (Stream stream = GitClient.GetItemContentAsync(repository.Id, gitItem.Path, download: false, versionDescriptor: versionDesc, includeContentMetadata: true, includeContent: true).Result)
+        //    {
+        //        var bytes = new byte[4];
+        //        stream.Read(bytes, 0, 4);
+        //        // Analyze the BOM
+        //        if (bytes[0] == 0x2b && bytes[1] == 0x2f && bytes[2] == 0x76) return Encoding.UTF7;
+        //        if (bytes[0] == 0xef && bytes[1] == 0xbb && bytes[2] == 0xbf) return Encoding.UTF8;
+        //        if (bytes[0] == 0xff && bytes[1] == 0xfe) return Encoding.Unicode; //UTF-16LE
+        //        if (bytes[0] == 0xfe && bytes[1] == 0xff) return Encoding.BigEndianUnicode; //UTF-16BE
+        //        if (bytes[0] == 0 && bytes[1] == 0 && bytes[2] == 0xfe && bytes[3] == 0xff) return Encoding.UTF32;
+        //        using (StreamReader reader = new StreamReader(stream, true))
+        //        {
+        //            reader.Peek();
+        //            if (reader.ReadToEnd().Contains('�'))
+        //            {
+        //                return Encoding.ASCII;
+        //            }
+        //            return Encoding.UTF8;
+        //        }
+        //    }
+        //}
+
+        private Encoding GetEncoding(byte[] bytes)
+        {
+            // Analyze the BOM
+            if (bytes[0] == 0x2b && bytes[1] == 0x2f && bytes[2] == 0x76) return Encoding.UTF7;
+            if (bytes[0] == 0xef && bytes[1] == 0xbb && bytes[2] == 0xbf) return Encoding.UTF8;
+            if (bytes[0] == 0xff && bytes[1] == 0xfe) return Encoding.Unicode; //UTF-16LE
+            if (bytes[0] == 0xfe && bytes[1] == 0xff) return Encoding.BigEndianUnicode; //UTF-16BE
+            if (bytes[0] == 0 && bytes[1] == 0 && bytes[2] == 0xfe && bytes[3] == 0xff) return Encoding.UTF32;
+            return Encoding.UTF8;
+        }
+
+        private string FixEncoding(string line)
+        {
+            byte[] bytes = System.Text.Encoding.UTF8.GetBytes(line);
+            Encoding encoding = GetEncoding(bytes);
+            return encoding.GetString(bytes);
+        }
+
+        private void GitHistory()
+        {
+            // git log -p -- Doc120/Par_120_002_001.md
+            string filePath = ParagraphMarkDown.RelativeFilePath(Paragraph);
+
+            ShowHistoryLine(null);
+            List<string> commands = new List<string>()
+            {
+                "cd " + RunScripts.GetUnixPath(StaticObjects.Parameters.EditParagraphsRepositoryFolder),
+                $"git log --encoding=UTF-8 --pretty=oneline -- {filePath}",
+            };
+            // git show ce49661f16036d366d212b57a4a1a3ccd15362da:Doc120/Par_120_002_001.md
+            Cursor = Cursors.WaitCursor;
+            List<string> list = RunScripts.ExecuteSomeCommands(commands);
+            foreach (string l in list)
+            {
+                if (l.Length >= 40)
+                {
+                    string hash = l.Substring(0, 40);
+                    string printLine = l.Replace(hash, "");
+                    ShowHistoryLine($"Commit comment: {FixEncoding(printLine)}");
+                    commands = new List<string>()
+                    {
+                        "cd " + RunScripts.GetUnixPath(StaticObjects.Parameters.EditParagraphsRepositoryFolder),
+                        $"git show --encoding=UTF-8 {hash}:{filePath}",
+                    };
+                    List<string> list2 = RunScripts.ExecuteSomeCommands(commands);
+                    foreach (string line in list2)
+                    {
+                        ShowHistoryLine("");
+                        ShowHistoryLine(FixEncoding(line));
+                    }
+                    ShowHistoryLine("");
+                }
+            }
+            Cursor = Cursors.Default;
+        }
+
+        private void GitHistory2()
+        {
+
+            try
+            {
+                //var repo = new LibGit2Sharp.Repository(RunScripts.GetUnixPath(StaticObjects.Parameters.EditParagraphsRepositoryFolder));
+                var repo = new LibGit2Sharp.Repository(StaticObjects.Parameters.EditParagraphsRepositoryFolder);
+
+                foreach (Commit commit in repo.Commits)
+                {
+                    foreach (var parent in commit.Parents)
+                    {
+                        ShowHistoryLine($"{commit.Sha} | {commit.MessageShort}");
+                        foreach (TreeEntryChanges change in repo.Diff.Compare<TreeChanges>(parent.Tree,commit.Tree))
+                        {
+                            ShowHistoryLine($"{change.Status} : {change.Path}");
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                ShowHistoryLine($"Error:  {ex.Message}");
+            }
+            //using (var repo = new Repository(Run "path\to\repo.git"))
+            //{
+
+            //}
+
+        }
+
+        private void btHistoryTrack_Click(object sender, EventArgs e)
+        {
+            GitHistory();
+            tabControlEdit.SelectedTab = tabPageHistory;
         }
     }
 }

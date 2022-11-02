@@ -28,11 +28,12 @@ namespace UbReviewer.ChildWindows
             frmEdit frm = new frmEdit();
             PaperEdit paper = new PaperEdit(paperNo, StaticObjects.Parameters.EditParagraphsRepositoryFolder);
             frm.SetParagraph(paper, ident);
-            //frm.MdiParent = this.MdiParent;
-            if (frm.ShowDialog() == DialogResult.OK)
-            {
-                ShowPaper(paperNo);
-            }
+            frm.MdiParent = this.MdiParent;
+            frm.Show();
+            //if (frm.ShowDialog() == DialogResult.OK)
+            //{
+            //    ShowPaper(paperNo);
+            //}
         }
 
 

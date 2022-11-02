@@ -322,7 +322,7 @@ namespace UbReviewer.ChildWindows
                 {
                     gitData.Branch = line.Replace("On branch ", "").Trim();
                 }
-                if (line.StartsWith("Your branch is up to date with "))
+                if (line.StartsWith("Your branch is up to date with ") || line.StartsWith("Your branch is ahead") )
                 {
                     gitData.IsUpToDate = true;
                 }
@@ -413,11 +413,13 @@ namespace UbReviewer.ChildWindows
             {
                 if (!GitCommand($"commit -m \"{frm.CommitMessage}\"", folder)) return false;
                 ShowMessage("Commit ok");
+                Status(folder);
                 return true;
             }
             else
             {
                 ShowMessage("Commit cancelled");
+                Status(folder);
                 return false;
             }
         }
@@ -681,7 +683,6 @@ namespace UbReviewer.ChildWindows
 
         private void btClose_Click(object sender, EventArgs e)
         {
-            //GitLog();
             Close();
         }
 

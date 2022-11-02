@@ -46,6 +46,9 @@
             this.btWorking = new System.Windows.Forms.Button();
             this.btOk = new System.Windows.Forms.Button();
             this.btCancel = new System.Windows.Forms.Button();
+            this.tabPageHistory = new System.Windows.Forms.TabPage();
+            this.btHistoryTrack = new System.Windows.Forms.Button();
+            this.txHistory = new System.Windows.Forms.TextBox();
             this.tabControlEdit.SuspendLayout();
             this.tabPageText.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerTexts)).BeginInit();
@@ -55,6 +58,7 @@
             this.tabPageNT.SuspendLayout();
             this.tabPageComments.SuspendLayout();
             this.panelBotton.SuspendLayout();
+            this.tabPageHistory.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControlEdit
@@ -62,6 +66,7 @@
             this.tabControlEdit.Controls.Add(this.tabPageText);
             this.tabControlEdit.Controls.Add(this.tabPageNT);
             this.tabControlEdit.Controls.Add(this.tabPageComments);
+            this.tabControlEdit.Controls.Add(this.tabPageHistory);
             this.tabControlEdit.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControlEdit.Location = new System.Drawing.Point(0, 0);
             this.tabControlEdit.Name = "tabControlEdit";
@@ -167,6 +172,7 @@
             // 
             // panelBotton
             // 
+            this.panelBotton.Controls.Add(this.btHistoryTrack);
             this.panelBotton.Controls.Add(this.btNext);
             this.panelBotton.Controls.Add(this.btPrevious);
             this.panelBotton.Controls.Add(this.btClosed);
@@ -269,6 +275,37 @@
             this.btCancel.UseVisualStyleBackColor = true;
             this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
+            // tabPageHistory
+            // 
+            this.tabPageHistory.Controls.Add(this.txHistory);
+            this.tabPageHistory.Location = new System.Drawing.Point(4, 29);
+            this.tabPageHistory.Name = "tabPageHistory";
+            this.tabPageHistory.Size = new System.Drawing.Size(1127, 702);
+            this.tabPageHistory.TabIndex = 3;
+            this.tabPageHistory.Text = "History Track";
+            this.tabPageHistory.UseVisualStyleBackColor = true;
+            // 
+            // btHistoryTrack
+            // 
+            this.btHistoryTrack.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btHistoryTrack.Location = new System.Drawing.Point(155, 6);
+            this.btHistoryTrack.Name = "btHistoryTrack";
+            this.btHistoryTrack.Size = new System.Drawing.Size(155, 36);
+            this.btHistoryTrack.TabIndex = 8;
+            this.btHistoryTrack.Text = "History Track";
+            this.btHistoryTrack.UseVisualStyleBackColor = true;
+            this.btHistoryTrack.Click += new System.EventHandler(this.btHistoryTrack_Click);
+            // 
+            // txHistory
+            // 
+            this.txHistory.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txHistory.Location = new System.Drawing.Point(0, 0);
+            this.txHistory.Multiline = true;
+            this.txHistory.Name = "txHistory";
+            this.txHistory.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txHistory.Size = new System.Drawing.Size(1127, 702);
+            this.txHistory.TabIndex = 0;
+            // 
             // frmEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -292,6 +329,8 @@
             this.tabPageComments.ResumeLayout(false);
             this.tabPageComments.PerformLayout();
             this.panelBotton.ResumeLayout(false);
+            this.tabPageHistory.ResumeLayout(false);
+            this.tabPageHistory.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -315,5 +354,8 @@
         private System.Windows.Forms.TextBox textBoxText;
         private System.Windows.Forms.Button btPrevious;
         private System.Windows.Forms.Button btNext;
+        private System.Windows.Forms.TabPage tabPageHistory;
+        private System.Windows.Forms.Button btHistoryTrack;
+        private System.Windows.Forms.TextBox txHistory;
     }
 }
